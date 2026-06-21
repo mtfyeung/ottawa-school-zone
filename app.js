@@ -811,9 +811,6 @@ function openDetailsModal(school) {
         mapsLink.style.display = 'inline-block';
     }
     
-    const locatorLink = document.getElementById('link-school-locator');
-    locatorLink.href = `https://staffapps.ocdsb.ca/school_locator/default.aspx`;
-    
     // EQAO Chart renders
     renderEqaoChart(school.eqao, school.level);
     
