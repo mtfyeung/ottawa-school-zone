@@ -1,5 +1,7 @@
 import os
 import urllib.request
+import urllib.parse
+import json
 
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
@@ -27,6 +29,74 @@ def download_file(filename, url):
     except Exception as e:
         print(f"Error downloading {filename}: {e}")
 
+def download_boundaries():
+    # Elementary: 4 pages
+    for p in range(1, 5):
+        filename = f"elementary_boundary_p{p}.html"
+        path = os.path.join(DATA_DIR, filename)
+        if os.path.exists(path):
+            print(f"{filename} already exists, skipping.")
+            continue
+        print(f"Downloading elementary boundary page {p}...")
+        try:
+            url = f"https://www.ocdsb.ca/our-schools/elementary-boundary?page={p}"
+            post_data = {
+                'request_type': 'documents',
+                'filters[page]': str(p),
+                'filters[keywords]': '',
+                'filters[category]': '',
+                'filters[page_id]': '184224'
+            }
+            data = urllib.parse.urlencode(post_data).encode('utf-8')
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                'X-Requested-With': 'XMLHttpRequest',
+                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+            }
+            req = urllib.request.Request(url, data=data, headers=headers)
+            with urllib.request.urlopen(req) as response:
+                html_json = response.read().decode('utf-8')
+                html_content = json.loads(html_json)
+                with open(path, 'w', encoding='utf-8') as out_file:
+                    out_file.write(html_content)
+            print(f"Successfully downloaded {filename}")
+        except Exception as e:
+            print(f"Error downloading elementary boundary page {p}: {e}")
+
+    # Secondary: 1 page
+    filename = "secondary_boundary_p1.html"
+    path = os.path.join(DATA_DIR, filename)
+    if os.path.exists(path):
+        print(f"{filename} already exists, skipping.")
+        return
+    print("Downloading secondary boundary page 1...")
+    try:
+        url = "https://www.ocdsb.ca/our-schools/secondary-boundary?page=1"
+        post_data = {
+            'request_type': 'documents',
+            'filters[page]': '1',
+            'filters[keywords]': '',
+            'filters[category]': '',
+            'filters[page_id]': '184225'
+        }
+        data = urllib.parse.urlencode(post_data).encode('utf-8')
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'X-Requested-With': 'XMLHttpRequest',
+            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+        }
+        req = urllib.request.Request(url, data=data, headers=headers)
+        with urllib.request.urlopen(req) as response:
+            html_json = response.read().decode('utf-8')
+            html_content = json.loads(html_json)
+            with open(path, 'w', encoding='utf-8') as out_file:
+                out_file.write(html_content)
+        print("Successfully downloaded secondary boundary page 1")
+    except Exception as e:
+        print(f"Error downloading secondary boundary page 1: {e}")
+
 if __name__ == "__main__":
     for name, url in urls.items():
         download_file(name, url)
+    download_boundaries()
+

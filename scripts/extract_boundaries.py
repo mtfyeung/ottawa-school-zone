@@ -3,26 +3,26 @@ import re
 from html.parser import HTMLParser
 
 # Paths
-ELEMENTARY_HTML = "/home/user/.gemini/antigravity/brain/fa9f7523-f736-4207-9026-31c79611f290/.system_generated/steps/299/content.md"
-SECONDARY_HTML = "/home/user/.gemini/antigravity/brain/fa9f7523-f736-4207-9026-31c79611f290/.system_generated/steps/307/content.md"
 SCHOOLS_JSON = "data/schools_data.json"
 
 class BoundaryParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.documents = []
-        self.in_document = False
+        self.document_depth = 0
         self.in_h2 = False
         self.in_strong = False
         self.current_doc = None
         
     def handle_starttag(self, tag, attrs):
         attrs_dict = dict(attrs)
-        # Check for div with class="document"
-        if tag == 'div' and attrs_dict.get('class') == 'document':
-            self.in_document = True
-            self.current_doc = {'title': '', 'link': '', 'school_strong': ''}
-        elif self.in_document:
+        if tag == 'div':
+            if attrs_dict.get('class') == 'document':
+                self.document_depth = 1
+                self.current_doc = {'title': '', 'link': '', 'school_strong': ''}
+            elif self.document_depth > 0:
+                self.document_depth += 1
+        elif self.document_depth > 0:
             if tag == 'h2':
                 self.in_h2 = True
             elif tag == 'a' and attrs_dict.get('class') == 'download':
@@ -31,23 +31,24 @@ class BoundaryParser(HTMLParser):
                 self.in_strong = True
                 
     def handle_endtag(self, tag):
-        if tag == 'div' and self.in_document:
-            # Clean up text
-            self.current_doc['title'] = ' '.join(self.current_doc['title'].split())
-            self.current_doc['school_strong'] = ' '.join(self.current_doc['school_strong'].split())
-            self.documents.append(self.current_doc)
-            self.in_document = False
-        elif self.in_document:
+        if tag == 'div' and self.document_depth > 0:
+            self.document_depth -= 1
+            if self.document_depth == 0:
+                self.current_doc['title'] = ' '.join(self.current_doc['title'].split())
+                self.current_doc['school_strong'] = ' '.join(self.current_doc['school_strong'].split())
+                self.documents.append(self.current_doc)
+        elif self.document_depth > 0:
             if tag == 'h2':
                 self.in_h2 = False
             elif tag == 'strong':
                 self.in_strong = False
                 
     def handle_data(self, data):
-        if self.in_h2:
-            self.current_doc['title'] += data
-        elif self.in_strong:
-            self.current_doc['school_strong'] += data
+        if self.document_depth > 0:
+            if self.in_h2:
+                self.current_doc['title'] += data
+            elif self.in_strong:
+                self.current_doc['school_strong'] += data
 
 def normalize_name(name):
     if not isinstance(name, str):
@@ -72,26 +73,31 @@ def main():
         s['boundary_maps'] = [] # initialize empty list
         school_map[norm] = s
 
-    # 2. Parse Elementary HTML
-    print(f"Parsing elementary boundaries from {ELEMENTARY_HTML}...")
-    with open(ELEMENTARY_HTML, 'r', encoding='utf-8') as f:
-        elem_html = f.read()
-    
-    elem_parser = BoundaryParser()
-    elem_parser.feed(elem_html)
-    print(f"Found {len(elem_parser.documents)} elementary document links.")
+    # 2. Parse Elementary HTML pages
+    all_elem_docs = []
+    for p in range(1, 5):
+        path = f"data/elementary_boundary_p{p}.html"
+        print(f"Parsing elementary boundaries from {path}...")
+        with open(path, 'r', encoding='utf-8') as f:
+            elem_html = f.read()
+        elem_parser = BoundaryParser()
+        elem_parser.feed(elem_html)
+        print(f"Found {len(elem_parser.documents)} elementary document links on page {p}.")
+        all_elem_docs.extend(elem_parser.documents)
 
-    # 3. Parse Secondary HTML
-    print(f"Parsing secondary boundaries from {SECONDARY_HTML}...")
-    with open(SECONDARY_HTML, 'r', encoding='utf-8') as f:
+    # 3. Parse Secondary HTML pages
+    all_sec_docs = []
+    path = "data/secondary_boundary_p1.html"
+    print(f"Parsing secondary boundaries from {path}...")
+    with open(path, 'r', encoding='utf-8') as f:
         sec_html = f.read()
-        
     sec_parser = BoundaryParser()
     sec_parser.feed(sec_html)
     print(f"Found {len(sec_parser.documents)} secondary document links.")
+    all_sec_docs.extend(sec_parser.documents)
 
     # Combined documents
-    all_docs = elem_parser.documents + sec_parser.documents
+    all_docs = all_elem_docs + all_sec_docs
     matched_count = 0
     unmatched_schools = {}
 
@@ -111,6 +117,8 @@ def main():
         # Manual mapping exceptions
         if "ay jackson" in norm_source:
             norm_source = "a y jackson"
+        elif "summit alternative" in norm_source:
+            norm_source = "fisher park summit as"
         
         # Exact/normalize match
         match_school = school_map.get(norm_source)
