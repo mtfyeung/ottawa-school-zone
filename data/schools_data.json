@@ -1,0 +1,6759 @@
+[
+  {
+    "school_number": "000566",
+    "school_name": "A. Lorne Cassidy Elementary School",
+    "level": "Elementary",
+    "address": "27 Hobin St",
+    "city": "Stittsville",
+    "postal_code": "K2S1G8",
+    "latitude": 45.2625,
+    "longitude": -75.9332,
+    "phone": "613-831-3434",
+    "email": "",
+    "website": "https://alornecassidyes.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 425,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.1,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 600,
+      "enrolment_oct23": 538,
+      "utilization_rate_pct": 0.9
+    },
+    "eqao": {
+      "gr3_reading": 0.81,
+      "gr3_writing": 0.74,
+      "gr3_math": 0.75,
+      "gr6_reading": 0.93,
+      "gr6_writing": 0.93,
+      "gr6_math": 0.63,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7983333333333333
+    }
+  },
+  {
+    "school_number": "890243",
+    "school_name": "A.Y. Jackson Secondary School",
+    "level": "Secondary",
+    "address": "150 Abbeyhill Dr",
+    "city": "Kanata",
+    "postal_code": "K2L1H7",
+    "latitude": 45.29535,
+    "longitude": -75.8802,
+    "phone": "613-836-2527",
+    "email": "nan",
+    "website": "https://ayjacksonss.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1976-09-01 00:00:00",
+    "enrolment": 880,
+    "fsl_programs": [
+      "Core French",
+      "Extended French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.25,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.04
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.67,
+      "osslt": 0.9,
+      "academic_average": 0.785
+    }
+  },
+  {
+    "school_number": "320510",
+    "school_name": "Adrienne Clarkson Elementary School",
+    "level": "Elementary",
+    "address": "170 Stoneway Dr",
+    "city": "Nepean",
+    "postal_code": "K2G6R2",
+    "latitude": 45.28874,
+    "longitude": -75.7166,
+    "phone": "613-825-8600",
+    "email": "nan",
+    "website": "https://adrienneclarksones.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "2001-09-01 00:00:00",
+    "enrolment": 430,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.35,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 714,
+      "enrolment_oct23": 443,
+      "utilization_rate_pct": 0.62
+    },
+    "eqao": {
+      "gr3_reading": 0.78,
+      "gr3_writing": 0.71,
+      "gr3_math": 0.69,
+      "gr6_reading": 0.87,
+      "gr6_writing": 0.88,
+      "gr6_math": 0.78,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.785
+    }
+  },
+  {
+    "school_number": "947210",
+    "school_name": "Adult High School",
+    "level": "Secondary",
+    "address": "300 Rochester St",
+    "city": "Ottawa",
+    "postal_code": "K1R7N4",
+    "latitude": 45.40454,
+    "longitude": -75.7105,
+    "phone": "613-239-2707",
+    "email": "nan",
+    "website": "https://adulths.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1991-09-01 00:00:00",
+    "enrolment": 1010,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.19,
+      "parents_no_degree_pct": 0.09,
+      "special_ed_pct": 0.0,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.64,
+      "newcomer_pct": 0.64
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.84,
+      "gr3_writing": 0.77,
+      "gr3_math": 0.57,
+      "gr6_reading": 0.92,
+      "gr6_writing": 0.88,
+      "gr6_math": 0.52,
+      "gr9_math": 0.21,
+      "osslt": null,
+      "academic_average": 0.6728571428571428
+    }
+  },
+  {
+    "school_number": "004626",
+    "school_name": "Agincourt Road Public School",
+    "level": "Elementary",
+    "address": "1250 Agincourt Rd",
+    "city": "Ottawa",
+    "postal_code": "K2C2J2",
+    "latitude": 45.36051,
+    "longitude": -75.752,
+    "phone": "613-225-2750",
+    "email": "",
+    "website": "https://agincourtps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "",
+    "enrolment": 655,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.07,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.18,
+      "newcomer_pct": 0.06
+    },
+    "capacity": {
+      "otg_capacity": 783,
+      "enrolment_oct23": 622,
+      "utilization_rate_pct": 0.79
+    },
+    "eqao": {
+      "gr3_reading": 0.86,
+      "gr3_writing": 0.83,
+      "gr3_math": 0.8,
+      "gr6_reading": 0.96,
+      "gr6_writing": 1.0,
+      "gr6_math": 0.57,
+      "gr9_math": 0.59,
+      "osslt": 0.94,
+      "academic_average": 0.81875
+    }
+  },
+  {
+    "school_number": "013986",
+    "school_name": "Alta Vista Public School",
+    "level": "Elementary",
+    "address": "1349 Randall Ave",
+    "city": "Ottawa",
+    "postal_code": "K1H7R2",
+    "latitude": 45.38362,
+    "longitude": -75.6649,
+    "phone": "613-733-7124",
+    "email": "",
+    "website": "https://altavistaps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "",
+    "enrolment": 655,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.21,
+      "newcomer_pct": 0.09
+    },
+    "capacity": {
+      "otg_capacity": 704,
+      "enrolment_oct23": 667,
+      "utilization_rate_pct": 0.95
+    },
+    "eqao": {
+      "gr3_reading": 0.7,
+      "gr3_writing": 0.61,
+      "gr3_math": 0.665,
+      "gr6_reading": 0.88,
+      "gr6_writing": 0.86,
+      "gr6_math": 0.5900000000000001,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7174999999999999
+    }
+  },
+  {
+    "school_number": "020354",
+    "school_name": "Arch Street Public School",
+    "level": "Elementary",
+    "address": "2129 Arch St",
+    "city": "Ottawa",
+    "postal_code": "K1G2H5",
+    "latitude": 45.39191,
+    "longitude": -75.63,
+    "phone": "613-733-0205",
+    "email": "",
+    "website": "https://archstreetps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 160,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.25,
+      "parents_no_degree_pct": 0.15,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.5,
+      "newcomer_pct": 0.4
+    },
+    "capacity": {
+      "otg_capacity": 320,
+      "enrolment_oct23": 141,
+      "utilization_rate_pct": 0.44
+    },
+    "eqao": {
+      "gr3_reading": 0.38,
+      "gr3_writing": 0.24,
+      "gr3_math": 0.24,
+      "gr6_reading": 0.71,
+      "gr6_writing": 0.76,
+      "gr6_math": 0.37,
+      "gr9_math": 0.1,
+      "osslt": null,
+      "academic_average": 0.4
+    }
+  },
+  {
+    "school_number": "119207",
+    "school_name": "Avalon Public School",
+    "level": "Elementary",
+    "address": "2080 Portobello Blvd",
+    "city": "Orleans",
+    "postal_code": "K4A0K5",
+    "latitude": 45.45835,
+    "longitude": -75.4661,
+    "phone": "613-834-7313",
+    "email": "nan",
+    "website": "https://avalonps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "2008-09-02 00:00:00",
+    "enrolment": 395,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.35,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 513,
+      "enrolment_oct23": 398,
+      "utilization_rate_pct": 0.78
+    },
+    "eqao": {
+      "gr3_reading": 0.745,
+      "gr3_writing": 0.7150000000000001,
+      "gr3_math": 0.6599999999999999,
+      "gr6_reading": 0.87,
+      "gr6_writing": 0.84,
+      "gr6_math": 0.55,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.73
+    }
+  },
+  {
+    "school_number": "032271",
+    "school_name": "Barrhaven Public School",
+    "level": "Elementary",
+    "address": "80 Larkin Dr",
+    "city": "Nepean",
+    "postal_code": "K2J1B7",
+    "latitude": 45.28106,
+    "longitude": -75.7641,
+    "phone": "613-825-2691",
+    "email": "",
+    "website": "https://barrhavenps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 440,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 409,
+      "enrolment_oct23": 474,
+      "utilization_rate_pct": 1.16
+    },
+    "eqao": {
+      "gr3_reading": 0.78,
+      "gr3_writing": 0.66,
+      "gr3_math": 0.565,
+      "gr6_reading": 0.895,
+      "gr6_writing": 0.9099999999999999,
+      "gr6_math": 0.515,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7208333333333332
+    }
+  },
+  {
+    "school_number": "036340",
+    "school_name": "Bayshore Public School",
+    "level": "Elementary",
+    "address": "145 Woodridge Cres",
+    "city": "Nepean",
+    "postal_code": "K2B7T2",
+    "latitude": 45.34964,
+    "longitude": -75.8105,
+    "phone": "613-828-8698",
+    "email": "",
+    "website": "https://bayshoreps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 305,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.05,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.7,
+      "newcomer_pct": 0.35
+    },
+    "capacity": {
+      "otg_capacity": 594,
+      "enrolment_oct23": 326,
+      "utilization_rate_pct": 0.55
+    },
+    "eqao": {
+      "gr3_reading": 0.52,
+      "gr3_writing": 0.405,
+      "gr3_math": 0.32,
+      "gr6_reading": 0.69,
+      "gr6_writing": 0.8,
+      "gr6_math": 0.37,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5175000000000001
+    }
+  },
+  {
+    "school_number": "036862",
+    "school_name": "Bayview Public School",
+    "level": "Elementary",
+    "address": "185 Owl Dr",
+    "city": "Ottawa",
+    "postal_code": "K1V9K3",
+    "latitude": 45.35516,
+    "longitude": -75.6663,
+    "phone": "613-733-4726",
+    "email": "",
+    "website": "https://bayviewps.ocdsb.ca/",
+    "grade_range": "JK-4",
+    "date_open": "",
+    "enrolment": 435,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.05,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 315,
+      "enrolment_oct23": 439,
+      "utilization_rate_pct": 1.39
+    },
+    "eqao": {
+      "gr3_reading": 0.7,
+      "gr3_writing": 0.595,
+      "gr3_math": 0.525,
+      "gr6_reading": 0.78,
+      "gr6_writing": 0.73,
+      "gr6_math": 0.5,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6383333333333333
+    }
+  },
+  {
+    "school_number": "894362",
+    "school_name": "Bell High School",
+    "level": "Secondary",
+    "address": "40 Cassidy Rd",
+    "city": "Nepean",
+    "postal_code": "K2H6K1",
+    "latitude": 45.32647,
+    "longitude": -75.8089,
+    "phone": "613-828-9101",
+    "email": "nan",
+    "website": "https://bellhs.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 760,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.06,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.11,
+      "ell_pct": 0.5,
+      "newcomer_pct": 0.21
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.85,
+      "gr3_writing": 0.77,
+      "gr3_math": 0.63,
+      "gr6_reading": 0.9,
+      "gr6_writing": 0.86,
+      "gr6_math": 0.49,
+      "gr9_math": 0.44,
+      "osslt": 0.74,
+      "academic_average": 0.7100000000000001
+    }
+  },
+  {
+    "school_number": "315877",
+    "school_name": "Bell Intermediate School",
+    "level": "Elementary",
+    "address": "40 Cassidy Rd",
+    "city": "Nepean",
+    "postal_code": "K2H6K1",
+    "latitude": 45.32588,
+    "longitude": -75.8102,
+    "phone": "613-828-9101",
+    "email": "nan",
+    "website": "nan",
+    "grade_range": "7-8",
+    "date_open": "2017-09-05 00:00:00",
+    "enrolment": 275,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.25,
+      "gifted_pct": 0.2,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 253,
+      "enrolment_oct23": 269,
+      "utilization_rate_pct": 1.06
+    },
+    "eqao": {
+      "gr3_reading": 0.38,
+      "gr3_writing": 0.22,
+      "gr3_math": 0.24,
+      "gr6_reading": 0.69,
+      "gr6_writing": 0.77,
+      "gr6_math": 0.26,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.4266666666666666
+    }
+  },
+  {
+    "school_number": "041670",
+    "school_name": "Bells Corners Public School",
+    "level": "Elementary",
+    "address": "3770 Old Richmond Rd",
+    "city": "Nepean",
+    "postal_code": "K2H5C3",
+    "latitude": 45.32407,
+    "longitude": -75.8259,
+    "phone": "613-828-3100",
+    "email": "",
+    "website": "https://bellscornersps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 310,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.25,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.2
+    },
+    "capacity": {
+      "otg_capacity": 488,
+      "enrolment_oct23": 276,
+      "utilization_rate_pct": 0.57
+    },
+    "eqao": {
+      "gr3_reading": 0.605,
+      "gr3_writing": 0.455,
+      "gr3_math": 0.6000000000000001,
+      "gr6_reading": 0.8,
+      "gr6_writing": 0.78,
+      "gr6_math": 0.34,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5966666666666667
+    }
+  },
+  {
+    "school_number": "040665",
+    "school_name": "Berrigan Elementary School",
+    "level": "Elementary",
+    "address": "199 Berrigan Dr",
+    "city": "Nepean",
+    "postal_code": "K2J5C6",
+    "latitude": 45.28021,
+    "longitude": -75.7379,
+    "phone": "613-825-0092",
+    "email": "",
+    "website": "https://berriganes.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 665,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.07,
+      "parents_no_degree_pct": 0.02,
+      "special_ed_pct": 0.08,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.43,
+      "newcomer_pct": 0.12
+    },
+    "capacity": {
+      "otg_capacity": 864,
+      "enrolment_oct23": 715,
+      "utilization_rate_pct": 0.83
+    },
+    "eqao": {
+      "gr3_reading": 0.71,
+      "gr3_writing": 0.56,
+      "gr3_math": 0.57,
+      "gr6_reading": 0.93,
+      "gr6_writing": 0.88,
+      "gr6_math": 0.75,
+      "gr9_math": 0.37,
+      "osslt": 0.82,
+      "academic_average": 0.69875
+    }
+  },
+  {
+    "school_number": "055069",
+    "school_name": "Blossom Park Public School",
+    "level": "Elementary",
+    "address": "3810 Sixth St",
+    "city": "Gloucester",
+    "postal_code": "K1T1K6",
+    "latitude": 45.35084,
+    "longitude": -75.6238,
+    "phone": "613-521-4299",
+    "email": "",
+    "website": "https://blossomparkps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "",
+    "enrolment": 305,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.25,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.6,
+      "newcomer_pct": 0.3
+    },
+    "capacity": {
+      "otg_capacity": 429,
+      "enrolment_oct23": 324,
+      "utilization_rate_pct": 0.76
+    },
+    "eqao": {
+      "gr3_reading": 0.33,
+      "gr3_writing": 0.1,
+      "gr3_math": 0.24,
+      "gr6_reading": 0.46,
+      "gr6_writing": 0.39,
+      "gr6_math": 0.14,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.27666666666666667
+    }
+  },
+  {
+    "school_number": "061077",
+    "school_name": "Briargreen Public School",
+    "level": "Elementary",
+    "address": "19 Parkfield Cres",
+    "city": "Nepean",
+    "postal_code": "K2G0R9",
+    "latitude": 45.33755,
+    "longitude": -75.7771,
+    "phone": "613-828-5027",
+    "email": "",
+    "website": "https://briargreenps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 265,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.25
+    },
+    "capacity": {
+      "otg_capacity": 409,
+      "enrolment_oct23": 296,
+      "utilization_rate_pct": 0.72
+    },
+    "eqao": {
+      "gr3_reading": 0.75,
+      "gr3_writing": 0.7250000000000001,
+      "gr3_math": 0.645,
+      "gr6_reading": 0.6699999999999999,
+      "gr6_writing": 0.63,
+      "gr6_math": 0.28,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6166666666666667
+    }
+  },
+  {
+    "school_number": "034452",
+    "school_name": "Bridlewood Community Elementary School",
+    "level": "Elementary",
+    "address": "63 Bluegrass Dr",
+    "city": "Kanata",
+    "postal_code": "K2M1G2",
+    "latitude": 45.28474,
+    "longitude": -75.861,
+    "phone": "613-591-3683",
+    "email": "",
+    "website": "https://bridlewoodes.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 390,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 459,
+      "enrolment_oct23": 411,
+      "utilization_rate_pct": 0.9
+    },
+    "eqao": {
+      "gr3_reading": 0.745,
+      "gr3_writing": 0.615,
+      "gr3_math": 0.635,
+      "gr6_reading": 0.88,
+      "gr6_writing": 0.89,
+      "gr6_math": 0.6299999999999999,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7324999999999999
+    }
+  },
+  {
+    "school_number": "063908",
+    "school_name": "Broadview Public School",
+    "level": "Elementary",
+    "address": "535 Dovercourt",
+    "city": "Ottawa",
+    "postal_code": "K2A3W3",
+    "latitude": 45.38291,
+    "longitude": -75.7581,
+    "phone": "613-728-1721",
+    "email": "",
+    "website": "https://broadviewps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "",
+    "enrolment": 865,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.06,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.14,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.15,
+      "newcomer_pct": 0.08
+    },
+    "capacity": {
+      "otg_capacity": 806,
+      "enrolment_oct23": 886,
+      "utilization_rate_pct": 1.1
+    },
+    "eqao": {
+      "gr3_reading": 0.6,
+      "gr3_writing": 0.485,
+      "gr3_math": 0.575,
+      "gr6_reading": 0.6900000000000001,
+      "gr6_writing": 0.6699999999999999,
+      "gr6_math": 0.29500000000000004,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5525
+    }
+  },
+  {
+    "school_number": "896705",
+    "school_name": "Brookfield High School",
+    "level": "Secondary",
+    "address": "824 Brookfield Rd",
+    "city": "Ottawa",
+    "postal_code": "K1V6J3",
+    "latitude": 45.37266,
+    "longitude": -75.6848,
+    "phone": "613-733-0610",
+    "email": "nan",
+    "website": "https://brookfieldhs.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 650,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.16,
+      "parents_no_degree_pct": 0.08,
+      "special_ed_pct": 0.28,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.47,
+      "newcomer_pct": 0.2
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.72,
+      "gr3_writing": 0.6,
+      "gr3_math": 0.63,
+      "gr6_reading": 0.77,
+      "gr6_writing": 0.75,
+      "gr6_math": 0.42,
+      "gr9_math": 0.32,
+      "osslt": 0.79,
+      "academic_average": 0.625
+    }
+  },
+  {
+    "school_number": "906514",
+    "school_name": "Cairine Wilson Secondary School",
+    "level": "Secondary",
+    "address": "975 Orleans Blvd",
+    "city": "Orleans",
+    "postal_code": "K1C2Z5",
+    "latitude": 45.48271,
+    "longitude": -75.5411,
+    "phone": "613-824-4411",
+    "email": "nan",
+    "website": "http://www.cairinewilsonss.ocdsb.ca/index.html",
+    "grade_range": "9-12",
+    "date_open": "1975-09-01 00:00:00",
+    "enrolment": 775,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.04,
+      "parents_no_degree_pct": 0.02,
+      "special_ed_pct": 0.31,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.04
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.65,
+      "gr3_writing": 0.54,
+      "gr3_math": 0.52,
+      "gr6_reading": 0.89,
+      "gr6_writing": 0.89,
+      "gr6_math": 0.63,
+      "gr9_math": 0.56,
+      "osslt": 0.78,
+      "academic_average": 0.6825000000000001
+    }
+  },
+  {
+    "school_number": "076511",
+    "school_name": "Cambridge Street Community Public School",
+    "level": "Elementary",
+    "address": "250 Cambridge St N",
+    "city": "Ottawa",
+    "postal_code": "K1R7B2",
+    "latitude": 45.40818,
+    "longitude": -75.7055,
+    "phone": "613-239-2216",
+    "email": "",
+    "website": "https://cambridgeps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 95,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 323,
+      "enrolment_oct23": 89,
+      "utilization_rate_pct": 0.28
+    },
+    "eqao": {
+      "gr3_reading": 0.93,
+      "gr3_writing": 0.85,
+      "gr3_math": 0.91,
+      "gr6_reading": 0.815,
+      "gr6_writing": 0.725,
+      "gr6_math": 0.425,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7758333333333333
+    }
+  },
+  {
+    "school_number": "898317",
+    "school_name": "Canterbury High School",
+    "level": "Secondary",
+    "address": "900 Canterbury Ave",
+    "city": "Ottawa",
+    "postal_code": "K1G3A7",
+    "latitude": 45.38802,
+    "longitude": -75.6263,
+    "phone": "613-731-1191",
+    "email": "nan",
+    "website": "https://canterburyhs.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 1160,
+    "fsl_programs": [
+      "Core French",
+      "Extended French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.08,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.29,
+      "gifted_pct": 0.02,
+      "ell_pct": 0.15,
+      "newcomer_pct": 0.03
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.515,
+      "osslt": 0.835,
+      "academic_average": 0.675
+    }
+  },
+  {
+    "school_number": "084832",
+    "school_name": "Carleton Heights Public School",
+    "level": "Elementary",
+    "address": "1660 Prince of Wales Dr",
+    "city": "Ottawa",
+    "postal_code": "K2C1P4",
+    "latitude": 45.36049,
+    "longitude": -75.7006,
+    "phone": "613-224-7922",
+    "email": "",
+    "website": "https://carletonheightsps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 505,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.27,
+      "parents_no_degree_pct": 0.18,
+      "special_ed_pct": 0.17,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.57,
+      "newcomer_pct": 0.34
+    },
+    "capacity": {
+      "otg_capacity": 369,
+      "enrolment_oct23": 524,
+      "utilization_rate_pct": 1.42
+    },
+    "eqao": {
+      "gr3_reading": 0.37,
+      "gr3_writing": 0.28,
+      "gr3_math": 0.25,
+      "gr6_reading": 0.65,
+      "gr6_writing": 0.55,
+      "gr6_math": 0.18,
+      "gr9_math": 0.46,
+      "osslt": 0.85,
+      "academic_average": 0.44875
+    }
+  },
+  {
+    "school_number": "086240",
+    "school_name": "Carson Grove Elementary School",
+    "level": "Elementary",
+    "address": "1401 Matheson Rd",
+    "city": "Gloucester",
+    "postal_code": "K1J8B5",
+    "latitude": 45.43684,
+    "longitude": -75.6225,
+    "phone": "613-745-0195",
+    "email": "",
+    "website": "https://carsongrovees.ocdsb.ca/",
+    "grade_range": "JK-5",
+    "date_open": "",
+    "enrolment": 295,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.25,
+      "parents_no_degree_pct": 0.15,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.75,
+      "newcomer_pct": 0.55
+    },
+    "capacity": {
+      "otg_capacity": 369,
+      "enrolment_oct23": 273,
+      "utilization_rate_pct": 0.74
+    },
+    "eqao": {
+      "gr3_reading": 0.41,
+      "gr3_writing": 0.16,
+      "gr3_math": 0.18,
+      "gr6_reading": 0.56,
+      "gr6_writing": 0.81,
+      "gr6_math": 0.12,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.37333333333333335
+    }
+  },
+  {
+    "school_number": "086487",
+    "school_name": "Castlefrank Elementary School",
+    "level": "Elementary",
+    "address": "55 McCurdy Dr",
+    "city": "Kanata",
+    "postal_code": "K2L4A9",
+    "latitude": 45.30519,
+    "longitude": -75.8985,
+    "phone": "613-592-8071",
+    "email": "",
+    "website": "https://castlefrankes.ocdsb.ca/",
+    "grade_range": "JK-3",
+    "date_open": "",
+    "enrolment": 310,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.05,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 416,
+      "enrolment_oct23": 318,
+      "utilization_rate_pct": 0.76
+    },
+    "eqao": {
+      "gr3_reading": 0.84,
+      "gr3_writing": 0.75,
+      "gr3_math": 0.75,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.66,
+      "osslt": 0.94,
+      "academic_average": 0.788
+    }
+  },
+  {
+    "school_number": "086452",
+    "school_name": "Castor Valley Elementary School",
+    "level": "Elementary",
+    "address": "2630 Grey's Creek Rd",
+    "city": "Greely",
+    "postal_code": "K4P1N2",
+    "latitude": 45.21632,
+    "longitude": -75.5177,
+    "phone": "613-821-1272",
+    "email": "",
+    "website": "https://castorvalleyes.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "",
+    "enrolment": 685,
+    "fsl_programs": [
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.02,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.09,
+      "gifted_pct": 0.01,
+      "ell_pct": 0.07,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 441,
+      "enrolment_oct23": 710,
+      "utilization_rate_pct": 1.61
+    },
+    "eqao": {
+      "gr3_reading": 0.595,
+      "gr3_writing": 0.5700000000000001,
+      "gr3_math": 0.49,
+      "gr6_reading": 0.65,
+      "gr6_writing": 0.575,
+      "gr6_math": 0.415,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5491666666666667
+    }
+  },
+  {
+    "school_number": "383252",
+    "school_name": "Cedarview Middle School",
+    "level": "Elementary",
+    "address": "2760 Cedarview Rd",
+    "city": "Nepean",
+    "postal_code": "K2J4J2",
+    "latitude": 45.27755,
+    "longitude": -75.78,
+    "phone": "613-825-2185",
+    "email": "nan",
+    "website": "https://cedarviewms.ocdsb.ca/home",
+    "grade_range": "7-8",
+    "date_open": "1994-09-01 00:00:00",
+    "enrolment": 615,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.06,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.17,
+      "gifted_pct": 0.03,
+      "ell_pct": 0.39,
+      "newcomer_pct": 0.09
+    },
+    "capacity": {
+      "otg_capacity": 711,
+      "enrolment_oct23": 667,
+      "utilization_rate_pct": 0.94
+    },
+    "eqao": {
+      "gr3_reading": 0.25,
+      "gr3_writing": 0.17,
+      "gr3_math": 0.14,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.18666666666666668
+    }
+  },
+  {
+    "school_number": "090182",
+    "school_name": "Centennial Public School",
+    "level": "Elementary",
+    "address": "376 Gloucester St",
+    "city": "Ottawa",
+    "postal_code": "K1R5E8",
+    "latitude": 45.41525,
+    "longitude": -75.7046,
+    "phone": "613-239-2277",
+    "email": "",
+    "website": "https://centennialps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "",
+    "enrolment": 290,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.5,
+      "newcomer_pct": 0.4
+    },
+    "capacity": {
+      "otg_capacity": 327,
+      "enrolment_oct23": 292,
+      "utilization_rate_pct": 0.89
+    },
+    "eqao": {
+      "gr3_reading": 0.51,
+      "gr3_writing": 0.44499999999999995,
+      "gr3_math": 0.475,
+      "gr6_reading": 0.79,
+      "gr6_writing": 0.82,
+      "gr6_math": 0.32,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5599999999999999
+    }
+  },
+  {
+    "school_number": "282953",
+    "school_name": "Chapman Mills Elementary School",
+    "level": "Elementary",
+    "address": "260 Leamington Way",
+    "city": "Ottawa",
+    "postal_code": "K2J3V1",
+    "latitude": 45.26951,
+    "longitude": -75.7318,
+    "phone": "613-823-3336",
+    "email": "nan",
+    "website": "https://chapmanmillsps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "2012-09-04 00:00:00",
+    "enrolment": 660,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.08,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.06,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.49,
+      "newcomer_pct": 0.21
+    },
+    "capacity": {
+      "otg_capacity": 700,
+      "enrolment_oct23": 709,
+      "utilization_rate_pct": 1.01
+    },
+    "eqao": {
+      "gr3_reading": 0.835,
+      "gr3_writing": 0.8,
+      "gr3_math": 0.72,
+      "gr6_reading": 0.92,
+      "gr6_writing": 0.9,
+      "gr6_math": 0.64,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.8024999999999999
+    }
+  },
+  {
+    "school_number": "101869",
+    "school_name": "Charles H. Hulse Public School",
+    "level": "Elementary",
+    "address": "2605 Alta Vista Dr",
+    "city": "Ottawa",
+    "postal_code": "K1V7T3",
+    "latitude": 45.3748,
+    "longitude": -75.6601,
+    "phone": "613-521-8535",
+    "email": "nan",
+    "website": "https://charleshhulseps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 315,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.3,
+      "parents_no_degree_pct": 0.25,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.7,
+      "newcomer_pct": 0.3
+    },
+    "capacity": {
+      "otg_capacity": 503,
+      "enrolment_oct23": 283,
+      "utilization_rate_pct": 0.56
+    },
+    "eqao": {
+      "gr3_reading": 0.34,
+      "gr3_writing": 0.32,
+      "gr3_math": 0.32,
+      "gr6_reading": 0.62,
+      "gr6_writing": 0.67,
+      "gr6_math": 0.33,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.43333333333333335
+    }
+  },
+  {
+    "school_number": "107778",
+    "school_name": "Churchill Alternative School",
+    "level": "Elementary",
+    "address": "345 Ravenhill Ave",
+    "city": "Ottawa",
+    "postal_code": "K2A0J5",
+    "latitude": 45.39049,
+    "longitude": -75.7532,
+    "phone": "613-722-4474",
+    "email": "nan",
+    "website": "https://churchillalternative.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1984-09-01 00:00:00",
+    "enrolment": 200,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.05,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 387,
+      "enrolment_oct23": 187,
+      "utilization_rate_pct": 0.48
+    },
+    "eqao": {
+      "gr3_reading": 0.755,
+      "gr3_writing": 0.645,
+      "gr3_math": 0.44999999999999996,
+      "gr6_reading": 0.7949999999999999,
+      "gr6_writing": 0.75,
+      "gr6_math": 0.5549999999999999,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6583333333333332
+    }
+  },
+  {
+    "school_number": "671053",
+    "school_name": "Clifford Bowey Public School",
+    "level": "Elementary",
+    "address": "1300 Kitchener Ave",
+    "city": "Ottawa",
+    "postal_code": "K1V6W2",
+    "latitude": 45.36789,
+    "longitude": -75.6565,
+    "phone": "613-737-4401",
+    "email": "nan",
+    "website": "https://cliffordboweyps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1970-11-04 00:00:00",
+    "enrolment": 100,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 1.0,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.35,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 180,
+      "enrolment_oct23": 104,
+      "utilization_rate_pct": 0.58
+    },
+    "eqao": {
+      "gr3_reading": 0.79,
+      "gr3_writing": 0.68,
+      "gr3_math": 0.69,
+      "gr6_reading": 0.87,
+      "gr6_writing": 0.84,
+      "gr6_math": 0.68,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7583333333333333
+    }
+  },
+  {
+    "school_number": "902586",
+    "school_name": "Colonel By Secondary School",
+    "level": "Secondary",
+    "address": "2381 Ogilvie Rd",
+    "city": "Gloucester",
+    "postal_code": "K1J7N4",
+    "latitude": 45.45504,
+    "longitude": -75.6,
+    "phone": "613-745-9411",
+    "email": "nan",
+    "website": "https://colonelbyss.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1971-09-30 00:00:00",
+    "enrolment": 1140,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.06,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.13,
+      "gifted_pct": 0.03,
+      "ell_pct": 0.29,
+      "newcomer_pct": 0.05
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.28,
+      "gr3_writing": 0.28,
+      "gr3_math": 0.26,
+      "gr6_reading": 0.67,
+      "gr6_writing": 0.55,
+      "gr6_math": 0.29,
+      "gr9_math": 0.84,
+      "osslt": 0.96,
+      "academic_average": 0.51625
+    }
+  },
+  {
+    "school_number": "121886",
+    "school_name": "Connaught Public School",
+    "level": "Elementary",
+    "address": "1149 Gladstone Ave",
+    "city": "Ottawa",
+    "postal_code": "K1Y3H7",
+    "latitude": 45.4004,
+    "longitude": -75.726,
+    "phone": "613-728-4671",
+    "email": "nan",
+    "website": "https://connaughtps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 395,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 424,
+      "enrolment_oct23": 391,
+      "utilization_rate_pct": 0.92
+    },
+    "eqao": {
+      "gr3_reading": 0.675,
+      "gr3_writing": 0.735,
+      "gr3_math": 0.6,
+      "gr6_reading": 0.915,
+      "gr6_writing": 0.855,
+      "gr6_math": 0.77,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7583333333333334
+    }
+  },
+  {
+    "school_number": "121940",
+    "school_name": "Convent Glen Elementary School",
+    "level": "Elementary",
+    "address": "1708 Grey Nuns Dr",
+    "city": "Gloucester",
+    "postal_code": "K1C1C1",
+    "latitude": 45.46998,
+    "longitude": -75.5367,
+    "phone": "613-824-8177",
+    "email": "nan",
+    "website": "https://conventglenes.ocdsb.ca/",
+    "grade_range": "JK-5",
+    "date_open": "1975-09-01 00:00:00",
+    "enrolment": 160,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 245,
+      "enrolment_oct23": 160,
+      "utilization_rate_pct": 0.65
+    },
+    "eqao": {
+      "gr3_reading": 0.68,
+      "gr3_writing": 0.48,
+      "gr3_math": 0.52,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.56
+    }
+  },
+  {
+    "school_number": "671207",
+    "school_name": "Crystal Bay Centre for Special",
+    "level": "Elementary",
+    "address": "31 Moodie Dr",
+    "city": "Nepean",
+    "postal_code": "K2H8G1",
+    "latitude": 45.34939,
+    "longitude": -75.8442,
+    "phone": "613-828-5376",
+    "email": "nan",
+    "website": "https://crystalbayse.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1972-09-01 00:00:00",
+    "enrolment": 95,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 1.0,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 135,
+      "enrolment_oct23": 92,
+      "utilization_rate_pct": 0.68
+    },
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.76,
+      "osslt": 0.97,
+      "academic_average": 0.865
+    }
+  },
+  {
+    "school_number": "131504",
+    "school_name": "D. Roy Kennedy Public School",
+    "level": "Elementary",
+    "address": "919 Woodroffe Ave",
+    "city": "Ottawa",
+    "postal_code": "K2A3G9",
+    "latitude": 45.36509,
+    "longitude": -75.7696,
+    "phone": "613-728-1993",
+    "email": "nan",
+    "website": "https://droykennedyps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 380,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.25
+    },
+    "capacity": {
+      "otg_capacity": 537,
+      "enrolment_oct23": 385,
+      "utilization_rate_pct": 0.72
+    },
+    "eqao": {
+      "gr3_reading": 0.755,
+      "gr3_writing": 0.675,
+      "gr3_math": 0.7,
+      "gr6_reading": 0.815,
+      "gr6_writing": 0.7050000000000001,
+      "gr6_math": 0.5,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6916666666666668
+    }
+  },
+  {
+    "school_number": "139432",
+    "school_name": "Devonshire Community Public School",
+    "level": "Elementary",
+    "address": "100 Breezehill Ave",
+    "city": "Ottawa",
+    "postal_code": "K1Y2H5",
+    "latitude": 45.40553,
+    "longitude": -75.7189,
+    "phone": "613-729-3169",
+    "email": "nan",
+    "website": "https://devonshireps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 300,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.1,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 337,
+      "enrolment_oct23": 301,
+      "utilization_rate_pct": 0.89
+    },
+    "eqao": {
+      "gr3_reading": 0.6599999999999999,
+      "gr3_writing": 0.59,
+      "gr3_math": 0.505,
+      "gr6_reading": 0.94,
+      "gr6_writing": 0.97,
+      "gr6_math": 0.65,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7191666666666667
+    }
+  },
+  {
+    "school_number": "153508",
+    "school_name": "Dunlop Public School",
+    "level": "Elementary",
+    "address": "1310 Pebble Rd",
+    "city": "Ottawa",
+    "postal_code": "K1V7R8",
+    "latitude": 45.36105,
+    "longitude": -75.6503,
+    "phone": "613-521-4611",
+    "email": "nan",
+    "website": "https://dunlopps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1971-09-30 00:00:00",
+    "enrolment": 125,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.15,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.35,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.2
+    },
+    "capacity": {
+      "otg_capacity": 337,
+      "enrolment_oct23": 115,
+      "utilization_rate_pct": 0.34
+    },
+    "eqao": {
+      "gr3_reading": 0.5,
+      "gr3_writing": 0.61,
+      "gr3_math": 0.5,
+      "gr6_reading": 0.83,
+      "gr6_writing": 0.79,
+      "gr6_math": 0.24,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5783333333333333
+    }
+  },
+  {
+    "school_number": "151416",
+    "school_name": "Dunning-Foubert Elementary School",
+    "level": "Elementary",
+    "address": "1610 Prestwick Dr",
+    "city": "Orleans",
+    "postal_code": "K1E2N1",
+    "latitude": 45.46714,
+    "longitude": -75.4986,
+    "phone": "613-824-5800",
+    "email": "nan",
+    "website": "https://dunningfoubertes.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1981-09-01 00:00:00",
+    "enrolment": 595,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.04,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.13,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.14
+    },
+    "capacity": {
+      "otg_capacity": 360,
+      "enrolment_oct23": 539,
+      "utilization_rate_pct": 1.5
+    },
+    "eqao": {
+      "gr3_reading": 0.645,
+      "gr3_writing": 0.5800000000000001,
+      "gr3_math": 0.56,
+      "gr6_reading": 0.735,
+      "gr6_writing": 0.725,
+      "gr6_math": 0.44,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6141666666666666
+    }
+  },
+  {
+    "school_number": "634184",
+    "school_name": "Earl of March Intermediate School",
+    "level": "Elementary",
+    "address": "No. 4 The Parkway",
+    "city": "Kanata",
+    "postal_code": "K2K1Y4",
+    "latitude": 45.32341,
+    "longitude": -75.8953,
+    "phone": "613-592-3361",
+    "email": "nan",
+    "website": "https://earlofmarchss.ocdsb.ca/",
+    "grade_range": "7-8",
+    "date_open": "2015-09-08 00:00:00",
+    "enrolment": 685,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.09,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.13,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.55,
+      "newcomer_pct": 0.14
+    },
+    "capacity": {
+      "otg_capacity": 515,
+      "enrolment_oct23": 641,
+      "utilization_rate_pct": 1.24
+    },
+    "eqao": {
+      "gr3_reading": 0.8,
+      "gr3_writing": 0.67,
+      "gr3_math": 0.7,
+      "gr6_reading": 0.86,
+      "gr6_writing": 0.93,
+      "gr6_math": 0.62,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7633333333333333
+    }
+  },
+  {
+    "school_number": "906484",
+    "school_name": "Earl of March Secondary School",
+    "level": "Secondary",
+    "address": "No. 4 The Parkway",
+    "city": "Kanata",
+    "postal_code": "K2K1Y4",
+    "latitude": 45.32286,
+    "longitude": -75.8946,
+    "phone": "613-592-3361",
+    "email": "nan",
+    "website": "https://earlofmarchss.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1971-09-30 00:00:00",
+    "enrolment": 1715,
+    "fsl_programs": [
+      "Core French",
+      "Extended French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.08,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.17,
+      "gifted_pct": 0.01,
+      "ell_pct": 0.47,
+      "newcomer_pct": 0.1
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.41,
+      "gr3_writing": 0.35,
+      "gr3_math": 0.29,
+      "gr6_reading": 0.8,
+      "gr6_writing": 0.8,
+      "gr6_math": 0.3,
+      "gr9_math": 0.78,
+      "osslt": 0.95,
+      "academic_average": 0.585
+    }
+  },
+  {
+    "school_number": "294012",
+    "school_name": "East Urban Centre (Elementary) School",
+    "level": "Elementary",
+    "address": "700 Spring Valley Drive",
+    "city": "Orleans",
+    "postal_code": "K1W0H2",
+    "latitude": 45.426634,
+    "longitude": -75.514442,
+    "phone": "nan",
+    "email": "",
+    "website": "nan",
+    "grade_range": "JK-5",
+    "date_open": "",
+    "enrolment": null,
+    "fsl_programs": [],
+    "demographics": {
+      "low_income_pct": null,
+      "parents_no_degree_pct": null,
+      "special_ed_pct": null,
+      "gifted_pct": null,
+      "ell_pct": null,
+      "newcomer_pct": null
+    },
+    "capacity": {
+      "otg_capacity": 674,
+      "enrolment_oct23": null,
+      "utilization_rate_pct": null
+    },
+    "eqao": {
+      "gr3_reading": 0.55,
+      "gr3_writing": 0.5,
+      "gr3_math": 0.41,
+      "gr6_reading": 0.72,
+      "gr6_writing": 0.72,
+      "gr6_math": 0.39,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5483333333333332
+    }
+  },
+  {
+    "school_number": "170763",
+    "school_name": "Elgin Street Public School",
+    "level": "Elementary",
+    "address": "310 Elgin St",
+    "city": "Ottawa",
+    "postal_code": "K2P1M4",
+    "latitude": 45.4163,
+    "longitude": -75.6894,
+    "phone": "613-239-2231",
+    "email": "nan",
+    "website": "https://elginstps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 370,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 254,
+      "enrolment_oct23": 339,
+      "utilization_rate_pct": 1.33
+    },
+    "eqao": {
+      "gr3_reading": 0.88,
+      "gr3_writing": 0.77,
+      "gr3_math": 0.79,
+      "gr6_reading": 0.96,
+      "gr6_writing": 1.0,
+      "gr6_math": 0.84,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.8733333333333334
+    }
+  },
+  {
+    "school_number": "907898",
+    "school_name": "Elizabeth Wyn Wood Secondary Alternate",
+    "level": "Secondary",
+    "address": "20 Rossland Ave",
+    "city": "Nepean",
+    "postal_code": "K2G1H6",
+    "latitude": 45.35351,
+    "longitude": -75.7372,
+    "phone": "613-225-8826",
+    "email": "nan",
+    "website": "https://elizabethwynwood.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1999-09-01 00:00:00",
+    "enrolment": 255,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.45,
+      "gifted_pct": 0.05,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.05
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.78,
+      "osslt": 0.92,
+      "academic_average": 0.8500000000000001
+    }
+  },
+  {
+    "school_number": "177008",
+    "school_name": "Elmdale Public School",
+    "level": "Elementary",
+    "address": "49 Iona St",
+    "city": "Ottawa",
+    "postal_code": "K1Y3L9",
+    "latitude": 45.39424,
+    "longitude": -75.736,
+    "phone": "613-728-4653",
+    "email": "nan",
+    "website": "https://elmdaleps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 565,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.03,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.11,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.08,
+      "newcomer_pct": 0.02
+    },
+    "capacity": {
+      "otg_capacity": 591,
+      "enrolment_oct23": 571,
+      "utilization_rate_pct": 0.97
+    },
+    "eqao": {
+      "gr3_reading": 0.97,
+      "gr3_writing": 0.96,
+      "gr3_math": 0.89,
+      "gr6_reading": 0.98,
+      "gr6_writing": 0.96,
+      "gr6_math": 0.89,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.9416666666666665
+    }
+  },
+  {
+    "school_number": "050261",
+    "school_name": "Emily Carr Middle School",
+    "level": "Elementary",
+    "address": "2681 Innes Rd",
+    "city": "Gloucester",
+    "postal_code": "K1B3J7",
+    "latitude": 45.43444,
+    "longitude": -75.5625,
+    "phone": "613-824-5455",
+    "email": "",
+    "website": "https://emilycarrms.ocdsb.ca/",
+    "grade_range": "6-8",
+    "date_open": "",
+    "enrolment": 305,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.35,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 412,
+      "enrolment_oct23": 299,
+      "utilization_rate_pct": 0.73
+    },
+    "eqao": {
+      "gr3_reading": 0.75,
+      "gr3_writing": 0.68,
+      "gr3_math": 0.65,
+      "gr6_reading": 0.8300000000000001,
+      "gr6_writing": 0.8200000000000001,
+      "gr6_math": 0.5599999999999999,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.715
+    }
+  },
+  {
+    "school_number": "129674",
+    "school_name": "Fallingbrook Community Elementary School",
+    "level": "Elementary",
+    "address": "679 Deancourt Cres",
+    "city": "Orleans",
+    "postal_code": "K4A3E1",
+    "latitude": 45.48117,
+    "longitude": -75.4874,
+    "phone": "613-830-8817",
+    "email": "nan",
+    "website": "https://fallingbrookes.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1988-09-01 00:00:00",
+    "enrolment": 295,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.15,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 504,
+      "enrolment_oct23": 305,
+      "utilization_rate_pct": 0.61
+    },
+    "eqao": {
+      "gr3_reading": 0.91,
+      "gr3_writing": 0.76,
+      "gr3_math": 0.85,
+      "gr6_reading": 1.0,
+      "gr6_writing": 0.96,
+      "gr6_math": 0.5,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.8300000000000001
+    }
+  },
+  {
+    "school_number": "083456",
+    "school_name": "Farley Mowat Public School",
+    "level": "Elementary",
+    "address": "75 Waterbridge Dr",
+    "city": "Nepean",
+    "postal_code": "K2G6T3",
+    "latitude": 45.2817,
+    "longitude": -75.7084,
+    "phone": "613-825-3006",
+    "email": "",
+    "website": "https://farleymowatps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 575,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.07,
+      "parents_no_degree_pct": 0.02,
+      "special_ed_pct": 0.05,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.47,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 554,
+      "enrolment_oct23": 613,
+      "utilization_rate_pct": 1.11
+    },
+    "eqao": {
+      "gr3_reading": 0.835,
+      "gr3_writing": 0.7,
+      "gr3_math": 0.7,
+      "gr6_reading": 0.925,
+      "gr6_writing": 0.8899999999999999,
+      "gr6_math": 0.665,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7858333333333333
+    }
+  },
+  {
+    "school_number": "193640",
+    "school_name": "Featherston Drive Public School",
+    "level": "Elementary",
+    "address": "1801 Featherston Dr",
+    "city": "Ottawa",
+    "postal_code": "K1H6P4",
+    "latitude": 45.38367,
+    "longitude": -75.6453,
+    "phone": "613-731-3357",
+    "email": "nan",
+    "website": "https://featherstondrps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 275,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.6,
+      "newcomer_pct": 0.25
+    },
+    "capacity": {
+      "otg_capacity": 425,
+      "enrolment_oct23": 286,
+      "utilization_rate_pct": 0.67
+    },
+    "eqao": {
+      "gr3_reading": 0.33,
+      "gr3_writing": 0.25,
+      "gr3_math": 0.17,
+      "gr6_reading": 0.835,
+      "gr6_writing": 0.825,
+      "gr6_math": 0.4,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.4683333333333333
+    }
+  },
+  {
+    "school_number": "196266",
+    "school_name": "Fielding Drive Public School",
+    "level": "Elementary",
+    "address": "777 Fielding Dr",
+    "city": "Ottawa",
+    "postal_code": "K1V7G1",
+    "latitude": 45.36193,
+    "longitude": -75.678,
+    "phone": "613-731-4928",
+    "email": "nan",
+    "website": "https://fieldingdrps.ocdsb.ca/",
+    "grade_range": "4-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 435,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.25,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 614,
+      "enrolment_oct23": 460,
+      "utilization_rate_pct": 0.75
+    },
+    "eqao": {
+      "gr3_reading": 0.7,
+      "gr3_writing": 0.61,
+      "gr3_math": 0.74,
+      "gr6_reading": 0.875,
+      "gr6_writing": 0.8200000000000001,
+      "gr6_math": 0.41000000000000003,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6925
+    }
+  },
+  {
+    "school_number": "196762",
+    "school_name": "First Avenue Public School",
+    "level": "Elementary",
+    "address": "73 First Ave",
+    "city": "Ottawa",
+    "postal_code": "K1S2G1",
+    "latitude": 45.40628,
+    "longitude": -75.6854,
+    "phone": "613-239-2261",
+    "email": "nan",
+    "website": "https://firstaveps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 175,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.05,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.2
+    },
+    "capacity": {
+      "otg_capacity": 429,
+      "enrolment_oct23": 201,
+      "utilization_rate_pct": 0.47
+    },
+    "eqao": {
+      "gr3_reading": 0.825,
+      "gr3_writing": 0.71,
+      "gr3_math": 0.675,
+      "gr6_reading": 0.8700000000000001,
+      "gr6_writing": 0.9,
+      "gr6_math": 0.64,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.77
+    }
+  },
+  {
+    "school_number": "197211",
+    "school_name": "Fisher Park/Summit AS Public School",
+    "level": "Elementary",
+    "address": "250 Holland Ave",
+    "city": "Ottawa",
+    "postal_code": "K1Y0Y5",
+    "latitude": 45.39613,
+    "longitude": -75.73,
+    "phone": "613-729-5054",
+    "email": "nan",
+    "website": "https://fisherparkps.ocdsb.ca/",
+    "grade_range": "7-8",
+    "date_open": "1994-09-01 00:00:00",
+    "enrolment": 620,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.09,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.32,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.13,
+      "newcomer_pct": 0.04
+    },
+    "capacity": {
+      "otg_capacity": 803,
+      "enrolment_oct23": 635,
+      "utilization_rate_pct": 0.79
+    },
+    "eqao": {
+      "gr3_reading": 0.36,
+      "gr3_writing": 0.36,
+      "gr3_math": 0.36,
+      "gr6_reading": 0.53,
+      "gr6_writing": 0.48,
+      "gr6_math": 0.28,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.395
+    }
+  },
+  {
+    "school_number": "088560",
+    "school_name": "Forest Valley Elementary School",
+    "level": "Elementary",
+    "address": "1570 Forest Valley Dr",
+    "city": "Orleans",
+    "postal_code": "K1C6X7",
+    "latitude": 45.4497,
+    "longitude": -75.5374,
+    "phone": "613-824-0733",
+    "email": "",
+    "website": "https://forestvalleyes.ocdsb.ca/",
+    "grade_range": "JK-5",
+    "date_open": "",
+    "enrolment": 290,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 573,
+      "enrolment_oct23": 300,
+      "utilization_rate_pct": 0.52
+    },
+    "eqao": {
+      "gr3_reading": 0.84,
+      "gr3_writing": 0.69,
+      "gr3_math": 0.72,
+      "gr6_reading": 0.82,
+      "gr6_writing": 0.75,
+      "gr6_math": 0.38,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7000000000000001
+    }
+  },
+  {
+    "school_number": "911143",
+    "school_name": "Frederick Banting Secondary Alternate Pr",
+    "level": "Secondary",
+    "address": "1453 Stittsville Main St",
+    "city": "Stittsville",
+    "postal_code": "K2S1A3",
+    "latitude": 45.26036,
+    "longitude": -75.923,
+    "phone": "613-591-7678",
+    "email": "nan",
+    "website": "https://frederickbantingalt.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1999-09-01 00:00:00",
+    "enrolment": 215,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.55,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.1,
+      "newcomer_pct": 0.05
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 1.0,
+      "gr3_writing": 0.92,
+      "gr3_math": 0.92,
+      "gr6_reading": 0.85,
+      "gr6_writing": 0.88,
+      "gr6_math": 0.76,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.8883333333333333
+    }
+  },
+  {
+    "school_number": "211583",
+    "school_name": "General Vanier Public School",
+    "level": "Elementary",
+    "address": "1025 Harkness Ave",
+    "city": "Ottawa",
+    "postal_code": "K1V6N9",
+    "latitude": 45.3676,
+    "longitude": -75.6746,
+    "phone": "613-731-3631",
+    "email": "nan",
+    "website": "https://generalvanierps.ocdsb.ca/",
+    "grade_range": "JK-3",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 175,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.05,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.2
+    },
+    "capacity": {
+      "otg_capacity": 211,
+      "enrolment_oct23": 163,
+      "utilization_rate_pct": 0.77
+    },
+    "eqao": {
+      "gr3_reading": 0.69,
+      "gr3_writing": 0.56,
+      "gr3_math": 0.47,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5733333333333334
+    }
+  },
+  {
+    "school_number": "216658",
+    "school_name": "Glashan Public School",
+    "level": "Elementary",
+    "address": "28 Arlington Ave",
+    "city": "Ottawa",
+    "postal_code": "K2P1C2",
+    "latitude": 45.40967,
+    "longitude": -75.6932,
+    "phone": "613-239-2264",
+    "email": "nan",
+    "website": "https://glashanps.ocdsb.ca/",
+    "grade_range": "7-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 315,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.25,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 386,
+      "enrolment_oct23": 329,
+      "utilization_rate_pct": 0.85
+    },
+    "eqao": {
+      "gr3_reading": 0.67,
+      "gr3_writing": 0.69,
+      "gr3_math": 0.65,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6699999999999999
+    }
+  },
+  {
+    "school_number": "912697",
+    "school_name": "Glebe Collegiate Institute",
+    "level": "Secondary",
+    "address": "212 Glebe Ave",
+    "city": "Ottawa",
+    "postal_code": "K1S2C9",
+    "latitude": 45.40179,
+    "longitude": -75.6972,
+    "phone": "613-239-2424",
+    "email": "nan",
+    "website": "https://glebe.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 1315,
+    "fsl_programs": [
+      "Core French",
+      "Extended French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.08,
+      "parents_no_degree_pct": 0.02,
+      "special_ed_pct": 0.21,
+      "gifted_pct": 0.04,
+      "ell_pct": 0.28,
+      "newcomer_pct": 0.11
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.74,
+      "osslt": 0.93,
+      "academic_average": 0.835
+    }
+  },
+  {
+    "school_number": "224197",
+    "school_name": "Glen Cairn Public School",
+    "level": "Elementary",
+    "address": "182 Morrena Rd",
+    "city": "Kanata",
+    "postal_code": "K2L1E1",
+    "latitude": 45.29692,
+    "longitude": -75.8842,
+    "phone": "613-836-2342",
+    "email": "nan",
+    "website": "https://glencairnps.ocdsb.ca/",
+    "grade_range": "7-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 260,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 352,
+      "enrolment_oct23": 347,
+      "utilization_rate_pct": 0.99
+    },
+    "eqao": {
+      "gr3_reading": 0.61,
+      "gr3_writing": 0.57,
+      "gr3_math": 0.52,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5666666666666667
+    }
+  },
+  {
+    "school_number": "392197",
+    "school_name": "Glen Ogilvie Public School",
+    "level": "Elementary",
+    "address": "46 Centrepark Dr",
+    "city": "Gloucester",
+    "postal_code": "K1B3C1",
+    "latitude": 45.43475,
+    "longitude": -75.5707,
+    "phone": "613-824-4014",
+    "email": "nan",
+    "website": "https://glenogilvieps.ocdsb.ca/",
+    "grade_range": "JK-5",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 525,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.06,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.09,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.12
+    },
+    "capacity": {
+      "otg_capacity": 596,
+      "enrolment_oct23": 533,
+      "utilization_rate_pct": 0.89
+    },
+    "eqao": {
+      "gr3_reading": 0.77,
+      "gr3_writing": 0.77,
+      "gr3_math": 0.65,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.73
+    }
+  },
+  {
+    "school_number": "913472",
+    "school_name": "Gloucester High School",
+    "level": "Secondary",
+    "address": "2060 Ogilvie Rd",
+    "city": "Gloucester",
+    "postal_code": "K1J7N8",
+    "latitude": 45.43868,
+    "longitude": -75.5993,
+    "phone": "613-745-7176",
+    "email": "nan",
+    "website": "https://gloucesterhs.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 1160,
+    "fsl_programs": [
+      "Core French",
+      "Extended French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.18,
+      "parents_no_degree_pct": 0.11,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.61,
+      "newcomer_pct": 0.29
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.465,
+      "osslt": 0.77,
+      "academic_average": 0.6175
+    }
+  },
+  {
+    "school_number": "223930",
+    "school_name": "Goulbourn Middle School",
+    "level": "Elementary",
+    "address": "2176 Huntley Rd RR#3",
+    "city": "Stittsville",
+    "postal_code": "K2S1B8",
+    "latitude": 45.2302,
+    "longitude": -75.9018,
+    "phone": "613-836-1312",
+    "email": "nan",
+    "website": "https://goulbournms.ocdsb.ca/",
+    "grade_range": "6-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 215,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.1,
+      "ell_pct": 0.1,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 400,
+      "enrolment_oct23": 457,
+      "utilization_rate_pct": 1.14
+    },
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": 0.86,
+      "gr6_writing": 0.86,
+      "gr6_math": 0.34,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6866666666666666
+    }
+  },
+  {
+    "school_number": "424919",
+    "school_name": "Greely Elementary School",
+    "level": "Elementary",
+    "address": "7066 Parkway Rd",
+    "city": "Greely",
+    "postal_code": "K4P1A9",
+    "latitude": 45.26105,
+    "longitude": -75.5637,
+    "phone": "613-821-2291",
+    "email": "nan",
+    "website": "https://greelyes.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 145,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.1,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 245,
+      "enrolment_oct23": 147,
+      "utilization_rate_pct": 0.6
+    },
+    "eqao": {
+      "gr3_reading": 0.815,
+      "gr3_writing": 0.64,
+      "gr3_math": 0.645,
+      "gr6_reading": 0.7,
+      "gr6_writing": 0.83,
+      "gr6_math": 0.3,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6549999999999999
+    }
+  },
+  {
+    "school_number": "062050",
+    "school_name": "Half Moon Bay Public School",
+    "level": "Elementary",
+    "address": "3525 River Run Ave",
+    "city": "Nepean",
+    "postal_code": "K2J6E2",
+    "latitude": 45.25315,
+    "longitude": -75.7462,
+    "phone": "613-692-5454",
+    "email": "",
+    "website": "https://halfmoonbayps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 595,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.09,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.08,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.44,
+      "newcomer_pct": 0.17
+    },
+    "capacity": {
+      "otg_capacity": 674,
+      "enrolment_oct23": 718,
+      "utilization_rate_pct": 1.07
+    },
+    "eqao": {
+      "gr3_reading": 0.71,
+      "gr3_writing": 0.66,
+      "gr3_math": 0.62,
+      "gr6_reading": 0.88,
+      "gr6_writing": 0.84,
+      "gr6_math": 0.36,
+      "gr9_math": 0.22,
+      "osslt": 0.64,
+      "academic_average": 0.61625
+    }
+  },
+  {
+    "school_number": "250848",
+    "school_name": "Hawthorne Public School",
+    "level": "Elementary",
+    "address": "2158 St. Laurent Blvd",
+    "city": "Ottawa",
+    "postal_code": "K1G1A9",
+    "latitude": 45.39226,
+    "longitude": -75.6201,
+    "phone": "613-733-6221",
+    "email": "nan",
+    "website": "https://hawthorneps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 315,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.5,
+      "newcomer_pct": 0.4
+    },
+    "capacity": {
+      "otg_capacity": 511,
+      "enrolment_oct23": 289,
+      "utilization_rate_pct": 0.57
+    },
+    "eqao": {
+      "gr3_reading": 0.15,
+      "gr3_writing": 0.06,
+      "gr3_math": 0.18,
+      "gr6_reading": 0.57,
+      "gr6_writing": 0.5449999999999999,
+      "gr6_math": 0.29000000000000004,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.29916666666666664
+    }
+  },
+  {
+    "school_number": "419222",
+    "school_name": "Henry Larsen Elementary School",
+    "level": "Elementary",
+    "address": "1750 Sunview Dr",
+    "city": "Gloucester",
+    "postal_code": "K1C5B3",
+    "latitude": 45.46028,
+    "longitude": -75.5121,
+    "phone": "613-830-4634",
+    "email": "nan",
+    "website": "https://henrylarsenes.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1986-09-01 00:00:00",
+    "enrolment": 405,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 599,
+      "enrolment_oct23": 414,
+      "utilization_rate_pct": 0.69
+    },
+    "eqao": {
+      "gr3_reading": 0.6799999999999999,
+      "gr3_writing": 0.54,
+      "gr3_math": 0.62,
+      "gr6_reading": 0.78,
+      "gr6_writing": 0.79,
+      "gr6_math": 0.44,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6416666666666667
+    }
+  },
+  {
+    "school_number": "252875",
+    "school_name": "Henry Munro Middle School",
+    "level": "Elementary",
+    "address": "2105 Kender Ave",
+    "city": "Gloucester",
+    "postal_code": "K1J6J7",
+    "latitude": 45.45789,
+    "longitude": -75.5966,
+    "phone": "613-748-0060",
+    "email": "nan",
+    "website": "https://henrymunroms.ocdsb.ca/",
+    "grade_range": "6-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 515,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.14,
+      "parents_no_degree_pct": 0.08,
+      "special_ed_pct": 0.22,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.39,
+      "newcomer_pct": 0.2
+    },
+    "capacity": {
+      "otg_capacity": 746,
+      "enrolment_oct23": 568,
+      "utilization_rate_pct": 0.76
+    },
+    "eqao": {
+      "gr3_reading": 0.69,
+      "gr3_writing": 0.58,
+      "gr3_math": 0.54,
+      "gr6_reading": 0.795,
+      "gr6_writing": 0.8,
+      "gr6_math": 0.515,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6533333333333334
+    }
+  },
+  {
+    "school_number": "356980",
+    "school_name": "Heritage Public School",
+    "level": "Elementary",
+    "address": "1375 Colonial Rd",
+    "city": "Navan",
+    "postal_code": "K4B1N1",
+    "latitude": 45.42165,
+    "longitude": -75.4167,
+    "phone": "613-835-1700",
+    "email": "nan",
+    "website": "https://heritageps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 260,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.0,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 360,
+      "enrolment_oct23": 275,
+      "utilization_rate_pct": 0.76
+    },
+    "eqao": {
+      "gr3_reading": 0.575,
+      "gr3_writing": 0.475,
+      "gr3_math": 0.48,
+      "gr6_reading": 0.5449999999999999,
+      "gr6_writing": 0.575,
+      "gr6_math": 0.265,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.4858333333333333
+    }
+  },
+  {
+    "school_number": "916854",
+    "school_name": "Hillcrest High School",
+    "level": "Secondary",
+    "address": "1900 Dauphin Rd",
+    "city": "Ottawa",
+    "postal_code": "K1G2L7",
+    "latitude": 45.39853,
+    "longitude": -75.6391,
+    "phone": "613-733-1755",
+    "email": "nan",
+    "website": "https://hillcresths.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 460,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.15,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.1
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.67,
+      "gr3_writing": 0.58,
+      "gr3_math": 0.62,
+      "gr6_reading": 0.77,
+      "gr6_writing": 0.68,
+      "gr6_math": 0.46,
+      "gr9_math": 0.44,
+      "osslt": 0.83,
+      "academic_average": 0.6312500000000001
+    }
+  },
+  {
+    "school_number": "259810",
+    "school_name": "Hilson Avenue Public School",
+    "level": "Elementary",
+    "address": "407 Hilson Ave",
+    "city": "Ottawa",
+    "postal_code": "K1Z6B9",
+    "latitude": 45.39521,
+    "longitude": -75.7447,
+    "phone": "613-728-4607",
+    "email": "nan",
+    "website": "https://hilsonaveps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 250,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.25,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.2
+    },
+    "capacity": {
+      "otg_capacity": 419,
+      "enrolment_oct23": 264,
+      "utilization_rate_pct": 0.63
+    },
+    "eqao": {
+      "gr3_reading": 0.87,
+      "gr3_writing": 0.83,
+      "gr3_math": 0.83,
+      "gr6_reading": 0.74,
+      "gr6_writing": 0.74,
+      "gr6_math": 0.525,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7558333333333334
+    }
+  },
+  {
+    "school_number": "264628",
+    "school_name": "Hopewell Avenue Public School",
+    "level": "Elementary",
+    "address": "17 Hopewell Ave",
+    "city": "Ottawa",
+    "postal_code": "K1S2Y7",
+    "latitude": 45.39347,
+    "longitude": -75.6839,
+    "phone": "613-239-2348",
+    "email": "nan",
+    "website": "https://hopewellaveps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 740,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.03,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.09,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.11,
+      "newcomer_pct": 0.06
+    },
+    "capacity": {
+      "otg_capacity": 830,
+      "enrolment_oct23": 780,
+      "utilization_rate_pct": 0.94
+    },
+    "eqao": {
+      "gr3_reading": 0.85,
+      "gr3_writing": 0.77,
+      "gr3_math": 0.8200000000000001,
+      "gr6_reading": 0.8999999999999999,
+      "gr6_writing": 0.8999999999999999,
+      "gr6_math": 0.6799999999999999,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.82
+    }
+  },
+  {
+    "school_number": "273333",
+    "school_name": "Huntley Centennial Public School",
+    "level": "Elementary",
+    "address": "118 Langstaff Dr",
+    "city": "Carp",
+    "postal_code": "K0A1L0",
+    "latitude": 45.34601,
+    "longitude": -76.0309,
+    "phone": "613-839-2020",
+    "email": "nan",
+    "website": "https://huntleycentennialps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 585,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.02,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.05,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 574,
+      "enrolment_oct23": 584,
+      "utilization_rate_pct": 1.02
+    },
+    "eqao": {
+      "gr3_reading": 0.83,
+      "gr3_writing": 0.74,
+      "gr3_math": 0.8,
+      "gr6_reading": 0.9,
+      "gr6_writing": 0.86,
+      "gr6_math": 0.66,
+      "gr9_math": 0.43,
+      "osslt": 0.76,
+      "academic_average": 0.7475
+    }
+  },
+  {
+    "school_number": "287202",
+    "school_name": "Jack Donohue Public School",
+    "level": "Elementary",
+    "address": "101 Penrith St",
+    "city": "Kanata",
+    "postal_code": "K2W1H4",
+    "latitude": 45.35371,
+    "longitude": -75.9417,
+    "phone": "613-271-9776",
+    "email": "nan",
+    "website": "https://jackdonohueps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "2004-09-04 00:00:00",
+    "enrolment": 595,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.04,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.19,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.12
+    },
+    "capacity": {
+      "otg_capacity": 723,
+      "enrolment_oct23": 617,
+      "utilization_rate_pct": 0.85
+    },
+    "eqao": {
+      "gr3_reading": 0.8,
+      "gr3_writing": 0.725,
+      "gr3_math": 0.74,
+      "gr6_reading": 0.81,
+      "gr6_writing": 0.845,
+      "gr6_math": 0.565,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7474999999999999
+    }
+  },
+  {
+    "school_number": "286168",
+    "school_name": "Jockvale Elementary School",
+    "level": "Elementary",
+    "address": "101 Malvern Dr",
+    "city": "Nepean",
+    "postal_code": "K2J2S8",
+    "latitude": 45.27934,
+    "longitude": -75.7597,
+    "phone": "613-825-1224",
+    "email": "nan",
+    "website": "https://jockvalees.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1985-09-01 00:00:00",
+    "enrolment": 465,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.35,
+      "newcomer_pct": 0.2
+    },
+    "capacity": {
+      "otg_capacity": 479,
+      "enrolment_oct23": 471,
+      "utilization_rate_pct": 0.98
+    },
+    "eqao": {
+      "gr3_reading": 0.8300000000000001,
+      "gr3_writing": 0.7,
+      "gr3_math": 0.66,
+      "gr6_reading": 0.885,
+      "gr6_writing": 0.815,
+      "gr6_math": 0.52,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.735
+    }
+  },
+  {
+    "school_number": "918954",
+    "school_name": "John McCrae Secondary School",
+    "level": "Secondary",
+    "address": "103 Malvern Dr",
+    "city": "Nepean",
+    "postal_code": "K2J4T2",
+    "latitude": 45.27949,
+    "longitude": -75.7632,
+    "phone": "613-823-0367",
+    "email": "nan",
+    "website": "https://johnmccraess.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1999-09-01 00:00:00",
+    "enrolment": 1550,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.06,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.22,
+      "gifted_pct": 0.01,
+      "ell_pct": 0.41,
+      "newcomer_pct": 0.09
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.72,
+      "gr3_writing": 0.57,
+      "gr3_math": 0.57,
+      "gr6_reading": 0.79,
+      "gr6_writing": 0.77,
+      "gr6_math": 0.54,
+      "gr9_math": 0.64,
+      "osslt": 0.83,
+      "academic_average": 0.67875
+    }
+  },
+  {
+    "school_number": "285455",
+    "school_name": "John Young Elementary School",
+    "level": "Elementary",
+    "address": "5 Morton Dr",
+    "city": "Kanata",
+    "postal_code": "K2L1W7",
+    "latitude": 45.28939,
+    "longitude": -75.8837,
+    "phone": "613-836-5987",
+    "email": "nan",
+    "website": "https://johnyounges.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1977-09-01 00:00:00",
+    "enrolment": 545,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.07,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.08,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.11
+    },
+    "capacity": {
+      "otg_capacity": 547,
+      "enrolment_oct23": 551,
+      "utilization_rate_pct": 1.01
+    },
+    "eqao": {
+      "gr3_reading": 0.745,
+      "gr3_writing": 0.6599999999999999,
+      "gr3_math": 0.745,
+      "gr6_reading": 0.855,
+      "gr6_writing": 0.865,
+      "gr6_math": 0.45,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7200000000000001
+    }
+  },
+  {
+    "school_number": "579722",
+    "school_name": "Kanata Highlands Public School",
+    "level": "Elementary",
+    "address": "425 Terry Fox Dr",
+    "city": "Kanata",
+    "postal_code": "K2T0N3",
+    "latitude": 45.31183,
+    "longitude": -75.9315,
+    "phone": "613-591-6098",
+    "email": "nan",
+    "website": "https://kanatahighlandsps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "2016-09-06 00:00:00",
+    "enrolment": 450,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.0,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.45,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 628,
+      "enrolment_oct23": 479,
+      "utilization_rate_pct": 0.76
+    },
+    "eqao": {
+      "gr3_reading": 0.7549999999999999,
+      "gr3_writing": 0.675,
+      "gr3_math": 0.7050000000000001,
+      "gr6_reading": 0.835,
+      "gr6_writing": 0.81,
+      "gr6_math": 0.64,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7366666666666667
+    }
+  },
+  {
+    "school_number": "287563",
+    "school_name": "Kars on the Rideau Public School",
+    "level": "Elementary",
+    "address": "6680 Dorack Dr",
+    "city": "Kars",
+    "postal_code": "K0A2E0",
+    "latitude": 45.15277,
+    "longitude": -75.6506,
+    "phone": "613-489-2024",
+    "email": "nan",
+    "website": "https://karsontherideaups.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1975-09-01 00:00:00",
+    "enrolment": 605,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.02,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.16,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.1,
+      "newcomer_pct": 0.02
+    },
+    "capacity": {
+      "otg_capacity": 746,
+      "enrolment_oct23": 637,
+      "utilization_rate_pct": 0.85
+    },
+    "eqao": {
+      "gr3_reading": 0.59,
+      "gr3_writing": 0.62,
+      "gr3_math": 0.46,
+      "gr6_reading": 0.83,
+      "gr6_writing": 0.82,
+      "gr6_math": 0.43,
+      "gr9_math": 0.58,
+      "osslt": 0.87,
+      "academic_average": 0.65
+    }
+  },
+  {
+    "school_number": "287156",
+    "school_name": "Katimavik Elementary School",
+    "level": "Elementary",
+    "address": "64 Chimo Dr",
+    "city": "Kanata",
+    "postal_code": "K2L1Y9",
+    "latitude": 45.30953,
+    "longitude": -75.8898,
+    "phone": "613-592-5462",
+    "email": "nan",
+    "website": "https://katimavikes.ocdsb.ca/",
+    "grade_range": "4-8",
+    "date_open": "1981-09-01 00:00:00",
+    "enrolment": 350,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.35,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 387,
+      "enrolment_oct23": 350,
+      "utilization_rate_pct": 0.9
+    },
+    "eqao": {
+      "gr3_reading": 0.69,
+      "gr3_writing": 0.54,
+      "gr3_math": 0.62,
+      "gr6_reading": 0.735,
+      "gr6_writing": 0.785,
+      "gr6_math": 0.45499999999999996,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6375000000000001
+    }
+  },
+  {
+    "school_number": "302759",
+    "school_name": "Knoxdale Public School",
+    "level": "Elementary",
+    "address": "170 Greenbank Rd",
+    "city": "Nepean",
+    "postal_code": "K2H5V2",
+    "latitude": 45.32765,
+    "longitude": -75.7811,
+    "phone": "613-828-0010",
+    "email": "nan",
+    "website": "https://knoxdaleps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 625,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.02,
+      "ell_pct": 0.17,
+      "newcomer_pct": 0.02
+    },
+    "capacity": {
+      "otg_capacity": 938,
+      "enrolment_oct23": 634,
+      "utilization_rate_pct": 0.68
+    },
+    "eqao": {
+      "gr3_reading": 0.875,
+      "gr3_writing": 0.8049999999999999,
+      "gr3_math": 0.8200000000000001,
+      "gr6_reading": 0.975,
+      "gr6_writing": 0.925,
+      "gr6_math": 0.79,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.8650000000000001
+    }
+  },
+  {
+    "school_number": "452440",
+    "school_name": "Lady Evelyn Alternative School",
+    "level": "Elementary",
+    "address": "63 Evelyn Ave",
+    "city": "Ottawa",
+    "postal_code": "K1S0C6",
+    "latitude": 45.41167,
+    "longitude": -75.6789,
+    "phone": "613-239-2404",
+    "email": "nan",
+    "website": "https://ladyevelynalt.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1982-09-01 00:00:00",
+    "enrolment": 95,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 361,
+      "enrolment_oct23": 113,
+      "utilization_rate_pct": 0.31
+    },
+    "eqao": {
+      "gr3_reading": 0.8,
+      "gr3_writing": 0.66,
+      "gr3_math": 0.6000000000000001,
+      "gr6_reading": 0.7649999999999999,
+      "gr6_writing": 0.7749999999999999,
+      "gr6_math": 0.425,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6708333333333334
+    }
+  },
+  {
+    "school_number": "305057",
+    "school_name": "Lakeview Public School",
+    "level": "Elementary",
+    "address": "35 Corkstown Rd",
+    "city": "Nepean",
+    "postal_code": "K2H7V4",
+    "latitude": 45.34773,
+    "longitude": -75.8236,
+    "phone": "613-828-8077",
+    "email": "nan",
+    "website": "https://lakeviewps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 280,
+    "fsl_programs": [
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.1,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 288,
+      "enrolment_oct23": 287,
+      "utilization_rate_pct": 1.0
+    },
+    "eqao": {
+      "gr3_reading": 0.7,
+      "gr3_writing": 0.7,
+      "gr3_math": 0.73,
+      "gr6_reading": 0.855,
+      "gr6_writing": 0.8049999999999999,
+      "gr6_math": 0.5,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.715
+    }
+  },
+  {
+    "school_number": "926195",
+    "school_name": "Launch Secondary School",
+    "level": "Secondary",
+    "address": "1385 Woodroffe Avenue",
+    "city": "Nepean",
+    "postal_code": "K2G1V8",
+    "latitude": 45.34968117,
+    "longitude": -75.75689724,
+    "phone": "nan",
+    "email": "nan",
+    "website": "nan",
+    "grade_range": "11-12",
+    "date_open": "2020-08-31 00:00:00",
+    "enrolment": null,
+    "fsl_programs": [
+      "Core French"
+    ],
+    "demographics": {
+      "low_income_pct": null,
+      "parents_no_degree_pct": null,
+      "special_ed_pct": null,
+      "gifted_pct": null,
+      "ell_pct": null,
+      "newcomer_pct": null
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.94,
+      "gr3_writing": 0.89,
+      "gr3_math": 0.89,
+      "gr6_reading": 0.92,
+      "gr6_writing": 0.94,
+      "gr6_math": 0.67,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.875
+    }
+  },
+  {
+    "school_number": "037699",
+    "school_name": "Le Phare Elementary School",
+    "level": "Elementary",
+    "address": "1965 Naskapi Dr",
+    "city": "Gloucester",
+    "postal_code": "K1J8M9",
+    "latitude": 45.44967,
+    "longitude": -75.6026,
+    "phone": "613-744-2597",
+    "email": "",
+    "website": "https://lepharees.ocdsb.ca/",
+    "grade_range": "JK-5",
+    "date_open": "",
+    "enrolment": 325,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 378,
+      "enrolment_oct23": 325,
+      "utilization_rate_pct": 0.86
+    },
+    "eqao": {
+      "gr3_reading": 0.835,
+      "gr3_writing": 0.74,
+      "gr3_math": 0.69,
+      "gr6_reading": 0.95,
+      "gr6_writing": 0.76,
+      "gr6_math": 0.19,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6941666666666667
+    }
+  },
+  {
+    "school_number": "922960",
+    "school_name": "Lisgar Collegiate Institute",
+    "level": "Secondary",
+    "address": "29 Lisgar St",
+    "city": "Ottawa",
+    "postal_code": "K2P0B9",
+    "latitude": 45.42082,
+    "longitude": -75.6882,
+    "phone": "613-239-2696",
+    "email": "nan",
+    "website": "https://lisgarci.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 960,
+    "fsl_programs": [
+      "Core French",
+      "Extended French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.13,
+      "parents_no_degree_pct": 0.02,
+      "special_ed_pct": 0.16,
+      "gifted_pct": 0.16,
+      "ell_pct": 0.31,
+      "newcomer_pct": 0.14
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.95,
+      "gr3_writing": 0.85,
+      "gr3_math": 0.86,
+      "gr6_reading": 0.92,
+      "gr6_writing": 0.84,
+      "gr6_math": 0.56,
+      "gr9_math": 0.73,
+      "osslt": 0.91,
+      "academic_average": 0.8275
+    }
+  },
+  {
+    "school_number": "027235",
+    "school_name": "Longfields Davidson Heights Intermediate School",
+    "level": "Elementary",
+    "address": "149 Berrigan Dr",
+    "city": "Nepean",
+    "postal_code": "K2J5C6",
+    "latitude": 45.27908,
+    "longitude": -75.741,
+    "phone": "613-843-7722",
+    "email": "",
+    "website": "https://ldhss.ocdsb.ca/",
+    "grade_range": "7-8",
+    "date_open": "",
+    "enrolment": 705,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.07,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.11,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.45,
+      "newcomer_pct": 0.11
+    },
+    "capacity": {
+      "otg_capacity": 653,
+      "enrolment_oct23": 802,
+      "utilization_rate_pct": 1.23
+    },
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": null
+    }
+  },
+  {
+    "school_number": "900494",
+    "school_name": "Longfields Davidson Heights Secondary School",
+    "level": "Secondary",
+    "address": "149 Berrigan Dr",
+    "city": "Nepean",
+    "postal_code": "K2J5C6",
+    "latitude": 45.27908,
+    "longitude": -75.7411,
+    "phone": "613-843-7722",
+    "email": "nan",
+    "website": "https://ldhss.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "2009-09-01 00:00:00",
+    "enrolment": 1650,
+    "fsl_programs": [
+      "Core French",
+      "Extended French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.06,
+      "parents_no_degree_pct": 0.02,
+      "special_ed_pct": 0.18,
+      "gifted_pct": 0.01,
+      "ell_pct": 0.47,
+      "newcomer_pct": 0.06
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.69,
+      "gr3_writing": 0.53,
+      "gr3_math": 0.64,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.68,
+      "osslt": 0.87,
+      "academic_average": 0.682
+    }
+  },
+  {
+    "school_number": "332356",
+    "school_name": "Manor Park Public School",
+    "level": "Elementary",
+    "address": "100 Braemar St",
+    "city": "Ottawa",
+    "postal_code": "K1K3C9",
+    "latitude": 45.45042,
+    "longitude": -75.6558,
+    "phone": "613-746-8131",
+    "email": "nan",
+    "website": "https://manorparkps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 680,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.19,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.07,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.14
+    },
+    "capacity": {
+      "otg_capacity": 608,
+      "enrolment_oct23": 663,
+      "utilization_rate_pct": 1.09
+    },
+    "eqao": {
+      "gr3_reading": 0.6,
+      "gr3_writing": 0.49,
+      "gr3_math": 0.47,
+      "gr6_reading": 0.84,
+      "gr6_writing": 0.9,
+      "gr6_math": 0.26,
+      "gr9_math": 0.66,
+      "osslt": 0.93,
+      "academic_average": 0.64375
+    }
+  },
+  {
+    "school_number": "332488",
+    "school_name": "Manordale Public School",
+    "level": "Elementary",
+    "address": "16 Carola St",
+    "city": "Nepean",
+    "postal_code": "K2G0Y1",
+    "latitude": 45.32875,
+    "longitude": -75.7603,
+    "phone": "613-226-6393",
+    "email": "nan",
+    "website": "https://manordaleps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 285,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.2,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.45,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 373,
+      "enrolment_oct23": 311,
+      "utilization_rate_pct": 0.83
+    },
+    "eqao": {
+      "gr3_reading": 0.47,
+      "gr3_writing": 0.5,
+      "gr3_math": 0.5,
+      "gr6_reading": 0.61,
+      "gr6_writing": 0.63,
+      "gr6_math": 0.29,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5
+    }
+  },
+  {
+    "school_number": "332615",
+    "school_name": "Manotick Public School",
+    "level": "Elementary",
+    "address": "1075 Bridge St",
+    "city": "Manotick",
+    "postal_code": "K4M1H3",
+    "latitude": 45.22995,
+    "longitude": -75.6827,
+    "phone": "613-692-3311",
+    "email": "nan",
+    "website": "https://manotickps.ocdsb.ca/",
+    "grade_range": "JK-5",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 240,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.05,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 291,
+      "enrolment_oct23": 241,
+      "utilization_rate_pct": 0.83
+    },
+    "eqao": {
+      "gr3_reading": 0.84,
+      "gr3_writing": 0.71,
+      "gr3_math": 0.81,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.6,
+      "osslt": 0.87,
+      "academic_average": 0.766
+    }
+  },
+  {
+    "school_number": "129690",
+    "school_name": "Maple Ridge Elementary School",
+    "level": "Elementary",
+    "address": "1000 Valin St",
+    "city": "Orleans",
+    "postal_code": "K4A4B5",
+    "latitude": 45.47088,
+    "longitude": -75.4614,
+    "phone": "613-834-1927",
+    "email": "nan",
+    "website": "https://mapleridgees.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1999-09-01 00:00:00",
+    "enrolment": 500,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 619,
+      "enrolment_oct23": 538,
+      "utilization_rate_pct": 0.87
+    },
+    "eqao": {
+      "gr3_reading": 0.7050000000000001,
+      "gr3_writing": 0.65,
+      "gr3_math": 0.64,
+      "gr6_reading": 0.805,
+      "gr6_writing": 0.8200000000000001,
+      "gr6_math": 0.495,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6858333333333334
+    }
+  },
+  {
+    "school_number": "580720",
+    "school_name": "Maplewood Intermediate School",
+    "level": "Elementary",
+    "address": "700 Cope Drive",
+    "city": "Stittsville",
+    "postal_code": "K2S2P8",
+    "latitude": 45.26661707,
+    "longitude": -75.890827,
+    "phone": "nan",
+    "email": "nan",
+    "website": "nan",
+    "grade_range": "7-8",
+    "date_open": "2024-09-01 00:00:00",
+    "enrolment": 555,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.04,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.08
+    },
+    "capacity": {
+      "otg_capacity": 294,
+      "enrolment_oct23": null,
+      "utilization_rate_pct": null
+    },
+    "eqao": {
+      "gr3_reading": 0.47,
+      "gr3_writing": 0.29,
+      "gr3_math": 0.47,
+      "gr6_reading": 0.64,
+      "gr6_writing": 0.69,
+      "gr6_math": 0.27,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.4716666666666667
+    }
+  },
+  {
+    "school_number": "906059",
+    "school_name": "Maplewood Secondary School",
+    "level": "Secondary",
+    "address": "700 Cope Drive",
+    "city": "Stittsville",
+    "postal_code": "K2S2P8",
+    "latitude": 45.26661707,
+    "longitude": -75.890827,
+    "phone": "nan",
+    "email": "nan",
+    "website": "nan",
+    "grade_range": "9-12",
+    "date_open": "2024-09-01 00:00:00",
+    "enrolment": 245,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.0
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.83,
+      "gr3_writing": 0.81,
+      "gr3_math": 0.74,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.67,
+      "osslt": null,
+      "academic_average": 0.7625
+    }
+  },
+  {
+    "school_number": "345903",
+    "school_name": "Mary Honeywell Elementary School",
+    "level": "Elementary",
+    "address": "54 Kennevale Dr",
+    "city": "Nepean",
+    "postal_code": "K2J3B2",
+    "latitude": 45.26882,
+    "longitude": -75.7672,
+    "phone": "613-825-4834",
+    "email": "nan",
+    "website": "https://maryhoneywelles.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1989-09-01 00:00:00",
+    "enrolment": 490,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 580,
+      "enrolment_oct23": 532,
+      "utilization_rate_pct": 0.92
+    },
+    "eqao": {
+      "gr3_reading": 0.79,
+      "gr3_writing": 0.615,
+      "gr3_math": 0.71,
+      "gr6_reading": 0.94,
+      "gr6_writing": 0.905,
+      "gr6_math": 0.6799999999999999,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7733333333333333
+    }
+  },
+  {
+    "school_number": "356409",
+    "school_name": "Meadowlands Public School",
+    "level": "Elementary",
+    "address": "10 Fieldrow St",
+    "city": "Nepean",
+    "postal_code": "K2G2Y7",
+    "latitude": 45.34513,
+    "longitude": -75.7368,
+    "phone": "613-224-1733",
+    "email": "nan",
+    "website": "https://meadowlandsps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 450,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 496,
+      "enrolment_oct23": 472,
+      "utilization_rate_pct": 0.95
+    },
+    "eqao": {
+      "gr3_reading": 0.64,
+      "gr3_writing": 0.48,
+      "gr3_math": 0.53,
+      "gr6_reading": 0.71,
+      "gr6_writing": 0.77,
+      "gr6_math": 0.35,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5800000000000001
+    }
+  },
+  {
+    "school_number": "925691",
+    "school_name": "Merivale High School",
+    "level": "Secondary",
+    "address": "1755 Merivale Rd",
+    "city": "Nepean",
+    "postal_code": "K2G1E2",
+    "latitude": 45.34309,
+    "longitude": -75.7279,
+    "phone": "613-224-1807",
+    "email": "nan",
+    "website": "https://merivalehs.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 1440,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.09,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.17,
+      "gifted_pct": 0.07,
+      "ell_pct": 0.43,
+      "newcomer_pct": 0.05
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.75,
+      "osslt": 0.96,
+      "academic_average": 0.855
+    }
+  },
+  {
+    "school_number": "114334",
+    "school_name": "Merivale Intermediate School",
+    "level": "Elementary",
+    "address": "1755 Merivale Rd",
+    "city": "Nepean",
+    "postal_code": "K2G1E2",
+    "latitude": 45.34326,
+    "longitude": -75.727,
+    "phone": "613-224-1807",
+    "email": "nan",
+    "website": "https://merivalehs.ocdsb.ca/",
+    "grade_range": "7-8",
+    "date_open": "2017-09-05 00:00:00",
+    "enrolment": 320,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 253,
+      "enrolment_oct23": 358,
+      "utilization_rate_pct": 1.42
+    },
+    "eqao": {
+      "gr3_reading": 0.74,
+      "gr3_writing": 0.53,
+      "gr3_math": 0.66,
+      "gr6_reading": 0.97,
+      "gr6_writing": 0.93,
+      "gr6_math": 0.66,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7483333333333334
+    }
+  },
+  {
+    "school_number": "423874",
+    "school_name": "Metcalfe Public School",
+    "level": "Elementary",
+    "address": "2701 8th Line Rd",
+    "city": "Metcalfe",
+    "postal_code": "K0A2P0",
+    "latitude": 45.23351,
+    "longitude": -75.4708,
+    "phone": "613-821-2261",
+    "email": "nan",
+    "website": "https://metcalfeps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 290,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.0,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 455,
+      "enrolment_oct23": 274,
+      "utilization_rate_pct": 0.6
+    },
+    "eqao": {
+      "gr3_reading": 0.44,
+      "gr3_writing": 0.37,
+      "gr3_math": 0.34,
+      "gr6_reading": 0.645,
+      "gr6_writing": 0.575,
+      "gr6_math": 0.275,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.44083333333333335
+    }
+  },
+  {
+    "school_number": "200369",
+    "school_name": "Mino Mikan Elementary School",
+    "level": "Elementary",
+    "address": "820 Miikana Road",
+    "city": "Gloucester",
+    "postal_code": "K1X0H6",
+    "latitude": 45.311149787,
+    "longitude": -75.59490107,
+    "phone": "nan",
+    "email": "nan",
+    "website": "nan",
+    "grade_range": "JK-6",
+    "date_open": "2024-09-01 00:00:00",
+    "enrolment": 505,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.09,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.06,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.44,
+      "newcomer_pct": 0.14
+    },
+    "capacity": {
+      "otg_capacity": 674,
+      "enrolment_oct23": null,
+      "utilization_rate_pct": null
+    },
+    "eqao": {
+      "gr3_reading": 0.62,
+      "gr3_writing": 0.58,
+      "gr3_math": 0.54,
+      "gr6_reading": 0.73,
+      "gr6_writing": 0.76,
+      "gr6_math": 0.4,
+      "gr9_math": 0.72,
+      "osslt": 0.92,
+      "academic_average": 0.65875
+    }
+  },
+  {
+    "school_number": "382272",
+    "school_name": "Mutchmor Public School",
+    "level": "Elementary",
+    "address": "185 Fifth Ave",
+    "city": "Ottawa",
+    "postal_code": "K1S2N1",
+    "latitude": 45.4008,
+    "longitude": -75.6906,
+    "phone": "613-239-2267",
+    "email": "nan",
+    "website": "https://mutchmorps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 425,
+    "fsl_programs": [
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.0,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 669,
+      "enrolment_oct23": 406,
+      "utilization_rate_pct": 0.61
+    },
+    "eqao": {
+      "gr3_reading": 0.89,
+      "gr3_writing": 0.62,
+      "gr3_math": 0.8,
+      "gr6_reading": 1.0,
+      "gr6_writing": 0.98,
+      "gr6_math": 0.77,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.8433333333333334
+    }
+  },
+  {
+    "school_number": "928291",
+    "school_name": "Nepean High School",
+    "level": "Secondary",
+    "address": "574 Broadview Ave",
+    "city": "Ottawa",
+    "postal_code": "K2A3V8",
+    "latitude": 45.38379,
+    "longitude": -75.7589,
+    "phone": "613-722-6551",
+    "email": "nan",
+    "website": "https://nepeanhs.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 1270,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.06,
+      "parents_no_degree_pct": 0.02,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.01,
+      "ell_pct": 0.14,
+      "newcomer_pct": 0.04
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.41,
+      "gr3_writing": 0.41,
+      "gr3_math": 0.3,
+      "gr6_reading": 0.48,
+      "gr6_writing": 0.39,
+      "gr6_math": 0.17,
+      "gr9_math": 0.76,
+      "osslt": 0.94,
+      "academic_average": 0.4825
+    }
+  },
+  {
+    "school_number": "929425",
+    "school_name": "Norman Johnston Secondary Alternate Prog",
+    "level": "Secondary",
+    "address": "2401 Cl\u00e9roux Cres",
+    "city": "Ottawa",
+    "postal_code": "K1W1A1",
+    "latitude": 45.43671,
+    "longitude": -75.549,
+    "phone": "613-841-7510",
+    "email": "nan",
+    "website": "https://normanjohnston.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1999-09-01 00:00:00",
+    "enrolment": 195,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.35,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.1,
+      "newcomer_pct": 0.05
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": null
+    }
+  },
+  {
+    "school_number": "407232",
+    "school_name": "North Gower/Marlborough Public School",
+    "level": "Elementary",
+    "address": "2403 Church St",
+    "city": "North Gower",
+    "postal_code": "K0A2T0",
+    "latitude": 45.12552,
+    "longitude": -75.7197,
+    "phone": "613-489-3375",
+    "email": "nan",
+    "website": "https://northgowerps.ocdsb.ca/",
+    "grade_range": "JK-5",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 125,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.0,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 268,
+      "enrolment_oct23": 122,
+      "utilization_rate_pct": 0.46
+    },
+    "eqao": {
+      "gr3_reading": 0.73,
+      "gr3_writing": 0.6699999999999999,
+      "gr3_math": 0.74,
+      "gr6_reading": 0.88,
+      "gr6_writing": 0.92,
+      "gr6_math": 0.65,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.765
+    }
+  },
+  {
+    "school_number": "419389",
+    "school_name": "Orleans Wood Elementary School",
+    "level": "Elementary",
+    "address": "7859 Decarie Dr",
+    "city": "Gloucester",
+    "postal_code": "K1C2J4",
+    "latitude": 45.48348,
+    "longitude": -75.5285,
+    "phone": "613-837-4622",
+    "email": "nan",
+    "website": "https://orleanswoodes.ocdsb.ca/",
+    "grade_range": "JK-3",
+    "date_open": "1983-09-01 00:00:00",
+    "enrolment": 270,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.15,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 375,
+      "enrolment_oct23": 265,
+      "utilization_rate_pct": 0.71
+    },
+    "eqao": {
+      "gr3_reading": 0.69,
+      "gr3_writing": 0.64,
+      "gr3_math": 0.77,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.7,
+      "osslt": 0.94,
+      "academic_average": 0.748
+    }
+  },
+  {
+    "school_number": "424650",
+    "school_name": "Osgoode Public School",
+    "level": "Elementary",
+    "address": "5590 Osgoode Main St",
+    "city": "Osgoode",
+    "postal_code": "K0A2W0",
+    "latitude": 45.14608,
+    "longitude": -75.6052,
+    "phone": "613-826-2550",
+    "email": "nan",
+    "website": "https://osgoodeps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 275,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.0,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 298,
+      "enrolment_oct23": 277,
+      "utilization_rate_pct": 0.93
+    },
+    "eqao": {
+      "gr3_reading": 0.83,
+      "gr3_writing": 0.59,
+      "gr3_math": 0.62,
+      "gr6_reading": 0.94,
+      "gr6_writing": 0.77,
+      "gr6_math": 0.42,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.695
+    }
+  },
+  {
+    "school_number": "932710",
+    "school_name": "Osgoode Township High School",
+    "level": "Secondary",
+    "address": "2800 8th Line Rd",
+    "city": "Metcalfe",
+    "postal_code": "K0A2P0",
+    "latitude": 45.22887,
+    "longitude": -75.4696,
+    "phone": "613-821-2241",
+    "email": "nan",
+    "website": "https://oths.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 490,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.35,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.05,
+      "newcomer_pct": 0.0
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.82,
+      "gr3_writing": 0.82,
+      "gr3_math": 0.65,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.57,
+      "osslt": 0.86,
+      "academic_average": 0.744
+    }
+  },
+  {
+    "school_number": "925403",
+    "school_name": "Ottawa Technical Secondary School",
+    "level": "Secondary",
+    "address": "485 Donald St",
+    "city": "Ottawa",
+    "postal_code": "K1K1L8",
+    "latitude": 45.42914,
+    "longitude": -75.6462,
+    "phone": "613-745-0347",
+    "email": "nan",
+    "website": "https://otss.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-01-30 00:00:00",
+    "enrolment": 330,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.15,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.85,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.15,
+      "newcomer_pct": 0.0
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.89,
+      "gr3_writing": 0.82,
+      "gr3_math": 0.78,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.23,
+      "osslt": 0.48,
+      "academic_average": 0.64
+    }
+  },
+  {
+    "school_number": "444936",
+    "school_name": "Pinecrest Public School",
+    "level": "Elementary",
+    "address": "1281 McWatters Rd",
+    "city": "Ottawa",
+    "postal_code": "K2C3E7",
+    "latitude": 45.34393,
+    "longitude": -75.785,
+    "phone": "613-828-5115",
+    "email": "nan",
+    "website": "https://pinecrestps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 435,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.5,
+      "newcomer_pct": 0.3
+    },
+    "capacity": {
+      "otg_capacity": 525,
+      "enrolment_oct23": 470,
+      "utilization_rate_pct": 0.9
+    },
+    "eqao": {
+      "gr3_reading": 0.54,
+      "gr3_writing": 0.5,
+      "gr3_math": 0.375,
+      "gr6_reading": 0.675,
+      "gr6_writing": 0.645,
+      "gr6_math": 0.27,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5008333333333334
+    }
+  },
+  {
+    "school_number": "448834",
+    "school_name": "Pleasant Park Public School",
+    "level": "Elementary",
+    "address": "564 Pleasant Park Rd",
+    "city": "Ottawa",
+    "postal_code": "K1H5N1",
+    "latitude": 45.39272,
+    "longitude": -75.6462,
+    "phone": "613-733-5253",
+    "email": "nan",
+    "website": "https://pleasantparkps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 525,
+    "fsl_programs": [
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.14,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.06,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.28,
+      "newcomer_pct": 0.08
+    },
+    "capacity": {
+      "otg_capacity": 366,
+      "enrolment_oct23": 515,
+      "utilization_rate_pct": 1.41
+    },
+    "eqao": {
+      "gr3_reading": 0.73,
+      "gr3_writing": 0.67,
+      "gr3_math": 0.55,
+      "gr6_reading": 0.93,
+      "gr6_writing": 0.95,
+      "gr6_math": 0.71,
+      "gr9_math": 0.41,
+      "osslt": 0.88,
+      "academic_average": 0.72875
+    }
+  },
+  {
+    "school_number": "463523",
+    "school_name": "Queen Elizabeth Public School",
+    "level": "Elementary",
+    "address": "689 St Laurent Blvd",
+    "city": "Ottawa",
+    "postal_code": "K1K3A6",
+    "latitude": 45.43813,
+    "longitude": -75.6443,
+    "phone": "613-746-3246",
+    "email": "nan",
+    "website": "https://queenelizabethps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 405,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.2
+    },
+    "capacity": {
+      "otg_capacity": 606,
+      "enrolment_oct23": 395,
+      "utilization_rate_pct": 0.65
+    },
+    "eqao": {
+      "gr3_reading": 0.7,
+      "gr3_writing": 0.55,
+      "gr3_math": 0.65,
+      "gr6_reading": 0.66,
+      "gr6_writing": 0.57,
+      "gr6_math": 0.17,
+      "gr9_math": 0.08,
+      "osslt": 0.26,
+      "academic_average": 0.455
+    }
+  },
+  {
+    "school_number": "465089",
+    "school_name": "Queen Mary Street Public School",
+    "level": "Elementary",
+    "address": "557 Queen Mary St",
+    "city": "Ottawa",
+    "postal_code": "K1K1V9",
+    "latitude": 45.42631,
+    "longitude": -75.6423,
+    "phone": "613-749-1692",
+    "email": "nan",
+    "website": "https://queenmarystreetps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 195,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.3,
+      "parents_no_degree_pct": 0.2,
+      "special_ed_pct": 0.25,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.45,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 329,
+      "enrolment_oct23": 192,
+      "utilization_rate_pct": 0.58
+    },
+    "eqao": {
+      "gr3_reading": 0.425,
+      "gr3_writing": 0.36,
+      "gr3_math": 0.24,
+      "gr6_reading": 0.5900000000000001,
+      "gr6_writing": 0.51,
+      "gr6_math": 0.14,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.3775
+    }
+  },
+  {
+    "school_number": "480428",
+    "school_name": "Regina Street Alternative School",
+    "level": "Elementary",
+    "address": "2599 Regina St",
+    "city": "Ottawa",
+    "postal_code": "K2B8B6",
+    "latitude": 45.36665,
+    "longitude": -75.7902,
+    "phone": "613-829-8777",
+    "email": "nan",
+    "website": "https://reginastreetps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 190,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.15,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.15,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 300,
+      "enrolment_oct23": 198,
+      "utilization_rate_pct": 0.66
+    },
+    "eqao": {
+      "gr3_reading": 0.605,
+      "gr3_writing": 0.495,
+      "gr3_math": 0.525,
+      "gr6_reading": 0.875,
+      "gr6_writing": 0.8899999999999999,
+      "gr6_math": 0.52,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6516666666666666
+    }
+  },
+  {
+    "school_number": "028475",
+    "school_name": "Richard Pfaff Intermediate School",
+    "level": "Elementary",
+    "address": "160 Percy Street",
+    "city": "Ottawa",
+    "postal_code": "K1R6E5",
+    "latitude": 45.40988,
+    "longitude": -75.70225,
+    "phone": "nan",
+    "email": "",
+    "website": "nan",
+    "grade_range": "6-8",
+    "date_open": "",
+    "enrolment": null,
+    "fsl_programs": [],
+    "demographics": {
+      "low_income_pct": null,
+      "parents_no_degree_pct": null,
+      "special_ed_pct": null,
+      "gifted_pct": null,
+      "ell_pct": null,
+      "newcomer_pct": null
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.83,
+      "gr3_writing": 0.75,
+      "gr3_math": 0.5,
+      "gr6_reading": 0.4,
+      "gr6_writing": 0.31,
+      "gr6_math": 0.11,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.48333333333333334
+    }
+  },
+  {
+    "school_number": "939420",
+    "school_name": "Richard Pfaff Secondary Alternate Site",
+    "level": "Secondary",
+    "address": "160 Percy St",
+    "city": "Ottawa",
+    "postal_code": "K1R6E5",
+    "latitude": 45.40988,
+    "longitude": -75.7023,
+    "phone": "613-594-8020",
+    "email": "nan",
+    "website": "https://richardpfaffalt.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1999-09-01 00:00:00",
+    "enrolment": 225,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.15,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.5,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.15,
+      "newcomer_pct": 0.0
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.18,
+      "gr3_writing": 0.18,
+      "gr3_math": 0.18,
+      "gr6_reading": 0.54,
+      "gr6_writing": 0.5,
+      "gr6_math": 0.21,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.29833333333333334
+    }
+  },
+  {
+    "school_number": "483150",
+    "school_name": "Richmond Public School",
+    "level": "Elementary",
+    "address": "3499 McBean St",
+    "city": "Richmond",
+    "postal_code": "K0A2Z0",
+    "latitude": 45.19203,
+    "longitude": -75.8354,
+    "phone": "613-838-2371",
+    "email": "nan",
+    "website": "https://richmondps.ocdsb.ca/",
+    "grade_range": "JK-5",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 345,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 254,
+      "enrolment_oct23": 303,
+      "utilization_rate_pct": 1.19
+    },
+    "eqao": {
+      "gr3_reading": 0.6100000000000001,
+      "gr3_writing": 0.385,
+      "gr3_math": 0.435,
+      "gr6_reading": 0.45,
+      "gr6_writing": 0.5,
+      "gr6_math": 0.32,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.44999999999999996
+    }
+  },
+  {
+    "school_number": "938564",
+    "school_name": "Ridgemont High School",
+    "level": "Secondary",
+    "address": "2597 Alta Vista Dr",
+    "city": "Ottawa",
+    "postal_code": "K1V7T3",
+    "latitude": 45.37606,
+    "longitude": -75.6597,
+    "phone": "613-733-4860",
+    "email": "nan",
+    "website": "https://ridgemonths.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 860,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.19,
+      "parents_no_degree_pct": 0.15,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.65,
+      "newcomer_pct": 0.31
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.25,
+      "osslt": 0.62,
+      "academic_average": 0.435
+    }
+  },
+  {
+    "school_number": "235619",
+    "school_name": "Riverside South Intermediate School",
+    "level": "Elementary",
+    "address": "702 Earl Armstrong Road",
+    "city": "Ottawa",
+    "postal_code": "K1X1H7",
+    "latitude": 45.271382625,
+    "longitude": -75.68810006,
+    "phone": "nan",
+    "email": "nan",
+    "website": "nan",
+    "grade_range": "7-8",
+    "date_open": "2025-09-01 00:00:00",
+    "enrolment": null,
+    "fsl_programs": [],
+    "demographics": {
+      "low_income_pct": null,
+      "parents_no_degree_pct": null,
+      "special_ed_pct": null,
+      "gifted_pct": null,
+      "ell_pct": null,
+      "newcomer_pct": null
+    },
+    "capacity": {
+      "otg_capacity": 334,
+      "enrolment_oct23": null,
+      "utilization_rate_pct": null
+    },
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": null
+    }
+  },
+  {
+    "school_number": "897785",
+    "school_name": "Riverside South Secondary School",
+    "level": "Secondary",
+    "address": "702 Earl Armstrong Road",
+    "city": "Ottawa",
+    "postal_code": "K1X1H7",
+    "latitude": 45.271382625,
+    "longitude": -75.68810006,
+    "phone": "nan",
+    "email": "nan",
+    "website": "nan",
+    "grade_range": "9-12",
+    "date_open": "2025-09-01 00:00:00",
+    "enrolment": null,
+    "fsl_programs": [],
+    "demographics": {
+      "low_income_pct": null,
+      "parents_no_degree_pct": null,
+      "special_ed_pct": null,
+      "gifted_pct": null,
+      "ell_pct": null,
+      "newcomer_pct": null
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.74,
+      "gr3_writing": 0.79,
+      "gr3_math": 0.62,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7166666666666667
+    }
+  },
+  {
+    "school_number": "487180",
+    "school_name": "Riverview Alternative School",
+    "level": "Elementary",
+    "address": "260 Knox Cres",
+    "city": "Ottawa",
+    "postal_code": "K1G0K8",
+    "latitude": 45.40587,
+    "longitude": -75.6547,
+    "phone": "613-733-6898",
+    "email": "nan",
+    "website": "https://riverviewalternative.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 200,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.4,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 384,
+      "enrolment_oct23": 217,
+      "utilization_rate_pct": 0.57
+    },
+    "eqao": {
+      "gr3_reading": 0.52,
+      "gr3_writing": 0.35,
+      "gr3_math": 0.37,
+      "gr6_reading": 0.67,
+      "gr6_writing": 0.58,
+      "gr6_math": 0.08,
+      "gr9_math": 0.22,
+      "osslt": 0.59,
+      "academic_average": 0.4225
+    }
+  },
+  {
+    "school_number": "121690",
+    "school_name": "Robert Bateman Public School",
+    "level": "Elementary",
+    "address": "1250 Blohm Dr",
+    "city": "Ottawa",
+    "postal_code": "K1G5R8",
+    "latitude": 45.36914,
+    "longitude": -75.6205,
+    "phone": "613-737-3169",
+    "email": "nan",
+    "website": "https://robertbatemanps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1990-09-01 00:00:00",
+    "enrolment": 255,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 621,
+      "enrolment_oct23": 352,
+      "utilization_rate_pct": 0.57
+    },
+    "eqao": {
+      "gr3_reading": 0.46,
+      "gr3_writing": 0.37,
+      "gr3_math": 0.32,
+      "gr6_reading": 0.8,
+      "gr6_writing": 0.85,
+      "gr6_math": 0.49,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5483333333333333
+    }
+  },
+  {
+    "school_number": "487317",
+    "school_name": "Robert E.  Wilson Public School",
+    "level": "Elementary",
+    "address": "373 McArthur Ave",
+    "city": "Vanier",
+    "postal_code": "K1L6N5",
+    "latitude": 45.43275,
+    "longitude": -75.6512,
+    "phone": "613-745-9489",
+    "email": "nan",
+    "website": "https://robertewilsonps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1974-09-04 00:00:00",
+    "enrolment": 250,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.25,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.3
+    },
+    "capacity": {
+      "otg_capacity": 275,
+      "enrolment_oct23": 250,
+      "utilization_rate_pct": 0.91
+    },
+    "eqao": {
+      "gr3_reading": 0.42,
+      "gr3_writing": 0.23,
+      "gr3_math": 0.23,
+      "gr6_reading": 0.82,
+      "gr6_writing": 0.88,
+      "gr6_math": 0.41,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.49833333333333335
+    }
+  },
+  {
+    "school_number": "487384",
+    "school_name": "Robert Hopkins Public School",
+    "level": "Elementary",
+    "address": "2011 Glenfern Ave",
+    "city": "Gloucester",
+    "postal_code": "K1J6H2",
+    "latitude": 45.45722,
+    "longitude": -75.6043,
+    "phone": "613-745-2119",
+    "email": "nan",
+    "website": "https://roberthopkinsps.ocdsb.ca/",
+    "grade_range": "JK-5",
+    "date_open": "1971-09-30 00:00:00",
+    "enrolment": 345,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 442,
+      "enrolment_oct23": 335,
+      "utilization_rate_pct": 0.76
+    },
+    "eqao": {
+      "gr3_reading": 0.6699999999999999,
+      "gr3_writing": 0.565,
+      "gr3_math": 0.53,
+      "gr6_reading": 0.58,
+      "gr6_writing": 0.54,
+      "gr6_math": 0.12,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5008333333333334
+    }
+  },
+  {
+    "school_number": "319937",
+    "school_name": "Roberta Bondar Public School",
+    "level": "Elementary",
+    "address": "159 Lorry Greenberg Dr",
+    "city": "Ottawa",
+    "postal_code": "K1T3J6",
+    "latitude": 45.36586,
+    "longitude": -75.628,
+    "phone": "613-736-7334",
+    "email": "nan",
+    "website": "https://robertabondarps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1996-09-01 00:00:00",
+    "enrolment": 620,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.13,
+      "parents_no_degree_pct": 0.06,
+      "special_ed_pct": 0.17,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.42,
+      "newcomer_pct": 0.09
+    },
+    "capacity": {
+      "otg_capacity": 732,
+      "enrolment_oct23": 652,
+      "utilization_rate_pct": 0.89
+    },
+    "eqao": {
+      "gr3_reading": 0.46,
+      "gr3_writing": 0.42500000000000004,
+      "gr3_math": 0.33999999999999997,
+      "gr6_reading": 0.825,
+      "gr6_writing": 0.75,
+      "gr6_math": 0.33999999999999997,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5233333333333333
+    }
+  },
+  {
+    "school_number": "060925",
+    "school_name": "Roch Carrier Elementary School",
+    "level": "Elementary",
+    "address": "401 Stonehaven Dr",
+    "city": "Kanata",
+    "postal_code": "K2M3B5",
+    "latitude": 45.28386,
+    "longitude": -75.8466,
+    "phone": "613-254-8400",
+    "email": "",
+    "website": "https://rochcarrieres.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 350,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.05,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 430,
+      "enrolment_oct23": 382,
+      "utilization_rate_pct": 0.89
+    },
+    "eqao": {
+      "gr3_reading": 0.6,
+      "gr3_writing": 0.5700000000000001,
+      "gr3_math": 0.41500000000000004,
+      "gr6_reading": 0.705,
+      "gr6_writing": 0.72,
+      "gr6_math": 0.37,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5633333333333334
+    }
+  },
+  {
+    "school_number": "488356",
+    "school_name": "Rockcliffe Park Public School",
+    "level": "Elementary",
+    "address": "350 Buena Vista Rd",
+    "city": "Ottawa",
+    "postal_code": "K1M1C1",
+    "latitude": 45.4504,
+    "longitude": -75.6781,
+    "phone": "613-749-5387",
+    "email": "nan",
+    "website": "https://rockcliffeparkps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 410,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 356,
+      "enrolment_oct23": 403,
+      "utilization_rate_pct": 1.13
+    },
+    "eqao": {
+      "gr3_reading": 0.8049999999999999,
+      "gr3_writing": 0.625,
+      "gr3_math": 0.6599999999999999,
+      "gr6_reading": 0.93,
+      "gr6_writing": 0.95,
+      "gr6_math": 0.52,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7483333333333334
+    }
+  },
+  {
+    "school_number": "489360",
+    "school_name": "Roland Michener Public School",
+    "level": "Elementary",
+    "address": "100 Penfield Dr",
+    "city": "Kanata",
+    "postal_code": "K2K1M2",
+    "latitude": 45.32848,
+    "longitude": -75.8925,
+    "phone": "613-592-2126",
+    "email": "nan",
+    "website": "https://rolandmichenerps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1971-09-30 00:00:00",
+    "enrolment": 320,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.05,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.6,
+      "newcomer_pct": 0.4
+    },
+    "capacity": {
+      "otg_capacity": 306,
+      "enrolment_oct23": 320,
+      "utilization_rate_pct": 1.05
+    },
+    "eqao": {
+      "gr3_reading": 0.7150000000000001,
+      "gr3_writing": 0.6599999999999999,
+      "gr3_math": 0.79,
+      "gr6_reading": 0.765,
+      "gr6_writing": 0.79,
+      "gr6_math": 0.505,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7041666666666667
+    }
+  },
+  {
+    "school_number": "474444",
+    "school_name": "Sawmill Creek Elementary School",
+    "level": "Elementary",
+    "address": "3400 D'Aoust Ave",
+    "city": "Gloucester",
+    "postal_code": "K1T1R5",
+    "latitude": 45.34937,
+    "longitude": -75.6334,
+    "phone": "613-521-5922",
+    "email": "sawmillcreek@ocdsb.ca",
+    "website": "https://sawmillcreekes.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 495,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.2,
+      "special_ed_pct": 0.05,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.15
+    },
+    "capacity": {
+      "otg_capacity": 588,
+      "enrolment_oct23": 494,
+      "utilization_rate_pct": 0.84
+    },
+    "eqao": {
+      "gr3_reading": 0.745,
+      "gr3_writing": 0.635,
+      "gr3_math": 0.555,
+      "gr6_reading": 0.845,
+      "gr6_writing": 0.8400000000000001,
+      "gr6_math": 0.525,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6908333333333334
+    }
+  },
+  {
+    "school_number": "506168",
+    "school_name": "Severn Avenue Public School",
+    "level": "Elementary",
+    "address": "2553 Severn Ave",
+    "city": "Ottawa",
+    "postal_code": "K2B7V8",
+    "latitude": 45.3574,
+    "longitude": -75.7829,
+    "phone": "613-829-8082",
+    "email": "nan",
+    "website": "https://severnavenueps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 325,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 375,
+      "enrolment_oct23": 295,
+      "utilization_rate_pct": 0.79
+    },
+    "eqao": {
+      "gr3_reading": 0.755,
+      "gr3_writing": 0.68,
+      "gr3_math": 0.64,
+      "gr6_reading": 0.975,
+      "gr6_writing": 0.9650000000000001,
+      "gr6_math": 0.6599999999999999,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7791666666666668
+    }
+  },
+  {
+    "school_number": "035887",
+    "school_name": "Shingw\u00e0kons Public School",
+    "level": "Elementary",
+    "address": "480 Cope Drive",
+    "city": "Stittsville",
+    "postal_code": "K2V0T8",
+    "latitude": 45.2722,
+    "longitude": -75.8804,
+    "phone": "613-828-4736",
+    "email": "",
+    "website": "nan",
+    "grade_range": "JK-6",
+    "date_open": "",
+    "enrolment": 790,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.06,
+      "parents_no_degree_pct": 0.02,
+      "special_ed_pct": 0.09,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.41,
+      "newcomer_pct": 0.12
+    },
+    "capacity": {
+      "otg_capacity": 628,
+      "enrolment_oct23": 746,
+      "utilization_rate_pct": 1.19
+    },
+    "eqao": {
+      "gr3_reading": 0.8,
+      "gr3_writing": 0.79,
+      "gr3_math": 0.74,
+      "gr6_reading": 0.87,
+      "gr6_writing": 0.775,
+      "gr6_math": 0.535,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7516666666666666
+    }
+  },
+  {
+    "school_number": "942952",
+    "school_name": "Sir Guy Carleton Secondary School",
+    "level": "Secondary",
+    "address": "55 Centrepointe Dr",
+    "city": "Nepean",
+    "postal_code": "K2G5L4",
+    "latitude": 45.34671,
+    "longitude": -75.7651,
+    "phone": "613-723-5136",
+    "email": "nan",
+    "website": "https://sirguycarletonss.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1980-09-01 00:00:00",
+    "enrolment": 315,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.8,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.1,
+      "newcomer_pct": 0.0
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.57,
+      "gr3_writing": 0.37,
+      "gr3_math": 0.49,
+      "gr6_reading": 0.71,
+      "gr6_writing": 0.69,
+      "gr6_math": 0.31,
+      "gr9_math": 0.22,
+      "osslt": 0.42,
+      "academic_average": 0.4725
+    }
+  },
+  {
+    "school_number": "942014",
+    "school_name": "Sir Robert Borden High School",
+    "level": "Secondary",
+    "address": "131 Greenbank Rd",
+    "city": "Nepean",
+    "postal_code": "K2H8R1",
+    "latitude": 45.33359,
+    "longitude": -75.7816,
+    "phone": "613-829-5320",
+    "email": "nan",
+    "website": "https://sirrobertbordenhs.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1971-09-30 00:00:00",
+    "enrolment": 775,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.08,
+      "parents_no_degree_pct": 0.07,
+      "special_ed_pct": 0.3,
+      "gifted_pct": 0.01,
+      "ell_pct": 0.28,
+      "newcomer_pct": 0.04
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.71,
+      "gr3_writing": 0.62,
+      "gr3_math": 0.68,
+      "gr6_reading": 0.8,
+      "gr6_writing": 0.6,
+      "gr6_math": 0.6,
+      "gr9_math": 0.61,
+      "osslt": 0.86,
+      "academic_average": 0.685
+    }
+  },
+  {
+    "school_number": "620213",
+    "school_name": "Sir Robert Borden Intermediate School",
+    "level": "Elementary",
+    "address": "131 Greenbank Rd",
+    "city": "Nepean",
+    "postal_code": "K2H8R1",
+    "latitude": 45.3336,
+    "longitude": -75.7817,
+    "phone": "613-829-5320",
+    "email": "nan",
+    "website": "nan",
+    "grade_range": "7-8",
+    "date_open": "2017-09-05 00:00:00",
+    "enrolment": 375,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.25,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 253,
+      "enrolment_oct23": 370,
+      "utilization_rate_pct": 1.46
+    },
+    "eqao": {
+      "gr3_reading": 0.64,
+      "gr3_writing": 0.53,
+      "gr3_math": 0.63,
+      "gr6_reading": 0.73,
+      "gr6_writing": 0.65,
+      "gr6_math": 0.4,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5966666666666666
+    }
+  },
+  {
+    "school_number": "942332",
+    "school_name": "Sir Wilfrid Laurier Secondary School",
+    "level": "Secondary",
+    "address": "1515 Tenth Line Rd",
+    "city": "Orleans",
+    "postal_code": "K1E3E8",
+    "latitude": 45.47385,
+    "longitude": -75.4944,
+    "phone": "613-834-4500",
+    "email": "nan",
+    "website": "https://sirwilfridlaurierss.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 1050,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.03,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.25,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.31,
+      "newcomer_pct": 0.06
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.365,
+      "osslt": 0.7150000000000001,
+      "academic_average": 0.54
+    }
+  },
+  {
+    "school_number": "516694",
+    "school_name": "Sir Winston Churchill Public School",
+    "level": "Elementary",
+    "address": "49 Mulvagh Ave",
+    "city": "Nepean",
+    "postal_code": "K2E6M7",
+    "latitude": 45.35406,
+    "longitude": -75.7281,
+    "phone": "613-224-2336",
+    "email": "nan",
+    "website": "https://sirwinstonchurchillps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 435,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.1,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.3,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 642,
+      "enrolment_oct23": 428,
+      "utilization_rate_pct": 0.67
+    },
+    "eqao": {
+      "gr3_reading": 0.89,
+      "gr3_writing": 0.76,
+      "gr3_math": 0.67,
+      "gr6_reading": 0.91,
+      "gr6_writing": 0.91,
+      "gr6_math": 0.61,
+      "gr9_math": 0.47,
+      "osslt": 0.84,
+      "academic_average": 0.7575000000000001
+    }
+  },
+  {
+    "school_number": "942855",
+    "school_name": "South Carleton High School",
+    "level": "Secondary",
+    "address": "3673 McBean St",
+    "city": "Richmond",
+    "postal_code": "K0A2Z0",
+    "latitude": 45.18625,
+    "longitude": -75.828,
+    "phone": "613-838-2212",
+    "email": "nan",
+    "website": "https://southcarletonhs.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 1380,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.02,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.31,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.09,
+      "newcomer_pct": 0.02
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.56,
+      "osslt": 0.86,
+      "academic_average": 0.71
+    }
+  },
+  {
+    "school_number": "204901",
+    "school_name": "South March Public School",
+    "level": "Elementary",
+    "address": "1032 Klondike Rd",
+    "city": "Kanata",
+    "postal_code": "K2K0H9",
+    "latitude": 45.35731,
+    "longitude": -75.928,
+    "phone": "613-595-0543",
+    "email": "nan",
+    "website": "https://southmarchps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "2009-09-01 00:00:00",
+    "enrolment": 510,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.04,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.08,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.35,
+      "newcomer_pct": 0.13
+    },
+    "capacity": {
+      "otg_capacity": 752,
+      "enrolment_oct23": 498,
+      "utilization_rate_pct": 0.66
+    },
+    "eqao": {
+      "gr3_reading": 0.69,
+      "gr3_writing": 0.71,
+      "gr3_math": 0.67,
+      "gr6_reading": 0.9,
+      "gr6_writing": 0.9,
+      "gr6_math": 0.66,
+      "gr9_math": 0.45,
+      "osslt": 0.88,
+      "academic_average": 0.7324999999999999
+    }
+  },
+  {
+    "school_number": "310646",
+    "school_name": "Stephen Leacock Public School",
+    "level": "Elementary",
+    "address": "25 Leacock Dr",
+    "city": "Kanata",
+    "postal_code": "K2K1S2",
+    "latitude": 45.32494,
+    "longitude": -75.9027,
+    "phone": "613-592-2261",
+    "email": "slps@ocdsb.ca",
+    "website": "https://stephenleacockps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 500,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.08,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.39,
+      "newcomer_pct": 0.06
+    },
+    "capacity": {
+      "otg_capacity": 501,
+      "enrolment_oct23": 518,
+      "utilization_rate_pct": 1.03
+    },
+    "eqao": {
+      "gr3_reading": 0.86,
+      "gr3_writing": 0.745,
+      "gr3_math": 0.8300000000000001,
+      "gr6_reading": 0.9450000000000001,
+      "gr6_writing": 0.96,
+      "gr6_math": 0.79,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.855
+    }
+  },
+  {
+    "school_number": "565750",
+    "school_name": "Steve MacLean Public School",
+    "level": "Elementary",
+    "address": "4175 Spratt Rd",
+    "city": "Gloucester",
+    "postal_code": "K1V1T6",
+    "latitude": 45.28168,
+    "longitude": -75.6857,
+    "phone": "613-822-0341",
+    "email": "nan",
+    "website": "https://stevemacleanps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "2006-09-05 00:00:00",
+    "enrolment": 705,
+    "fsl_programs": [],
+    "demographics": {
+      "low_income_pct": 0.04,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.14,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 789,
+      "enrolment_oct23": 744,
+      "utilization_rate_pct": 0.94
+    },
+    "eqao": {
+      "gr3_reading": 0.74,
+      "gr3_writing": 0.65,
+      "gr3_math": 0.67,
+      "gr6_reading": 0.9,
+      "gr6_writing": 0.9,
+      "gr6_math": 0.71,
+      "gr9_math": 0.48,
+      "osslt": 0.87,
+      "academic_average": 0.74
+    }
+  },
+  {
+    "school_number": "537624",
+    "school_name": "Stittsville Public School",
+    "level": "Elementary",
+    "address": "40 Granite Ridge Dr",
+    "city": "Stittsville",
+    "postal_code": "K2S1Y9",
+    "latitude": 45.27185,
+    "longitude": -75.9085,
+    "phone": "613-836-2818",
+    "email": "nan",
+    "website": "https://stittsvilleps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 760,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.04,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.08,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.27,
+      "newcomer_pct": 0.09
+    },
+    "capacity": {
+      "otg_capacity": 626,
+      "enrolment_oct23": 761,
+      "utilization_rate_pct": 1.22
+    },
+    "eqao": {
+      "gr3_reading": 0.7949999999999999,
+      "gr3_writing": 0.775,
+      "gr3_math": 0.725,
+      "gr6_reading": 0.835,
+      "gr6_writing": 0.765,
+      "gr6_math": 0.47,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7275
+    }
+  },
+  {
+    "school_number": "595012",
+    "school_name": "Stonecrest Elementary School",
+    "level": "Elementary",
+    "address": "3791 Stonecrest Rd RR 2",
+    "city": "Woodlawn",
+    "postal_code": "K0A3M0",
+    "latitude": 45.4361,
+    "longitude": -76.1154,
+    "phone": "613-832-5527",
+    "email": "nan",
+    "website": "https://stonecrestes.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1998-09-01 00:00:00",
+    "enrolment": 655,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.02,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.14,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.04,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 700,
+      "enrolment_oct23": 678,
+      "utilization_rate_pct": 0.97
+    },
+    "eqao": {
+      "gr3_reading": 0.8500000000000001,
+      "gr3_writing": 0.715,
+      "gr3_math": 0.72,
+      "gr6_reading": 0.9199999999999999,
+      "gr6_writing": 0.89,
+      "gr6_math": 0.71,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.8008333333333333
+    }
+  },
+  {
+    "school_number": "330043",
+    "school_name": "Summerside Public School",
+    "level": "Elementary",
+    "address": "2350 Portobello Blvd",
+    "city": "Ottawa",
+    "postal_code": "K4A0W3",
+    "latitude": 45.450524,
+    "longitude": -75.463679,
+    "phone": "613-424-3208",
+    "email": "nan",
+    "website": "https://summersideps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "2016-09-06 00:00:00",
+    "enrolment": 540,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.04,
+      "parents_no_degree_pct": 0.02,
+      "special_ed_pct": 0.13,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.32,
+      "newcomer_pct": 0.03
+    },
+    "capacity": {
+      "otg_capacity": 674,
+      "enrolment_oct23": 538,
+      "utilization_rate_pct": 0.8
+    },
+    "eqao": {
+      "gr3_reading": 0.78,
+      "gr3_writing": 0.6399999999999999,
+      "gr3_math": 0.75,
+      "gr6_reading": 0.91,
+      "gr6_writing": 0.9099999999999999,
+      "gr6_math": 0.64,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7716666666666666
+    }
+  },
+  {
+    "school_number": "554910",
+    "school_name": "Terry Fox Elementary School",
+    "level": "Elementary",
+    "address": "6400 Jeanne D'Arc Blvd",
+    "city": "Orleans",
+    "postal_code": "K1C2S7",
+    "latitude": 45.4777,
+    "longitude": -75.54,
+    "phone": "613-837-3251",
+    "email": "nan",
+    "website": "https://terryfoxes.ocdsb.ca/",
+    "grade_range": "4-8",
+    "date_open": "1981-09-01 00:00:00",
+    "enrolment": 245,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.05,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.15,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 303,
+      "enrolment_oct23": 250,
+      "utilization_rate_pct": 0.83
+    },
+    "eqao": {
+      "gr3_reading": 0.6,
+      "gr3_writing": 0.52,
+      "gr3_math": 0.57,
+      "gr6_reading": 0.86,
+      "gr6_writing": 0.8600000000000001,
+      "gr6_math": 0.475,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6475000000000001
+    }
+  },
+  {
+    "school_number": "383260",
+    "school_name": "Trillium Elementary School",
+    "level": "Elementary",
+    "address": "1515 Varennes Blvd",
+    "city": "Orleans",
+    "postal_code": "K4A3S1",
+    "latitude": 45.47945,
+    "longitude": -75.4737,
+    "phone": "613-841-7393",
+    "email": "nan",
+    "website": "https://trilliumes.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1994-09-01 00:00:00",
+    "enrolment": 390,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 616,
+      "enrolment_oct23": 394,
+      "utilization_rate_pct": 0.64
+    },
+    "eqao": {
+      "gr3_reading": 0.665,
+      "gr3_writing": 0.5700000000000001,
+      "gr3_math": 0.505,
+      "gr6_reading": 0.885,
+      "gr6_writing": 0.8300000000000001,
+      "gr6_math": 0.515,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6616666666666667
+    }
+  },
+  {
+    "school_number": "949159",
+    "school_name": "Urban Aboriginal Alternate High School",
+    "level": "Secondary",
+    "address": "440 Albert Street",
+    "city": "Ottawa",
+    "postal_code": "K1R5B5",
+    "latitude": 45.41683,
+    "longitude": -75.7063,
+    "phone": "613-746-6328",
+    "email": "nan",
+    "website": "https://urbanaboriginalalt.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "2004-09-01 00:00:00",
+    "enrolment": null,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": null,
+      "parents_no_degree_pct": null,
+      "special_ed_pct": null,
+      "gifted_pct": null,
+      "ell_pct": null,
+      "newcomer_pct": null
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.75,
+      "gr3_writing": 0.65,
+      "gr3_math": 0.66,
+      "gr6_reading": 0.84,
+      "gr6_writing": 0.87,
+      "gr6_math": 0.32,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6816666666666666
+    }
+  },
+  {
+    "school_number": "396902",
+    "school_name": "Vimy Ridge Public School",
+    "level": "Elementary",
+    "address": "4180 Kelly Farm Drive",
+    "city": "Ottawa",
+    "postal_code": "K1T4J2",
+    "latitude": 45.31811,
+    "longitude": -75.6042,
+    "phone": "613-425-4400",
+    "email": "nan",
+    "website": "https://vimyridgeps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "2017-09-05 00:00:00",
+    "enrolment": 550,
+    "fsl_programs": [],
+    "demographics": {
+      "low_income_pct": 0.07,
+      "parents_no_degree_pct": 0.03,
+      "special_ed_pct": 0.12,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.4,
+      "newcomer_pct": 0.08
+    },
+    "capacity": {
+      "otg_capacity": 674,
+      "enrolment_oct23": 959,
+      "utilization_rate_pct": 1.42
+    },
+    "eqao": {
+      "gr3_reading": 0.79,
+      "gr3_writing": 0.79,
+      "gr3_math": 0.71,
+      "gr6_reading": 0.85,
+      "gr6_writing": 0.855,
+      "gr6_math": 0.495,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7483333333333334
+    }
+  },
+  {
+    "school_number": "577405",
+    "school_name": "Vincent Massey Public School",
+    "level": "Elementary",
+    "address": "745 Smyth Rd",
+    "city": "Ottawa",
+    "postal_code": "K1G1N9",
+    "latitude": 45.40067,
+    "longitude": -75.6362,
+    "phone": "613-733-5955",
+    "email": "nan",
+    "website": "https://vincentmasseyps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 765,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.16,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.14,
+      "gifted_pct": 0.06,
+      "ell_pct": 0.39,
+      "newcomer_pct": 0.23
+    },
+    "capacity": {
+      "otg_capacity": 693,
+      "enrolment_oct23": 771,
+      "utilization_rate_pct": 1.11
+    },
+    "eqao": {
+      "gr3_reading": 0.64,
+      "gr3_writing": 0.5900000000000001,
+      "gr3_math": 0.62,
+      "gr6_reading": 0.8200000000000001,
+      "gr6_writing": 0.84,
+      "gr6_math": 0.47000000000000003,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6633333333333333
+    }
+  },
+  {
+    "school_number": "578576",
+    "school_name": "Viscount Alexander Public School",
+    "level": "Elementary",
+    "address": "55 Mann Ave",
+    "city": "Ottawa",
+    "postal_code": "K1N6Y7",
+    "latitude": 45.42027,
+    "longitude": -75.675,
+    "phone": "613-239-2213",
+    "email": "nan",
+    "website": "https://viscountalexanderps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1974-09-04 00:00:00",
+    "enrolment": 205,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.25,
+      "parents_no_degree_pct": 0.05,
+      "special_ed_pct": 0.2,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.5,
+      "newcomer_pct": 0.35
+    },
+    "capacity": {
+      "otg_capacity": 188,
+      "enrolment_oct23": 193,
+      "utilization_rate_pct": 1.03
+    },
+    "eqao": {
+      "gr3_reading": 0.42,
+      "gr3_writing": 0.37,
+      "gr3_math": 0.45,
+      "gr6_reading": 1.0,
+      "gr6_writing": 1.0,
+      "gr6_math": 0.53,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6283333333333334
+    }
+  },
+  {
+    "school_number": "579297",
+    "school_name": "W. Erskine Johnston Public School",
+    "level": "Elementary",
+    "address": "50 Varley Dr",
+    "city": "Kanata",
+    "postal_code": "K2K1G7",
+    "latitude": 45.33298,
+    "longitude": -75.9089,
+    "phone": "613-592-4492",
+    "email": "nan",
+    "website": "https://werskinejohnstonps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1971-09-30 00:00:00",
+    "enrolment": 745,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.08,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.05,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.62,
+      "newcomer_pct": 0.24
+    },
+    "capacity": {
+      "otg_capacity": 556,
+      "enrolment_oct23": 756,
+      "utilization_rate_pct": 1.36
+    },
+    "eqao": {
+      "gr3_reading": 0.785,
+      "gr3_writing": 0.76,
+      "gr3_math": 0.735,
+      "gr6_reading": 0.8200000000000001,
+      "gr6_writing": 0.835,
+      "gr6_math": 0.63,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.7608333333333333
+    }
+  },
+  {
+    "school_number": "579351",
+    "school_name": "W.E. Gowling Public School",
+    "level": "Elementary",
+    "address": "250 Anna St",
+    "city": "Ottawa",
+    "postal_code": "K1Z7V6",
+    "latitude": 45.38239,
+    "longitude": -75.7316,
+    "phone": "613-728-3537",
+    "email": "nan",
+    "website": "https://wegowlingps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 450,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.2,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.2,
+      "newcomer_pct": 0.1
+    },
+    "capacity": {
+      "otg_capacity": 615,
+      "enrolment_oct23": 450,
+      "utilization_rate_pct": 0.73
+    },
+    "eqao": {
+      "gr3_reading": 0.61,
+      "gr3_writing": 0.5449999999999999,
+      "gr3_math": 0.55,
+      "gr6_reading": 0.735,
+      "gr6_writing": 0.735,
+      "gr6_math": 0.5,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.6124999999999999
+    }
+  },
+  {
+    "school_number": "061972",
+    "school_name": "W.O. Mitchell Elementary School",
+    "level": "Elementary",
+    "address": "80 Steeple Chase Dr",
+    "city": "Kanata",
+    "postal_code": "K2M2A6",
+    "latitude": 45.29911,
+    "longitude": -75.8578,
+    "phone": "613-271-1806",
+    "email": "",
+    "website": "https://womitchelles.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "",
+    "enrolment": 495,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.0,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.15,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.25,
+      "newcomer_pct": 0.0
+    },
+    "capacity": {
+      "otg_capacity": 516,
+      "enrolment_oct23": 517,
+      "utilization_rate_pct": 1.0
+    },
+    "eqao": {
+      "gr3_reading": 0.715,
+      "gr3_writing": 0.59,
+      "gr3_math": 0.61,
+      "gr6_reading": 0.885,
+      "gr6_writing": 0.905,
+      "gr6_math": 0.675,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.73
+    }
+  },
+  {
+    "school_number": "473973",
+    "school_name": "Wazoson Public School",
+    "level": "Elementary",
+    "address": "989 Kilbirnie Dr",
+    "city": "Nepean",
+    "postal_code": "K2J6E6",
+    "latitude": 45.23942886,
+    "longitude": -75.73443663,
+    "phone": "nan",
+    "email": "nan",
+    "website": "nan",
+    "grade_range": "JK-6",
+    "date_open": "2023-09-01 00:00:00",
+    "enrolment": 745,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.06,
+      "parents_no_degree_pct": 0.01,
+      "special_ed_pct": 0.07,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.46,
+      "newcomer_pct": 0.17
+    },
+    "capacity": {
+      "otg_capacity": 674,
+      "enrolment_oct23": 583,
+      "utilization_rate_pct": 0.86
+    },
+    "eqao": {
+      "gr3_reading": 0.825,
+      "gr3_writing": 0.72,
+      "gr3_math": 0.73,
+      "gr6_reading": 0.9550000000000001,
+      "gr6_writing": 0.935,
+      "gr6_math": 0.675,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.8066666666666666
+    }
+  },
+  {
+    "school_number": "951366",
+    "school_name": "West Carleton Secondary School",
+    "level": "Secondary",
+    "address": "3088 Dunrobin Rd",
+    "city": "Dunrobin",
+    "postal_code": "K0A1T0",
+    "latitude": 45.43432,
+    "longitude": -76.0351,
+    "phone": "613-832-2773",
+    "email": "nan",
+    "website": "https://westcarletonss.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1988-09-01 00:00:00",
+    "enrolment": 1290,
+    "fsl_programs": [
+      "Core French",
+      "Extended French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.03,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.28,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.21,
+      "newcomer_pct": 0.02
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": 0.72,
+      "gr3_writing": 0.42,
+      "gr3_math": 0.6,
+      "gr6_reading": 0.8,
+      "gr6_writing": 0.68,
+      "gr6_math": 0.34,
+      "gr9_math": 0.78,
+      "osslt": 0.94,
+      "academic_average": 0.66
+    }
+  },
+  {
+    "school_number": "624500",
+    "school_name": "Westwind Public School",
+    "level": "Elementary",
+    "address": "111 Hartsmere Dr",
+    "city": "Ottawa",
+    "postal_code": "K2S2G1",
+    "latitude": 45.24662,
+    "longitude": -75.9069,
+    "phone": "613-831-7840",
+    "email": "nan",
+    "website": "https://westwindps.ocdsb.ca/",
+    "grade_range": "JK-6",
+    "date_open": "2011-09-01 00:00:00",
+    "enrolment": 615,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.03,
+      "parents_no_degree_pct": 0.0,
+      "special_ed_pct": 0.07,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.23,
+      "newcomer_pct": 0.05
+    },
+    "capacity": {
+      "otg_capacity": 628,
+      "enrolment_oct23": 656,
+      "utilization_rate_pct": 1.04
+    },
+    "eqao": {
+      "gr3_reading": 0.9,
+      "gr3_writing": 0.7150000000000001,
+      "gr3_math": 0.755,
+      "gr6_reading": 0.97,
+      "gr6_writing": 0.94,
+      "gr6_math": 0.665,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.8241666666666666
+    }
+  },
+  {
+    "school_number": "619523",
+    "school_name": "Woodroffe Avenue Public School",
+    "level": "Elementary",
+    "address": "235 Woodroffe Ave",
+    "city": "Ottawa",
+    "postal_code": "K2A3V3",
+    "latitude": 45.37425,
+    "longitude": -75.7724,
+    "phone": "613-722-6585",
+    "email": "nan",
+    "website": "https://woodroffeaveps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 550,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.09,
+      "parents_no_degree_pct": 0.02,
+      "special_ed_pct": 0.13,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.15,
+      "newcomer_pct": 0.03
+    },
+    "capacity": {
+      "otg_capacity": 568,
+      "enrolment_oct23": 543,
+      "utilization_rate_pct": 0.96
+    },
+    "eqao": {
+      "gr3_reading": 0.815,
+      "gr3_writing": 0.73,
+      "gr3_math": 0.69,
+      "gr6_reading": 1.0,
+      "gr6_writing": 0.96,
+      "gr6_math": 0.78,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.8291666666666667
+    }
+  },
+  {
+    "school_number": "954420",
+    "school_name": "Woodroffe High School",
+    "level": "Secondary",
+    "address": "2410 Georgina Dr",
+    "city": "Ottawa",
+    "postal_code": "K2B7M8",
+    "latitude": 45.36254,
+    "longitude": -75.7798,
+    "phone": "613-820-7186",
+    "email": "nan",
+    "website": "https://woodroffehs.ocdsb.ca/",
+    "grade_range": "9-12",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 900,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.13,
+      "parents_no_degree_pct": 0.07,
+      "special_ed_pct": 0.27,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.44,
+      "newcomer_pct": 0.21
+    },
+    "capacity": null,
+    "eqao": {
+      "gr3_reading": null,
+      "gr3_writing": null,
+      "gr3_math": null,
+      "gr6_reading": null,
+      "gr6_writing": null,
+      "gr6_math": null,
+      "gr9_math": 0.5599999999999999,
+      "osslt": 0.8700000000000001,
+      "academic_average": 0.7150000000000001
+    }
+  },
+  {
+    "school_number": "624330",
+    "school_name": "York Street Public School",
+    "level": "Elementary",
+    "address": "310 York St",
+    "city": "Ottawa",
+    "postal_code": "K1N5V3",
+    "latitude": 45.43209,
+    "longitude": -75.683,
+    "phone": "613-239-2214",
+    "email": "nan",
+    "website": "https://yorkstreetps.ocdsb.ca/",
+    "grade_range": "JK-8",
+    "date_open": "1969-09-01 00:00:00",
+    "enrolment": 275,
+    "fsl_programs": [
+      "Core French",
+      "French Immersion"
+    ],
+    "demographics": {
+      "low_income_pct": 0.3,
+      "parents_no_degree_pct": 0.1,
+      "special_ed_pct": 0.1,
+      "gifted_pct": 0.0,
+      "ell_pct": 0.45,
+      "newcomer_pct": 0.3
+    },
+    "capacity": {
+      "otg_capacity": 369,
+      "enrolment_oct23": 249,
+      "utilization_rate_pct": 0.67
+    },
+    "eqao": {
+      "gr3_reading": 0.5549999999999999,
+      "gr3_writing": 0.51,
+      "gr3_math": 0.45499999999999996,
+      "gr6_reading": 0.77,
+      "gr6_writing": 0.81,
+      "gr6_math": 0.4,
+      "gr9_math": null,
+      "osslt": null,
+      "academic_average": 0.5833333333333334
+    }
+  }
+]

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ottawa School Zone Analyzer - OCDSB Catchment Evaluation Tool</title>
+    <meta name="description" content="Evaluate all 120+ Ottawa-Carleton District School Board (OCDSB) schools. Rank and analyze catchments based on EQAO academics, capacity utilization, FSL programs, and demographics.">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Controls -->
+        <aside>
+            <div class="logo-container">
+                <h1 class="logo-title">
+                    <span style="color: var(--accent);">⎔</span> SchoolZone
+                </h1>
+                <div class="logo-subtitle">Ottawa OCDSB Analyzer</div>
+            </div>
+
+            <!-- Search and Level Filters -->
+            <div class="filter-section">
+                <h2 class="filter-title">Search & Panel</h2>
+                <div class="search-wrapper">
+                    <input type="text" id="search-input" class="search-input" placeholder="Search school name, city, postal code...">
+                    <span class="search-icon">🔍</span>
+                </div>
+                
+                <div class="btn-group-toggle" id="level-toggle-group">
+                    <button id="level-all-btn" class="toggle-btn active">All</button>
+                    <button id="level-elem-btn" class="toggle-btn">Elementary</button>
+                    <button id="level-sec-btn" class="toggle-btn">Secondary</button>
+                </div>
+            </div>
+
+            <!-- FSL Program Filters -->
+            <div class="filter-section">
+                <h2 class="filter-title">French Programs (AND)</h2>
+                <div class="checkbox-group" id="fsl-checkboxes">
+                    <label class="checkbox-label" id="lbl-prog-core">
+                        <input type="checkbox" id="prog-core">
+                        <span>Core French</span>
+                    </label>
+                    <label class="checkbox-label" id="lbl-prog-immersion">
+                        <input type="checkbox" id="prog-immersion">
+                        <span>French Immersion</span>
+                    </label>
+                    <label class="checkbox-label" id="lbl-prog-extended">
+                        <input type="checkbox" id="prog-extended">
+                        <span>Extended French</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Rank Tier Filters -->
+            <div class="filter-section">
+                <h2 class="filter-title">Rank Tier (OR)</h2>
+                <div class="checkbox-group" id="tier-checkboxes">
+                    <label class="checkbox-label" id="lbl-tier-1">
+                        <input type="checkbox" id="tier-1-chk">
+                        <span class="badge-tag green" style="font-size:0.8rem; padding:0.15rem 0.4rem;">Tier 1 (Top 20%)</span>
+                    </label>
+                    <label class="checkbox-label" id="lbl-tier-2">
+                        <input type="checkbox" id="tier-2-chk">
+                        <span class="badge-tag yellow" style="font-size:0.8rem; padding:0.15rem 0.4rem; background-color:rgba(59,130,246,0.15); color:#3b82f6;">Tier 2 (Middle 60%)</span>
+                    </label>
+                    <label class="checkbox-label" id="lbl-tier-3">
+                        <input type="checkbox" id="tier-3-chk">
+                        <span class="badge-tag red" style="font-size:0.8rem; padding:0.15rem 0.4rem;">Tier 3 (Bottom 20%)</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Score Weights Adjuster -->
+            <div class="filter-section">
+                <h2 class="filter-title">Custom Score Weights</h2>
+                <div class="slider-group">
+                    <div class="slider-item" id="slider-academics-item">
+                        <div class="slider-header">
+                            <span class="slider-name">Academic (EQAO)</span>
+                            <span id="weight-academics-val" class="slider-val">40%</span>
+                        </div>
+                        <input type="range" id="weight-academics" class="slider-input" min="0" max="100" value="40">
+                    </div>
+                    
+                    <div class="slider-item" id="slider-capacity-item">
+                        <div class="slider-header">
+                            <span class="slider-name">Capacity Health</span>
+                            <span id="weight-capacity-val" class="slider-val">30%</span>
+                        </div>
+                        <input type="range" id="weight-capacity" class="slider-input" min="0" max="100" value="30">
+                    </div>
+                    
+                    <div class="slider-item" id="slider-programs-item">
+                        <div class="slider-header">
+                            <span class="slider-name">FSL Offerings</span>
+                            <span id="weight-programs-val" class="slider-val">15%</span>
+                        </div>
+                        <input type="range" id="weight-programs" class="slider-input" min="0" max="100" value="15">
+                    </div>
+                    
+                    <div class="slider-item" id="slider-demographics-item">
+                        <div class="slider-header">
+                            <span class="slider-name">Community Index</span>
+                            <span id="weight-demographics-val" class="slider-val">15%</span>
+                        </div>
+                        <input type="range" id="weight-demographics" class="slider-input" min="0" max="100" value="15">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weight presets -->
+            <div class="filter-section">
+                <h2 class="filter-title">Weight Presets</h2>
+                <div class="presets-grid">
+                    <button id="preset-balanced" class="preset-btn active">Balanced</button>
+                    <button id="preset-academic" class="preset-btn">Academic Focus</button>
+                    <button id="preset-capacity" class="preset-btn">Capacity Health</button>
+                    <button id="preset-equal" class="preset-btn">Equal Split</button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Panel -->
+        <main>
+            <!-- Top Dashboard Bar -->
+            <div class="dash-header">
+                <div class="header-meta">
+                    <h2 class="header-title" id="main-header-title">Ottawa OCDSB Catchments</h2>
+                    <p class="header-subtitle" id="main-header-subtitle">Evaluate and compare schools for your move</p>
+                </div>
+                <div class="layout-toggles">
+                    <button id="layout-grid-btn" class="layout-btn active" title="Grid Layout">
+                        <span style="font-size:1.1rem;">⚃</span>
+                    </button>
+                    <button id="layout-table-btn" class="layout-btn" title="Table Layout">
+                        <span style="font-size:1.1rem;">⌸</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Summary statistics strip -->
+            <div class="stats-strip" id="stats-dashboard-strip">
+                <div class="stat-card" id="stat-total-schools">
+                    <span class="stat-label">Total Schools</span>
+                    <span id="stat-total-count" class="stat-value">...</span>
+                    <span id="stat-total-desc" class="stat-desc">...</span>
+                </div>
+                <div class="stat-card" id="stat-avg-academic">
+                    <span class="stat-label">Average EQAO</span>
+                    <span id="stat-avg-eqao" class="stat-value">...</span>
+                    <span class="stat-desc">At provincial standard (3-year average)</span>
+                </div>
+                <div class="stat-card" id="stat-avg-utilization">
+                    <span class="stat-label">Elementary Utilization</span>
+                    <span id="stat-avg-capacity" class="stat-value">...</span>
+                    <span class="stat-desc">On-the-ground capacity utilization rate</span>
+                </div>
+            </div>
+
+            <!-- Compare Floating Panel -->
+            <div class="compare-container" id="compare-panel" style="display: none;">
+                <div class="compare-header">
+                    <h3 style="font-size:1.1rem; font-weight:700;">Compare Schools Shortlist</h3>
+                    <button id="clear-compare-btn" class="preset-btn" style="padding:0.3rem 0.6rem;">Clear All</button>
+                </div>
+                <div class="compare-chips" id="compare-chips">
+                    <!-- Chips inserted dynamically -->
+                </div>
+                <button id="compare-action-btn" class="toggle-btn active" style="width:100%; font-size:0.9rem; padding:0.6rem;" disabled>
+                    Compare Schools
+                </button>
+            </div>
+
+            <!-- Grid or Table Area -->
+            <div id="schools-container">
+                <!-- Rendered dynamically -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Slide-Out School Detail Modal -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content" id="modal-container">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <span id="modal-level" class="modal-level">...</span>
+                    <h2 id="modal-school-name" class="modal-title">...</h2>
+                </div>
+                <button id="close-modal-btn" class="close-btn">&times;</button>
+            </div>
+            
+            <div id="modal-score-circle" style="display:flex; align-items:center; gap:1.25rem; background-color:rgba(255,255,255,0.02); border:1px solid var(--border-color); padding:1rem 1.25rem; border-radius:var(--radius-md);">
+                <div id="modal-score-badge" class="score-badge">...</div>
+                <div>
+                    <div style="font-weight:700; font-size:1.1rem;">Rank Score</div>
+                    <div style="font-size:0.8rem; color:var(--text-secondary);">Calculated using your custom weights in the sidebar.</div>
+                </div>
+            </div>
+
+            <!-- School Details grid -->
+            <div class="modal-section" id="modal-info-section">
+                <h3 class="modal-section-title">School Contact & Information</h3>
+                <div class="detail-grid">
+                    <div class="detail-item">
+                        <span class="detail-label">Address</span>
+                        <span id="detail-address" class="detail-value">...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">City</span>
+                        <span id="detail-city" class="detail-value">...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Postal Code</span>
+                        <span id="detail-postal" class="detail-value">...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Phone</span>
+                        <span id="detail-phone" class="detail-value">...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Website</span>
+                        <span id="detail-website" class="detail-value">...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Email</span>
+                        <span id="detail-email" class="detail-value">...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Enrolment (24-25)</span>
+                        <span id="detail-enrolment" class="detail-value">...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">FSL Programs</span>
+                        <span id="detail-programs" class="detail-value">...</span>
+                    </div>
+                </div>
+                <div style="display:flex; gap:0.75rem; margin-top:0.5rem;">
+                    <a id="link-google-maps" href="#" target="_blank" class="preset-btn" style="text-decoration:none; padding:0.5rem 1rem;">🗺 View on Google Maps</a>
+                    <a id="link-school-locator" href="#" target="_blank" class="preset-btn" style="text-decoration:none; padding:0.5rem 1rem;">🔍 OCDSB School Locator</a>
+                </div>
+            </div>
+
+            <!-- Capacity details -->
+            <div class="modal-section">
+                <h3 class="modal-section-title">Capacity & Utilization</h3>
+                <div id="modal-capacity-section">
+                    <!-- Rendered dynamically -->
+                </div>
+            </div>
+
+            <!-- EQAO averages chart -->
+            <div class="modal-section">
+                <h3 class="modal-section-title">EQAO Academic Scores (3-Year Avg)</h3>
+                <div id="modal-eqao-chart" class="chart-container">
+                    <!-- Progress bars rendered dynamically -->
+                </div>
+            </div>
+
+            <!-- Demographics section -->
+            <div class="modal-section">
+                <h3 class="modal-section-title">Socio-Economic & Student Demographics</h3>
+                <div id="modal-demographics-section" class="chart-container">
+                    <!-- Demographics info rendered dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comparison Modal Overlay -->
+    <div id="compare-overlay" class="modal-overlay" style="justify-content:center;">
+        <div class="compare-modal-content" id="compare-modal-box">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <span class="modal-level">Comparative Matrix</span>
+                    <h2 class="modal-title">Shortlisted Schools Side-by-Side</h2>
+                </div>
+                <button id="close-compare-btn" class="close-btn">&times;</button>
+            </div>
+            
+            <div id="compare-matrix-container" style="margin-top:1rem; overflow-x:auto;">
+                <!-- Table inserted dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
