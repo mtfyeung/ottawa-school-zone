@@ -2,6 +2,8 @@
 
 An interactive, data-driven dashboard to evaluate and rank all ~120+ Ottawa-Carleton District School Board (OCDSB) schools. This tool helps families moving to Ottawa evaluate school catchments based on academics, capacity health, French program offerings, and socio-economic demographics.
 
+**Live Application:** [https://mtfyeung.github.io/ottawa-school-zone/](https://mtfyeung.github.io/ottawa-school-zone/)
+
 ## Data Sources
 
 All data used in this dashboard is sourced from verified public repositories:
