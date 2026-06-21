@@ -1053,13 +1053,13 @@ function openCompareModal() {
     tableBodyHTML += makeRow('Socio-Economic Index Score', s => s.scores.demographics, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
     
     // 2. Capacity Details
-    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(255,255,255,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">Enrollment & Capacity</td></tr>`;
+    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">Enrollment & Capacity</td></tr>`;
     tableBodyHTML += makeRow('Total Enrolment', s => s.enrolment, (val) => val ? val.toLocaleString() : 'N/A');
     tableBodyHTML += makeRow('On-The-Ground Capacity', s => s.capacity ? s.capacity.otg_capacity : null, (val) => val ? val.toLocaleString() : 'N/A');
     tableBodyHTML += makeRow('Utilization Rate', s => s.capacity ? s.capacity.utilization_rate_pct : null, (val) => formatPercent(val));
     
     // 3. EQAO Breakdown
-    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(255,255,255,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">EQAO Achievements (3-Year Avg)</td></tr>`;
+    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">EQAO Achievements (3-Year Avg)</td></tr>`;
     tableBodyHTML += makeRow('Grade 3 Reading', s => s.eqao ? s.eqao.gr3_reading : null, formatPercent);
     tableBodyHTML += makeRow('Grade 3 Writing', s => s.eqao ? s.eqao.gr3_writing : null, formatPercent);
     tableBodyHTML += makeRow('Grade 3 Math', s => s.eqao ? s.eqao.gr3_math : null, formatPercent);
@@ -1070,7 +1070,7 @@ function openCompareModal() {
     tableBodyHTML += makeRow('Grade 10 OSSLT (Literacy)', s => s.eqao ? s.eqao.osslt : null, formatPercent);
     
     // 4. Demographics
-    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(255,255,255,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">Demographics & Community</td></tr>`;
+    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">Demographics & Community</td></tr>`;
     tableBodyHTML += makeRow('Low-Income Households', s => s.demographics ? s.demographics.low_income_pct : null, formatPercent);
     tableBodyHTML += makeRow('Parents with No Degree', s => s.demographics ? s.demographics.parents_no_degree_pct : null, formatPercent);
     tableBodyHTML += makeRow('Special Education Services', s => s.demographics ? s.demographics.special_ed_pct : null, formatPercent);
@@ -1078,7 +1078,7 @@ function openCompareModal() {
     tableBodyHTML += makeRow('English Language Learners', s => s.demographics ? s.demographics.ell_pct : null, formatPercent);
     
     // 5. General Info
-    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(255,255,255,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">School Information</td></tr>`;
+    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">School Information</td></tr>`;
     tableBodyHTML += makeRow('FSL Programs Offered', s => s.fsl_programs, (val) => val.length > 0 ? val.join('<br>') : 'Core French');
     tableBodyHTML += makeRow('Address', s => `${s.address}, ${s.city}`, (val) => val);
     tableBodyHTML += makeRow('Website Link', s => s.website, (val) => val ? `<a href="${val}" target="_blank" style="color:var(--accent); text-decoration:none;">Visit Website ↗</a>` : 'N/A');
@@ -1114,8 +1114,8 @@ function initMap() {
     // Initialize map centered on Ottawa
     map = L.map('map').setView([45.38, -75.7], 11);
     
-    // Add CartoDB Dark Matter tile layer
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    // Add CartoDB Positron (light) tile layer
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
         subdomains: 'abcd',
         maxZoom: 20

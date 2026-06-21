@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --bg-primary: #080c14;
-    --bg-secondary: #0f1626;
-    --bg-card: rgba(17, 25, 43, 0.7);
-    --bg-card-hover: rgba(22, 34, 59, 0.85);
-    --bg-modal: #0d1321;
+    --bg-primary: #f1f5f9;
+    --bg-secondary: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-hover: #ffffff;
+    --bg-modal: #ffffff;
     
-    --border-color: rgba(255, 255, 255, 0.06);
-    --border-hover: rgba(255, 255, 255, 0.12);
-    --border-active: rgba(99, 102, 241, 0.4);
+    --border-color: #e2e8f0;
+    --border-hover: #cbd5e1;
+    --border-active: #6366f1;
     
-    --text-primary: #f3f4f6;
-    --text-secondary: #9ca3af;
-    --text-muted: #6b7280;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
     
-    --accent: #6366f1;
-    --accent-hover: #4f46e5;
-    --accent-glow: rgba(99, 102, 241, 0.25);
+    --accent: #4f46e5;
+    --accent-hover: #4338ca;
+    --accent-glow: rgba(79, 70, 229, 0.08);
     
     --success: #10b981;
-    --success-glow: rgba(16, 185, 129, 0.15);
+    --success-glow: rgba(16, 185, 129, 0.08);
     --warning: #f59e0b;
-    --warning-glow: rgba(245, 158, 11, 0.15);
+    --warning-glow: rgba(245, 158, 11, 0.08);
     --danger: #ef4444;
-    --danger-glow: rgba(239, 68, 68, 0.15);
+    --danger-glow: rgba(239, 68, 68, 0.08);
     
     --tier-1: #10b981;
     --tier-2: #3b82f6;
@@ -33,10 +33,10 @@
     --font-display: 'Outfit', 'Inter', sans-serif;
     --font-body: 'Inter', sans-serif;
     
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
-    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.5);
-    --shadow-accent: 0 0 20px rgba(99, 102, 241, 0.2);
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 10px 30px -10px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    --shadow-accent: 0 0 15px rgba(79, 70, 229, 0.1);
     
     --radius-sm: 6px;
     --radius-md: 12px;
@@ -117,7 +117,7 @@ aside {
 .logo-title {
     font-size: 1.5rem;
     font-weight: 800;
-    background: linear-gradient(135deg, #fff 0%, var(--text-secondary) 100%);
+    background: linear-gradient(135deg, var(--accent) 0%, #3b82f6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: flex;
@@ -154,7 +154,7 @@ aside {
 
 .search-input {
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: #f8fafc;
     border: 1px solid var(--border-color);
     color: var(--text-primary);
     padding: 0.75rem 1rem 0.75rem 2.5rem;
@@ -167,8 +167,8 @@ aside {
 .search-input:focus {
     outline: none;
     border-color: var(--accent);
-    background-color: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+    background-color: #ffffff;
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.15);
 }
 
 .search-icon {
@@ -183,7 +183,7 @@ aside {
 .btn-group-toggle {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgba(255, 255, 255, 0.02);
+    background-color: #f1f5f9;
     border: 1px solid var(--border-color);
     border-radius: var(--radius-md);
     padding: 3px;
@@ -275,7 +275,7 @@ aside {
 }
 
 .preset-btn {
-    background: rgba(255, 255, 255, 0.03);
+    background: #f8fafc;
     border: 1px solid var(--border-color);
     color: var(--text-secondary);
     font-family: var(--font-body);
@@ -289,7 +289,7 @@ aside {
 }
 
 .preset-btn:hover {
-    background-color: rgba(255, 255, 255, 0.06);
+    background-color: #f1f5f9;
     color: var(--text-primary);
     border-color: var(--border-hover);
 }
@@ -297,7 +297,7 @@ aside {
 .preset-btn.active {
     border-color: var(--accent);
     color: var(--accent);
-    background-color: rgba(99, 102, 241, 0.08);
+    background-color: rgba(79, 70, 229, 0.08);
 }
 
 /* Main Panel Styling */
@@ -338,7 +338,7 @@ main {
 }
 
 .layout-btn {
-    background: rgba(255, 255, 255, 0.03);
+    background: #ffffff;
     border: 1px solid var(--border-color);
     color: var(--text-secondary);
     padding: 0.5rem;
@@ -351,7 +351,7 @@ main {
 }
 
 .layout-btn:hover {
-    background-color: rgba(255, 255, 255, 0.06);
+    background-color: #f1f5f9;
     color: var(--text-primary);
 }
 
@@ -429,7 +429,7 @@ main {
     transition: var(--transition-normal);
     position: relative;
     overflow: hidden;
-    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-md);
 }
 
 .school-card::before {
@@ -439,7 +439,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.02) 0%, transparent 50%);
+    background: radial-gradient(circle at 80% 20%, rgba(79, 70, 229, 0.02) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -447,7 +447,7 @@ main {
     transform: translateY(-4px);
     background: var(--bg-card-hover);
     border-color: var(--border-active);
-    box-shadow: var(--shadow-accent), var(--shadow-md);
+    box-shadow: var(--shadow-accent), 0 20px 40px -15px rgba(79, 70, 229, 0.12);
 }
 
 .card-header {
@@ -617,7 +617,7 @@ main {
 }
 
 .school-table th {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #f8fafc;
     font-weight: 700;
     color: var(--text-secondary);
     text-transform: uppercase;
@@ -631,7 +631,7 @@ main {
 
 .school-table th:hover {
     color: var(--text-primary);
-    background-color: rgba(255, 255, 255, 0.02);
+    background-color: #f1f5f9;
 }
 
 .school-table tbody tr {
