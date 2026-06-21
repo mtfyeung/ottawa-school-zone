@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ottawa School Zone Analyzer - OCDSB Catchment Evaluation Tool</title>
     <meta name="description" content="Evaluate all 120+ Ottawa-Carleton District School Board (OCDSB) schools. Rank and analyze catchments based on EQAO academics, capacity utilization, FSL programs, and demographics.">
+    <!-- Leaflet.js Mapping Library -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
     <div class="app-container">
@@ -136,6 +139,9 @@
                     <button id="layout-table-btn" class="layout-btn" title="Table Layout">
                         <span style="font-size:1.1rem;">⌸</span>
                     </button>
+                    <button id="layout-map-btn" class="layout-btn" title="Map Layout">
+                        <span style="font-size:1.1rem;">🗺️</span>
+                    </button>
                 </div>
             </div>
 
@@ -175,6 +181,11 @@
             <!-- Grid or Table Area -->
             <div id="schools-container">
                 <!-- Rendered dynamically -->
+            </div>
+
+            <!-- Map Area -->
+            <div id="map-container" style="display: none;">
+                <div id="map"></div>
             </div>
         </main>
     </div>

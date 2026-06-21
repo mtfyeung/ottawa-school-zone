@@ -2,7 +2,9 @@
 let schoolsData = [];
 let filteredSchools = [];
 let comparisonList = [];
-let activeLayout = 'grid'; // 'grid' or 'table'
+let activeLayout = 'grid'; // 'grid' or 'table' or 'map'
+let map = null;
+let mapMarkers = [];
 let currentFilters = {
     search: '',
     level: 'all', // 'all', 'elementary', 'secondary'
@@ -40,6 +42,7 @@ let sortAscending = false;
 const searchInput = document.getElementById('search-input');
 const layoutGridBtn = document.getElementById('layout-grid-btn');
 const layoutTableBtn = document.getElementById('layout-table-btn');
+const layoutMapBtn = document.getElementById('layout-map-btn');
 const levelAllBtn = document.getElementById('level-all-btn');
 const levelElemBtn = document.getElementById('level-elem-btn');
 const levelSecBtn = document.getElementById('level-sec-btn');
@@ -92,6 +95,7 @@ function setupEventListeners() {
     // Layout toggles
     layoutGridBtn.addEventListener('click', () => setLayout('grid'));
     layoutTableBtn.addEventListener('click', () => setLayout('table'));
+    layoutMapBtn.addEventListener('click', () => setLayout('map'));
 
     // Program checkboxes
     document.getElementById('prog-core').addEventListener('change', (e) => {
@@ -247,8 +251,21 @@ function setLayout(layout) {
     activeLayout = layout;
     layoutGridBtn.classList.toggle('active', layout === 'grid');
     layoutTableBtn.classList.toggle('active', layout === 'table');
+    layoutMapBtn.classList.toggle('active', layout === 'map');
     
-    renderSchoolsList();
+    const schoolsContainer = document.getElementById('schools-container');
+    const mapContainer = document.getElementById('map-container');
+    
+    if (layout === 'map') {
+        schoolsContainer.style.display = 'none';
+        mapContainer.style.display = 'block';
+        initMap();
+        renderMapMarkers();
+    } else {
+        schoolsContainer.style.display = 'block';
+        mapContainer.style.display = 'none';
+        renderSchoolsList();
+    }
 }
 
 // Score Calculation Logic
@@ -383,7 +400,11 @@ function applyFilters() {
     
     // Sort
     sortFilteredData();
-    renderSchoolsList();
+    if (activeLayout === 'map') {
+        renderMapMarkers();
+    } else {
+        renderSchoolsList();
+    }
 }
 
 function sortFilteredData() {
@@ -1051,4 +1072,116 @@ function openCompareModal() {
 
 function closeCompareModal() {
     document.getElementById('compare-overlay').classList.remove('active');
+}
+
+// Leaflet Map Integration Functions
+function initMap() {
+    if (map !== null) {
+        // Map already exists, just trigger resize update
+        setTimeout(() => {
+            map.invalidateSize();
+        }, 100);
+        return;
+    }
+    
+    // Initialize map centered on Ottawa
+    map = L.map('map').setView([45.38, -75.7], 11);
+    
+    // Add CartoDB Dark Matter tile layer
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 20
+    }).addTo(map);
+    
+    // Trigger map resize update
+    setTimeout(() => {
+        map.invalidateSize();
+    }, 100);
+}
+
+function renderMapMarkers() {
+    if (!map) return;
+    
+    // Clear old markers
+    mapMarkers.forEach(marker => map.removeLayer(marker));
+    mapMarkers = [];
+    
+    const validSchools = filteredSchools.filter(school => school.latitude && school.longitude);
+    
+    if (validSchools.length === 0) {
+        return;
+    }
+    
+    validSchools.forEach(school => {
+        const lat = school.latitude;
+        const lng = school.longitude;
+        const tier = school.tier;
+        const score = school.composite_score;
+        
+        let color = 'var(--tier-2)'; // Blue
+        if (tier === 1) color = 'var(--tier-1)'; // Green
+        if (tier === 3) color = 'var(--tier-3)'; // Orange/Yellow
+        
+        // Custom Leaflet DivIcon containing SVG marker colored by tier and labeled with score
+        const markerIcon = L.divIcon({
+            className: 'custom-map-marker',
+            html: `
+                <div style="position: relative; display: flex; align-items: center; justify-content: center; width: 36px; height: 36px;">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0 3px 5px rgba(0,0,0,0.5));">
+                        <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2Z" fill="${color}" stroke="#ffffff" stroke-width="1.5"/>
+                    </svg>
+                    <span style="position: absolute; top: 7px; font-size: 0.75rem; font-weight: 800; color: #ffffff; font-family: var(--font-display);">${score}</span>
+                </div>
+            `,
+            iconSize: [36, 36],
+            iconAnchor: [18, 36],
+            popupAnchor: [0, -32]
+        });
+        
+        const marker = L.marker([lat, lng], { icon: markerIcon });
+        
+        // Create popup card content
+        const eqaoVal = school.eqao && school.eqao.academic_average !== null 
+            ? `${Math.round(school.eqao.academic_average * 100)}%` 
+            : 'N/A';
+        const utilizationVal = school.capacity && school.capacity.utilization_rate_pct !== null
+            ? `${Math.round(school.capacity.utilization_rate_pct * 100)}%`
+            : 'N/A';
+            
+        const popupContent = document.createElement('div');
+        popupContent.className = 'map-popup-card';
+        popupContent.innerHTML = `
+            <div class="map-popup-title">${school.school_name}</div>
+            <div class="map-popup-meta">${school.level} School • Grades ${school.grade_range}</div>
+            <div class="card-divider" style="margin: 0.25rem 0; height: 1px; background-color: var(--border-color); width: 100%;"></div>
+            <div class="map-popup-meta" style="margin-bottom: 0.25rem;">📍 ${school.address}, ${school.city}</div>
+            <div class="map-popup-score-row" style="font-size:0.8rem; margin-bottom: 0.2rem;">
+                <span style="color:var(--text-secondary);">Rank Score:</span>
+                <span class="badge-tag tier-${school.tier}" style="font-weight: 700;">${score} (Tier ${school.tier})</span>
+            </div>
+            <div class="map-popup-score-row" style="font-size:0.75rem; margin-bottom: 0.2rem;">
+                <span style="color:var(--text-secondary);">EQAO Average:</span>
+                <span style="font-weight: 600;">${eqaoVal}</span>
+            </div>
+            <div class="map-popup-score-row" style="font-size:0.75rem; margin-bottom: 0.4rem;">
+                <span style="color:var(--text-secondary);">Utilization:</span>
+                <span style="font-weight: 600;">${utilizationVal}</span>
+            </div>
+            <button class="map-popup-btn">View Full Details</button>
+        `;
+        
+        // Add click listener inside popup
+        popupContent.querySelector('.map-popup-btn').addEventListener('click', () => {
+            openDetailsModal(school);
+        });
+        
+        marker.bindPopup(popupContent);
+        marker.addTo(map);
+        mapMarkers.push(marker);
+    });
+    
+    // Auto-fit bounds to active markers
+    const group = new L.featureGroup(mapMarkers);
+    map.fitBounds(group.getBounds().pad(0.1));
 }

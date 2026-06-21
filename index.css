@@ -964,3 +964,116 @@ main {
         overflow-y: visible;
     }
 }
+
+/* Map View Styles */
+#map-container {
+    height: calc(100vh - 280px);
+    min-height: 450px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    position: relative;
+    z-index: 10;
+    box-shadow: var(--shadow-md);
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    background-color: var(--bg-primary);
+}
+
+/* Custom styles for Leaflet elements to match dark mode */
+.leaflet-container {
+    background: var(--bg-primary) !important;
+    font-family: var(--font-body) !important;
+}
+
+.leaflet-bar {
+    border: 1px solid var(--border-color) !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+.leaflet-bar a {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    transition: var(--transition-fast);
+}
+
+.leaflet-bar a:hover {
+    background-color: var(--bg-card-hover) !important;
+    color: var(--accent) !important;
+}
+
+.leaflet-popup-content-wrapper {
+    background: var(--bg-modal) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: var(--radius-md) !important;
+    box-shadow: var(--shadow-md) !important;
+    padding: 0.5rem !important;
+}
+
+.leaflet-popup-tip {
+    background: var(--bg-modal) !important;
+    border-left: 1px solid var(--border-color) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+.leaflet-popup-close-button {
+    color: var(--text-muted) !important;
+    padding: 0.5rem !important;
+}
+
+.leaflet-popup-close-button:hover {
+    color: var(--text-primary) !important;
+}
+
+/* Marker details inside popup */
+.map-popup-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 200px;
+}
+
+.map-popup-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-right: 1.25rem;
+}
+
+.map-popup-meta {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.map-popup-score-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.25rem;
+}
+
+.map-popup-btn {
+    margin-top: 0.5rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--accent);
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.4rem;
+    border-radius: var(--radius-sm);
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-fast);
+}
+
+.map-popup-btn:hover {
+    background-color: var(--accent-hover);
+}
