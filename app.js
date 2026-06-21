@@ -34,7 +34,6 @@ const weightPresets = {
     balanced: { academics: 40, capacity: 30, programs: 15, demographics: 15 }
 };
 
-let activePreset = 'balanced';
 let sortField = 'composite_score';
 let sortAscending = false;
 
@@ -134,7 +133,6 @@ function setupEventListeners() {
         slider.addEventListener('input', (e) => {
             // Remove active state from preset buttons
             document.querySelectorAll('.preset-btn').forEach(btn => btn.classList.remove('active'));
-            activePreset = null;
             
             const newVal = parseInt(e.target.value);
             currentWeights[key] = newVal;
@@ -219,7 +217,6 @@ function normalizeWeights(modifiedKey, modifiedValue) {
 
 // Apply weight preset
 function applyWeightPreset(presetName) {
-    activePreset = presetName;
     currentWeights = { ...weightPresets[presetName] };
     
     document.querySelectorAll('.preset-btn').forEach(btn => {
@@ -527,7 +524,6 @@ function createSchoolCard(school) {
     div.dataset.number = school.school_number;
     
     // Tier styling
-    let tierText = `Tier ${school.tier}`;
     let tierClass = `tier-${school.tier}`;
     
     // EQAO display

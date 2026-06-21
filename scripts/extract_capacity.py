@@ -1,6 +1,5 @@
 import pdfplumber
 import csv
-import os
 
 pdf_path = "data/appendix_a_22901.pdf"
 csv_path = "data/elementary_capacity.csv"

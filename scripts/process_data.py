@@ -190,18 +190,18 @@ def process():
             
         try:
             otg = int(float(r['Capacity'])) if not pd.isna(r['Capacity']) else None
-        except:
+        except Exception:
             otg = None
             
         try:
             enr23 = int(float(r["Oct '23* Enrolment"])) if not pd.isna(r["Oct '23* Enrolment"]) else None
-        except:
+        except Exception:
             enr23 = None
             
         try:
             uf_str = str(r["Oct '23 UF (%)"]).replace('%', '').strip()
             uf = float(uf_str) / 100.0 if uf_str else None
-        except:
+        except Exception:
             uf = None
             
         capacity_map[sn] = {
@@ -247,7 +247,7 @@ def process():
             enrol_str = str(r.get('Enrolment', ''))
             if enrol_str not in ['SP', 'N/D', 'N/R', 'nan', '']:
                 enrolment = int(float(enrol_str))
-        except:
+        except Exception:
             pass
             
         lat = float(r['Latitude']) if not pd.isna(r['Latitude']) else None
@@ -273,7 +273,7 @@ def process():
                             'enrolment_oct23': enr23,
                             'utilization_rate_pct': uf
                         }
-                    except:
+                    except Exception:
                         pass
                     break
                     

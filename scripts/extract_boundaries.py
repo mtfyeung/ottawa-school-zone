@@ -1,6 +1,5 @@
 import json
 import re
-import os
 from html.parser import HTMLParser
 
 # Paths
