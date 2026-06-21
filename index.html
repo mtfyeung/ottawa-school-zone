@@ -78,12 +78,20 @@
             <div class="filter-section">
                 <h2 class="filter-title">Custom Score Weights</h2>
                 <div class="slider-group">
-                    <div class="slider-item" id="slider-academics-item">
+                    <div class="slider-item" id="slider-math-item">
                         <div class="slider-header">
-                            <span class="slider-name">Academic (EQAO)</span>
-                            <span id="weight-academics-val" class="slider-val">40%</span>
+                            <span class="slider-name">Academic - Math</span>
+                            <span id="weight-math-val" class="slider-val">20%</span>
                         </div>
-                        <input type="range" id="weight-academics" class="slider-input" min="0" max="100" value="40">
+                        <input type="range" id="weight-math" class="slider-input" min="0" max="100" value="20">
+                    </div>
+                    
+                    <div class="slider-item" id="slider-literacy-item">
+                        <div class="slider-header">
+                            <span class="slider-name">Academic - Literacy</span>
+                            <span id="weight-literacy-val" class="slider-val">20%</span>
+                        </div>
+                        <input type="range" id="weight-literacy" class="slider-input" min="0" max="100" value="20">
                     </div>
                     
                     <div class="slider-item" id="slider-capacity-item">
@@ -152,10 +160,15 @@
                     <span id="stat-total-count" class="stat-value">...</span>
                     <span id="stat-total-desc" class="stat-desc">...</span>
                 </div>
-                <div class="stat-card" id="stat-avg-academic">
-                    <span class="stat-label">Average EQAO</span>
-                    <span id="stat-avg-eqao" class="stat-value">...</span>
-                    <span class="stat-desc">At provincial standard (3-year average)</span>
+                <div class="stat-card" id="stat-avg-academic-math">
+                    <span class="stat-label">Average EQAO Math</span>
+                    <span id="stat-avg-eqao-math" class="stat-value">...</span>
+                    <span class="stat-desc">3-year average Math standard achievement</span>
+                </div>
+                <div class="stat-card" id="stat-avg-academic-lit">
+                    <span class="stat-label">Average EQAO Literacy</span>
+                    <span id="stat-avg-eqao-lit" class="stat-value">...</span>
+                    <span class="stat-desc">3-year average Literacy standard achievement</span>
                 </div>
                 <div class="stat-card" id="stat-avg-utilization">
                     <span class="stat-label">Elementary Utilization</span>

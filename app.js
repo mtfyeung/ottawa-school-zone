@@ -21,17 +21,18 @@ let currentFilters = {
 };
 
 let currentWeights = {
-    academics: 40,
+    math: 20,
+    literacy: 20,
     capacity: 30,
     programs: 15,
     demographics: 15
 };
 
 const weightPresets = {
-    equal: { academics: 25, capacity: 25, programs: 25, demographics: 25 },
-    academic: { academics: 60, capacity: 10, programs: 15, demographics: 15 },
-    capacity: { academics: 15, capacity: 60, programs: 10, demographics: 15 },
-    balanced: { academics: 40, capacity: 30, programs: 15, demographics: 15 }
+    equal: { math: 20, literacy: 20, capacity: 20, programs: 20, demographics: 20 },
+    academic: { math: 30, literacy: 30, capacity: 10, programs: 15, demographics: 15 },
+    capacity: { math: 7, literacy: 8, capacity: 60, programs: 10, demographics: 15 },
+    balanced: { math: 20, literacy: 20, capacity: 30, programs: 15, demographics: 15 }
 };
 
 let sortField = 'composite_score';
@@ -125,7 +126,7 @@ function setupEventListeners() {
     });
 
     // Weight sliders
-    const sliders = ['academics', 'capacity', 'programs', 'demographics'];
+    const sliders = ['math', 'literacy', 'capacity', 'programs', 'demographics'];
     sliders.forEach(key => {
         const slider = document.getElementById(`weight-${key}`);
         const display = document.getElementById(`weight-${key}-val`);
@@ -268,10 +269,34 @@ function setLayout(layout) {
 // Score Calculation Logic
 function calculateScores() {
     schoolsData.forEach(school => {
-        // 1. Academic Score (EQAO average, scale to 0-100)
+        // 1. Academic Scores
         let academicScore = null;
         if (school.eqao && school.eqao.academic_average !== null) {
             academicScore = school.eqao.academic_average * 100.0;
+        }
+        
+        let mathScore = null;
+        if (school.eqao) {
+            const mathVals = [];
+            if (school.eqao.gr3_math !== null && school.eqao.gr3_math !== undefined) mathVals.push(school.eqao.gr3_math);
+            if (school.eqao.gr6_math !== null && school.eqao.gr6_math !== undefined) mathVals.push(school.eqao.gr6_math);
+            if (school.eqao.gr9_math !== null && school.eqao.gr9_math !== undefined) mathVals.push(school.eqao.gr9_math);
+            if (mathVals.length > 0) {
+                mathScore = (mathVals.reduce((sum, v) => sum + v, 0) / mathVals.length) * 100.0;
+            }
+        }
+
+        let literacyScore = null;
+        if (school.eqao) {
+            const litVals = [];
+            if (school.eqao.gr3_reading !== null && school.eqao.gr3_reading !== undefined) litVals.push(school.eqao.gr3_reading);
+            if (school.eqao.gr3_writing !== null && school.eqao.gr3_writing !== undefined) litVals.push(school.eqao.gr3_writing);
+            if (school.eqao.gr6_reading !== null && school.eqao.gr6_reading !== undefined) litVals.push(school.eqao.gr6_reading);
+            if (school.eqao.gr6_writing !== null && school.eqao.gr6_writing !== undefined) litVals.push(school.eqao.gr6_writing);
+            if (school.eqao.osslt !== null && school.eqao.osslt !== undefined) litVals.push(school.eqao.osslt);
+            if (litVals.length > 0) {
+                literacyScore = (litVals.reduce((sum, v) => sum + v, 0) / litVals.length) * 100.0;
+            }
         }
         
         // 2. Capacity Health Score (85-100% utilization = 100 points, penalize extremes)
@@ -313,6 +338,8 @@ function calculateScores() {
         
         // Save component scores
         school.scores = {
+            math: mathScore,
+            literacy: literacyScore,
             academics: academicScore,
             capacity: capacityScore,
             programs: programScore,
@@ -325,9 +352,13 @@ function calculateScores() {
         let weightedSum = 0;
         let activeWeightsSum = 0;
         
-        if (academicScore !== null) {
-            weightedSum += academicScore * currentWeights.academics;
-            activeWeightsSum += currentWeights.academics;
+        if (mathScore !== null) {
+            weightedSum += mathScore * currentWeights.math;
+            activeWeightsSum += currentWeights.math;
+        }
+        if (literacyScore !== null) {
+            weightedSum += literacyScore * currentWeights.literacy;
+            activeWeightsSum += currentWeights.literacy;
         }
         if (capacityScore !== null) {
             weightedSum += capacityScore * currentWeights.capacity;
@@ -417,9 +448,12 @@ function sortFilteredData() {
         } else if (sortField === 'enrolment') {
             valA = a.enrolment || 0;
             valB = b.enrolment || 0;
-        } else if (sortField === 'eqao_avg') {
-            valA = a.eqao ? (a.eqao.academic_average || 0) : 0;
-            valB = b.eqao ? (b.eqao.academic_average || 0) : 0;
+        } else if (sortField === 'eqao_math') {
+            valA = a.scores.math !== null ? a.scores.math : -1;
+            valB = b.scores.math !== null ? b.scores.math : -1;
+        } else if (sortField === 'eqao_lit') {
+            valA = a.scores.literacy !== null ? a.scores.literacy : -1;
+            valB = b.scores.literacy !== null ? b.scores.literacy : -1;
         } else if (sortField === 'utilization') {
             valA = a.capacity ? (a.capacity.utilization_rate_pct || 0) : 0;
             valB = b.capacity ? (b.capacity.utilization_rate_pct || 0) : 0;
@@ -526,9 +560,12 @@ function createSchoolCard(school) {
     // Tier styling
     let tierClass = `tier-${school.tier}`;
     
-    // EQAO display
-    const eqaoVal = school.eqao && school.eqao.academic_average !== null 
-        ? `${Math.round(school.eqao.academic_average * 100)}%` 
+    // Math & Literacy display
+    const mathVal = school.scores.math !== null 
+        ? `${Math.round(school.scores.math)}%` 
+        : 'N/A';
+    const literacyVal = school.scores.literacy !== null 
+        ? `${Math.round(school.scores.literacy)}%` 
         : 'N/A';
         
     // Capacity / Utilization display
@@ -565,16 +602,20 @@ function createSchoolCard(school) {
             <span class="meta-item" style="color: var(--text-muted); font-size: 0.75rem;">ID: ${school.school_number}</span>
         </div>
         <div class="card-divider"></div>
-        <div class="card-stats">
+        <div class="card-stats" style="grid-template-columns: repeat(3, 1fr); gap: 0.5rem;">
             <div class="stat-item">
-                <span class="stat-item-label">EQAO Average</span>
-                <span class="stat-item-value">${eqaoVal}</span>
+                <span class="stat-item-label">EQAO Math</span>
+                <span class="stat-item-value">${mathVal}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-item-label">EQAO Lit</span>
+                <span class="stat-item-value">${literacyVal}</span>
             </div>
             <div class="stat-item">
                 <span class="stat-item-label">Utilization</span>
-                <span class="stat-item-value">
+                <span class="stat-item-value" style="flex-wrap: wrap;">
                     ${capVal} 
-                    ${school.capacity && school.capacity.utilization_rate_pct !== null ? `<span class="badge-tag ${capBadgeClass}">${capVal >= '100%' ? 'Full' : (capBadgeClass === 'green' ? 'Ideal' : 'Under')}</span>` : ''}
+                    ${school.capacity && school.capacity.utilization_rate_pct !== null ? `<span class="badge-tag ${capBadgeClass}" style="padding: 0.05rem 0.2rem; font-size: 0.6rem; margin-top: 2px;">${capVal >= '100%' ? 'Full' : (capBadgeClass === 'green' ? 'Ideal' : 'Under')}</span>` : ''}
                 </span>
             </div>
         </div>
@@ -613,8 +654,11 @@ function createSchoolTableHTML() {
     
     filteredSchools.forEach(school => {
         const inCompare = comparisonList.includes(school.school_number);
-        const eqaoVal = school.eqao && school.eqao.academic_average !== null 
-            ? `${Math.round(school.eqao.academic_average * 100)}%` 
+        const mathVal = school.scores.math !== null 
+            ? `${Math.round(school.scores.math)}%` 
+            : 'N/A';
+        const literacyVal = school.scores.literacy !== null 
+            ? `${Math.round(school.scores.literacy)}%` 
             : 'N/A';
             
         let capVal = 'N/A';
@@ -633,7 +677,8 @@ function createSchoolTableHTML() {
                 <td>${school.level}</td>
                 <td style="text-align: center;"><span class="badge-tag ${tierClass}">Tier ${school.tier}</span></td>
                 <td style="font-weight: 700; text-align: center; color: var(--accent);">${school.composite_score}</td>
-                <td style="text-align: center;">${eqaoVal}</td>
+                <td style="text-align: center;">${mathVal}</td>
+                <td style="text-align: center;">${literacyVal}</td>
                 <td style="text-align: center;">${capVal}</td>
                 <td>${school.grade_range}</td>
                 <td>${school.city}</td>
@@ -651,7 +696,8 @@ function createSchoolTableHTML() {
                         <th data-sort="level">Level</th>
                         <th data-sort="tier" style="text-align: center;">Tier</th>
                         <th data-sort="composite_score" style="text-align: center;">Score</th>
-                        <th data-sort="eqao_avg" style="text-align: center;">EQAO Avg</th>
+                        <th data-sort="eqao_math" style="text-align: center;">Math Avg</th>
+                        <th data-sort="eqao_lit" style="text-align: center;">Lit Avg</th>
                         <th data-sort="utilization" style="text-align: center;">Utilization</th>
                         <th>Grades</th>
                         <th data-sort="school_name">City</th>
@@ -673,12 +719,19 @@ function renderSummaryStats() {
     const secCount = schoolsData.filter(s => s.level === 'Secondary').length;
     document.getElementById('stat-total-desc').textContent = `${elemCount} Elementary, ${secCount} Secondary`;
     
-    // Average EQAO
-    const eqaoScores = schoolsData
-        .map(s => s.eqao ? s.eqao.academic_average : null)
+    // Average EQAO Math
+    const mathScores = schoolsData
+        .map(s => s.scores.math)
         .filter(v => v !== null && v !== undefined);
-    const avgEqao = eqaoScores.length > 0 ? Math.round(eqaoScores.reduce((sum, v) => sum + v, 0) / eqaoScores.length * 100) : 0;
-    document.getElementById('stat-avg-eqao').textContent = `${avgEqao}%`;
+    const avgMath = mathScores.length > 0 ? Math.round(mathScores.reduce((sum, v) => sum + v, 0) / mathScores.length) : 0;
+    document.getElementById('stat-avg-eqao-math').textContent = `${avgMath}%`;
+    
+    // Average EQAO Literacy
+    const literacyScores = schoolsData
+        .map(s => s.scores.literacy)
+        .filter(v => v !== null && v !== undefined);
+    const avgLit = literacyScores.length > 0 ? Math.round(literacyScores.reduce((sum, v) => sum + v, 0) / literacyScores.length) : 0;
+    document.getElementById('stat-avg-eqao-lit').textContent = `${avgLit}%`;
     
     // Average utilization (elementary only)
     const utilizations = schoolsData
@@ -1044,7 +1097,8 @@ function openCompareModal() {
         return `<span class="badge-tag ${tierClass}" style="font-size:0.9rem; padding:0.25rem 0.5rem;">${val} (Tier ${s.tier})</span>`;
     });
     
-    tableBodyHTML += makeRow('Academic Score (EQAO)', s => s.scores.academics, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
+    tableBodyHTML += makeRow('Math Score (EQAO)', s => s.scores.math, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
+    tableBodyHTML += makeRow('Literacy Score (EQAO)', s => s.scores.literacy, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
     tableBodyHTML += makeRow('Capacity Score', s => s.scores.capacity, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A (Secondary)');
     tableBodyHTML += makeRow('Programs Score', s => s.scores.programs, (val) => `${Math.round(val)}/100`);
     tableBodyHTML += makeRow('Socio-Economic Index Score', s => s.scores.demographics, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
