@@ -774,6 +774,37 @@ function openDetailsModal(school) {
     document.getElementById('detail-enrolment').textContent = school.enrolment ? school.enrolment.toLocaleString() : 'N/A';
     document.getElementById('detail-programs').textContent = school.fsl_programs.length > 0 ? school.fsl_programs.join(', ') : 'Core French';
     
+    // Render boundary maps
+    const boundaryMapsContainer = document.getElementById('detail-boundary-maps');
+    boundaryMapsContainer.innerHTML = '';
+    if (school.boundary_maps && school.boundary_maps.length > 0) {
+        document.getElementById('detail-boundary-maps-wrapper').style.display = 'block';
+        school.boundary_maps.forEach(mapInfo => {
+            const linkTag = document.createElement('a');
+            linkTag.href = mapInfo.url;
+            linkTag.target = '_blank';
+            linkTag.className = 'program-pill';
+            linkTag.style.textDecoration = 'none';
+            linkTag.style.color = 'var(--accent)';
+            linkTag.style.borderColor = 'var(--accent)';
+            linkTag.style.background = 'rgba(99, 102, 241, 0.05)';
+            linkTag.style.transition = 'var(--transition-fast)';
+            linkTag.innerHTML = `🗺️ ${mapInfo.title} ↗`;
+            
+            // Hover effect
+            linkTag.addEventListener('mouseenter', () => {
+                linkTag.style.background = 'rgba(99, 102, 241, 0.15)';
+            });
+            linkTag.addEventListener('mouseleave', () => {
+                linkTag.style.background = 'rgba(99, 102, 241, 0.05)';
+            });
+            
+            boundaryMapsContainer.appendChild(linkTag);
+        });
+    } else {
+        document.getElementById('detail-boundary-maps-wrapper').style.display = 'none';
+    }
+    
     // Google Maps and Locator links
     const mapsLink = document.getElementById('link-google-maps');
     if (school.latitude && school.longitude) {

@@ -41,7 +41,21 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7983333333333333
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "A.Lorne Cassidy Elementary School - Grades 4 To 6 Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "A.Lorne Cassidy Elementary School - JK To 6 Early French Immersion",
+        "url": ""
+      },
+      {
+        "title": "A.Lorne Cassidy Elementary School - JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "890243",
@@ -82,7 +96,13 @@
       "gr9_math": 0.67,
       "osslt": 0.9,
       "academic_average": 0.785
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "AY Jackson English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "320510",
@@ -126,7 +146,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.785
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 4 To 6 Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 English Program With Core French And Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "947210",
@@ -166,7 +196,8 @@
       "gr9_math": 0.21,
       "osslt": null,
       "academic_average": 0.6728571428571428
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "004626",
@@ -210,7 +241,13 @@
       "gr9_math": 0.59,
       "osslt": 0.94,
       "academic_average": 0.81875
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 8 Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "013986",
@@ -254,7 +291,25 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7174999999999999
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 7 To 8 Early French Immersion",
+        "url": ""
+      },
+      {
+        "title": "Grades 7 To 8 English Program With Core French",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 Early French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "020354",
@@ -298,7 +353,13 @@
       "gr9_math": 0.1,
       "osslt": null,
       "academic_average": 0.4
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "119207",
@@ -342,7 +403,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.73
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 6 Early French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "032271",
@@ -386,7 +457,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7208333333333332
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 4 To 6 Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 English Program With Core French And Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "036340",
@@ -430,7 +511,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5175000000000001
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 6 English Program With Core French And Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "036862",
@@ -474,7 +561,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6383333333333333
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 4 Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "894362",
@@ -514,7 +607,17 @@
       "gr9_math": 0.44,
       "osslt": 0.74,
       "academic_average": 0.7100000000000001
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 7 To 8 English Program With Core French, Early And Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "Bell HS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "315877",
@@ -558,7 +661,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.4266666666666666
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "041670",
@@ -602,7 +706,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5966666666666667
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 4 To 6 Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "040665",
@@ -646,7 +760,13 @@
       "gr9_math": 0.37,
       "osslt": 0.82,
       "academic_average": 0.69875
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 6 English Program With Core French And Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "055069",
@@ -690,7 +810,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.27666666666666667
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 4 To 8 Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 8 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "061077",
@@ -734,7 +864,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6166666666666667
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "034452",
@@ -778,7 +914,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7324999999999999
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 4 To 6 Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 English Program With Core French And Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "063908",
@@ -822,7 +968,21 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5525
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Broadview Avenue Public School - Grades 7 To 8 English Program With French Core",
+        "url": ""
+      },
+      {
+        "title": "Broadview Avenue Public School - JK To 6 English Program With Core French",
+        "url": ""
+      },
+      {
+        "title": "Broadview Avenue Public School - JK To 8 Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "896705",
@@ -862,7 +1022,13 @@
       "gr9_math": 0.32,
       "osslt": 0.79,
       "academic_average": 0.625
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Brookfield HS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "906514",
@@ -902,7 +1068,13 @@
       "gr9_math": 0.56,
       "osslt": 0.78,
       "academic_average": 0.6825000000000001
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Cairine Wilson SS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "076511",
@@ -946,7 +1118,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7758333333333333
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "898317",
@@ -987,7 +1165,13 @@
       "gr9_math": 0.515,
       "osslt": 0.835,
       "academic_average": 0.675
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Canterbury HSl English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "084832",
@@ -1031,7 +1215,17 @@
       "gr9_math": 0.46,
       "osslt": 0.85,
       "academic_average": 0.44875
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 4 To 6 Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "086240",
@@ -1075,7 +1269,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.37333333333333335
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 5 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "086487",
@@ -1119,7 +1319,13 @@
       "gr9_math": 0.66,
       "osslt": 0.94,
       "academic_average": 0.788
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 3 English Program With Core French And Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "086452",
@@ -1162,7 +1368,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5491666666666667
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 7 To 8 Early French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "383252",
@@ -1206,7 +1422,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.18666666666666668
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 7 To 8 English Program With Core French, Early French Immersion And Middle French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "090182",
@@ -1250,7 +1472,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5599999999999999
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 4 To 6 Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "282953",
@@ -1294,7 +1526,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.8024999999999999
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Chapman Mills Public School - JK To 6 English Program With Core French And Early French Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "101869",
@@ -1338,7 +1576,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.43333333333333335
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "107778",
@@ -1382,7 +1626,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6583333333333332
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 6 Alternative Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "671053",
@@ -1426,7 +1676,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7583333333333333
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Centre For Special Education",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "902586",
@@ -1466,7 +1722,17 @@
       "gr9_math": 0.84,
       "osslt": 0.96,
       "academic_average": 0.51625
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Colonel By SS Grade 9 to 12 English and Immersion",
+        "url": ""
+      },
+      {
+        "title": "Colonel By SS Grade 9 to 12 International Baccalaureate Program",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "121886",
@@ -1510,7 +1776,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7583333333333334
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "JK To 6 Early French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 6 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "121940",
@@ -1554,7 +1830,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.56
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 4 To 5 Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 5 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "671207",
@@ -1598,7 +1884,13 @@
       "gr9_math": 0.76,
       "osslt": 0.97,
       "academic_average": 0.865
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Education - Centre For Special Education",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "131504",
@@ -1642,7 +1934,17 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6916666666666668
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grades 4 To 8 Middle French Immersion",
+        "url": ""
+      },
+      {
+        "title": "JK To 8 English Program With Core French",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "139432",
@@ -1686,7 +1988,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7191666666666667
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "153508",
@@ -1730,7 +2033,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5783333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "151416",
@@ -1774,7 +2078,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6141666666666666
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "634184",
@@ -1818,7 +2123,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7633333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "906484",
@@ -1859,7 +2165,13 @@
       "gr9_math": 0.78,
       "osslt": 0.95,
       "academic_average": 0.585
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Earl Of March SS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "294012",
@@ -1900,7 +2212,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5483333333333332
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "170763",
@@ -1944,7 +2257,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.8733333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "907898",
@@ -1984,7 +2298,8 @@
       "gr9_math": 0.78,
       "osslt": 0.92,
       "academic_average": 0.8500000000000001
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "177008",
@@ -2028,7 +2343,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.9416666666666665
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "050261",
@@ -2072,7 +2388,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.715
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "129674",
@@ -2116,7 +2433,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.8300000000000001
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "083456",
@@ -2160,7 +2478,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7858333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "193640",
@@ -2204,7 +2523,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.4683333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "196266",
@@ -2248,7 +2568,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6925
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "196762",
@@ -2292,7 +2613,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.77
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "197211",
@@ -2336,7 +2658,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.395
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "088560",
@@ -2380,7 +2703,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7000000000000001
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "911143",
@@ -2420,7 +2744,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.8883333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "211583",
@@ -2464,7 +2789,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5733333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "216658",
@@ -2508,7 +2834,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6699999999999999
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "912697",
@@ -2549,7 +2876,37 @@
       "gr9_math": 0.74,
       "osslt": 0.93,
       "academic_average": 0.835
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Glebe C.I. English and Immersion",
+        "url": ""
+      },
+      {
+        "title": "Option Glebe C.I. or Hillcrest H.S.",
+        "url": ""
+      },
+      {
+        "title": "Option Glebe C.I. or Lisgar C.I. or Nepean H.S.",
+        "url": ""
+      },
+      {
+        "title": "Option Glebe C.I. or Lisgar C.I. or Nepean H.S.",
+        "url": ""
+      },
+      {
+        "title": "Option Glebe C.I. or Lisgar C.I. or Nepean H.S.",
+        "url": ""
+      },
+      {
+        "title": "Option Glebe C.I. or Nepean H.S.",
+        "url": ""
+      },
+      {
+        "title": "Option Glebe C.I. or Nepean H.S.",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "224197",
@@ -2593,7 +2950,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5666666666666667
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "392197",
@@ -2637,7 +2995,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.73
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "913472",
@@ -2678,7 +3037,13 @@
       "gr9_math": 0.465,
       "osslt": 0.77,
       "academic_average": 0.6175
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Gloucester HS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "223930",
@@ -2722,7 +3087,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6866666666666666
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "424919",
@@ -2766,7 +3132,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6549999999999999
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "062050",
@@ -2810,7 +3177,8 @@
       "gr9_math": 0.22,
       "osslt": 0.64,
       "academic_average": 0.61625
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "250848",
@@ -2854,7 +3222,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.29916666666666664
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "419222",
@@ -2898,7 +3267,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6416666666666667
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "252875",
@@ -2942,7 +3312,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6533333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "356980",
@@ -2986,7 +3357,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.4858333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "916854",
@@ -3026,7 +3398,13 @@
       "gr9_math": 0.44,
       "osslt": 0.83,
       "academic_average": 0.6312500000000001
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Hillcrest HS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "259810",
@@ -3070,7 +3448,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7558333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "264628",
@@ -3114,7 +3493,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.82
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "273333",
@@ -3158,7 +3538,8 @@
       "gr9_math": 0.43,
       "osslt": 0.76,
       "academic_average": 0.7475
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "287202",
@@ -3202,7 +3583,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7474999999999999
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "286168",
@@ -3246,7 +3628,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.735
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "918954",
@@ -3286,7 +3669,13 @@
       "gr9_math": 0.64,
       "osslt": 0.83,
       "academic_average": 0.67875
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "John McCrae SS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "285455",
@@ -3330,7 +3719,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7200000000000001
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "579722",
@@ -3374,7 +3764,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7366666666666667
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "287563",
@@ -3418,7 +3809,8 @@
       "gr9_math": 0.58,
       "osslt": 0.87,
       "academic_average": 0.65
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "287156",
@@ -3462,7 +3854,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6375000000000001
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "302759",
@@ -3506,7 +3899,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.8650000000000001
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "452440",
@@ -3550,7 +3944,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6708333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "305057",
@@ -3593,7 +3988,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.715
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "926195",
@@ -3632,7 +4028,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.875
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "037699",
@@ -3676,7 +4073,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6941666666666667
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "922960",
@@ -3717,7 +4115,13 @@
       "gr9_math": 0.73,
       "osslt": 0.91,
       "academic_average": 0.8275
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Lisgar CI English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "027235",
@@ -3761,7 +4165,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": null
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Longfields-Davidson Heights SS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "900494",
@@ -3802,7 +4212,8 @@
       "gr9_math": 0.68,
       "osslt": 0.87,
       "academic_average": 0.682
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "332356",
@@ -3846,7 +4257,8 @@
       "gr9_math": 0.66,
       "osslt": 0.93,
       "academic_average": 0.64375
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "332488",
@@ -3890,7 +4302,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "332615",
@@ -3934,7 +4347,8 @@
       "gr9_math": 0.6,
       "osslt": 0.87,
       "academic_average": 0.766
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "129690",
@@ -3978,7 +4392,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6858333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "580720",
@@ -4022,7 +4437,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.4716666666666667
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "906059",
@@ -4062,7 +4478,13 @@
       "gr9_math": 0.67,
       "osslt": null,
       "academic_average": 0.7625
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Maplewood SS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "345903",
@@ -4106,7 +4528,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7733333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "356409",
@@ -4150,7 +4573,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5800000000000001
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "925691",
@@ -4190,7 +4614,17 @@
       "gr9_math": 0.75,
       "osslt": 0.96,
       "academic_average": 0.855
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grade 9 to 12 English and Immersion",
+        "url": ""
+      },
+      {
+        "title": "Grade 9 to 12 International Baccalaureate Program",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "114334",
@@ -4234,7 +4668,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7483333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "423874",
@@ -4278,7 +4713,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.44083333333333335
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "200369",
@@ -4322,7 +4758,8 @@
       "gr9_math": 0.72,
       "osslt": 0.92,
       "academic_average": 0.65875
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "382272",
@@ -4365,7 +4802,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.8433333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "928291",
@@ -4405,7 +4843,17 @@
       "gr9_math": 0.76,
       "osslt": 0.94,
       "academic_average": 0.4825
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Nepean HS English and Immersion",
+        "url": ""
+      },
+      {
+        "title": "Option Nepean H.S. or Woodroffe H.S.",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "929425",
@@ -4445,7 +4893,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": null
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "407232",
@@ -4489,7 +4938,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.765
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "419389",
@@ -4533,7 +4983,8 @@
       "gr9_math": 0.7,
       "osslt": 0.94,
       "academic_average": 0.748
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "424650",
@@ -4577,7 +5028,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.695
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "932710",
@@ -4617,7 +5069,13 @@
       "gr9_math": 0.57,
       "osslt": 0.86,
       "academic_average": 0.744
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grade 9 to 12 English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "925403",
@@ -4657,7 +5115,13 @@
       "gr9_math": 0.23,
       "osslt": 0.48,
       "academic_average": 0.64
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Ottawa Technical SS Adaptive Program",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "444936",
@@ -4701,7 +5165,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5008333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "448834",
@@ -4744,7 +5209,8 @@
       "gr9_math": 0.41,
       "osslt": 0.88,
       "academic_average": 0.72875
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "463523",
@@ -4788,7 +5254,8 @@
       "gr9_math": 0.08,
       "osslt": 0.26,
       "academic_average": 0.455
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "465089",
@@ -4832,7 +5299,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.3775
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "480428",
@@ -4876,7 +5344,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6516666666666666
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "028475",
@@ -4913,7 +5382,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.48333333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "939420",
@@ -4953,7 +5423,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.29833333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "483150",
@@ -4997,7 +5468,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.44999999999999996
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "938564",
@@ -5037,7 +5509,13 @@
       "gr9_math": 0.25,
       "osslt": 0.62,
       "academic_average": 0.435
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grade 9 to 12 English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "235619",
@@ -5078,7 +5556,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": null
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "897785",
@@ -5115,7 +5594,13 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7166666666666667
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grade 9 to 12 English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "487180",
@@ -5159,7 +5644,8 @@
       "gr9_math": 0.22,
       "osslt": 0.59,
       "academic_average": 0.4225
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "121690",
@@ -5203,7 +5689,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5483333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "487317",
@@ -5247,7 +5734,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.49833333333333335
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "487384",
@@ -5291,7 +5779,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5008333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "319937",
@@ -5335,7 +5824,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5233333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "060925",
@@ -5379,7 +5869,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5633333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "488356",
@@ -5423,7 +5914,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7483333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "489360",
@@ -5467,7 +5959,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7041666666666667
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "474444",
@@ -5511,7 +6004,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6908333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "506168",
@@ -5555,7 +6049,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7791666666666668
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "035887",
@@ -5599,7 +6094,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7516666666666666
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "942952",
@@ -5639,7 +6135,13 @@
       "gr9_math": 0.22,
       "osslt": 0.42,
       "academic_average": 0.4725
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Sir Guy Carleton SS Adaptive Program",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "942014",
@@ -5679,7 +6181,13 @@
       "gr9_math": 0.61,
       "osslt": 0.86,
       "academic_average": 0.685
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Sir Robert Borden HS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "620213",
@@ -5723,7 +6231,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5966666666666666
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "942332",
@@ -5763,7 +6272,13 @@
       "gr9_math": 0.365,
       "osslt": 0.7150000000000001,
       "academic_average": 0.54
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Sir Wilfrid Laurier SS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "516694",
@@ -5807,7 +6322,8 @@
       "gr9_math": 0.47,
       "osslt": 0.84,
       "academic_average": 0.7575000000000001
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "942855",
@@ -5847,7 +6363,13 @@
       "gr9_math": 0.56,
       "osslt": 0.86,
       "academic_average": 0.71
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Grade 9 to 12 English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "204901",
@@ -5891,7 +6413,8 @@
       "gr9_math": 0.45,
       "osslt": 0.88,
       "academic_average": 0.7324999999999999
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "310646",
@@ -5935,7 +6458,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.855
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "565750",
@@ -5976,7 +6500,8 @@
       "gr9_math": 0.48,
       "osslt": 0.87,
       "academic_average": 0.74
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "537624",
@@ -6020,7 +6545,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7275
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "595012",
@@ -6064,7 +6590,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.8008333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "330043",
@@ -6108,7 +6635,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7716666666666666
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "554910",
@@ -6152,7 +6680,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6475000000000001
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "383260",
@@ -6196,7 +6725,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6616666666666667
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "949159",
@@ -6236,7 +6766,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6816666666666666
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "396902",
@@ -6277,7 +6808,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7483333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "577405",
@@ -6321,7 +6853,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6633333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "578576",
@@ -6365,7 +6898,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6283333333333334
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "579297",
@@ -6409,7 +6943,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.7608333333333333
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "579351",
@@ -6453,7 +6988,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.6124999999999999
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "061972",
@@ -6497,7 +7033,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.73
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "473973",
@@ -6541,7 +7078,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.8066666666666666
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "951366",
@@ -6582,7 +7120,13 @@
       "gr9_math": 0.78,
       "osslt": 0.94,
       "academic_average": 0.66
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "West Carleton SS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "624500",
@@ -6626,7 +7170,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.8241666666666666
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "619523",
@@ -6670,7 +7215,8 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.8291666666666667
-    }
+    },
+    "boundary_maps": []
   },
   {
     "school_number": "954420",
@@ -6710,7 +7256,13 @@
       "gr9_math": 0.5599999999999999,
       "osslt": 0.8700000000000001,
       "academic_average": 0.7150000000000001
-    }
+    },
+    "boundary_maps": [
+      {
+        "title": "Woodroffe HS English and Immersion",
+        "url": ""
+      }
+    ]
   },
   {
     "school_number": "624330",
@@ -6754,6 +7306,7 @@
       "gr9_math": null,
       "osslt": null,
       "academic_average": 0.5833333333333334
-    }
+    },
+    "boundary_maps": []
   }
 ]
