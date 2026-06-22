@@ -1259,6 +1259,12 @@ function openCompareModal() {
     
     // Helper to generate a matrix row
     const makeRow = (label, extractor, formatFn) => {
+        const allNull = schools.every(s => {
+            const val = extractor(s);
+            return val === null || val === undefined || val === '' || (Array.isArray(val) && val.length === 0);
+        });
+        if (allNull) return '';
+        
         let cells = `<td><strong>${label}</strong></td>`;
         schools.forEach(s => {
             const val = extractor(s);
@@ -1271,35 +1277,45 @@ function openCompareModal() {
     
     let tableBodyHTML = '';
     
+    // Helper to add a section with a header
+    const addSection = (title, rowsHTML) => {
+        if (rowsHTML.trim() !== '') {
+            tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">${title}</td></tr>`;
+            tableBodyHTML += rowsHTML;
+        }
+    };
+    
     // 1. Scores
-    tableBodyHTML += makeRow('Composite Rank Score', s => s.composite_score, (val, s) => {
+    let scoresRows = '';
+    scoresRows += makeRow('Composite Rank Score', s => s.composite_score, (val, s) => {
         let tierClass = `tier-${s.tier}`;
         return `<span class="badge-tag ${tierClass}" style="font-size:0.9rem; padding:0.25rem 0.5rem;">${val} (Tier ${s.tier})</span>`;
     });
-    
-    tableBodyHTML += makeRow('Math Score (EQAO)', s => s.scores.math, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
-    tableBodyHTML += makeRow('Literacy Score (EQAO)', s => s.scores.literacy, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
-    tableBodyHTML += makeRow('Capacity Score', s => s.scores.capacity, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A (Secondary)');
-    tableBodyHTML += makeRow('Programs Score', s => s.scores.programs, (val) => `${Math.round(val)}/100`);
-    tableBodyHTML += makeRow('Socio-Economic Index Score', s => s.scores.demographics, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
+    scoresRows += makeRow('Math Score (EQAO)', s => s.scores.math, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
+    scoresRows += makeRow('Literacy Score (EQAO)', s => s.scores.literacy, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
+    scoresRows += makeRow('Capacity Score', s => s.scores.capacity, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A (Secondary)');
+    scoresRows += makeRow('Programs Score', s => s.scores.programs, (val) => `${Math.round(val)}/100`);
+    scoresRows += makeRow('Socio-Economic Index Score', s => s.scores.demographics, (val) => val !== null ? `${Math.round(val)}/100` : 'N/A');
+    addSection('Composite & Component Scores', scoresRows);
     
     // 2. Capacity Details
-    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">Enrollment & Capacity</td></tr>`;
-    tableBodyHTML += makeRow('Total Enrolment', s => s.enrolment, (val) => val ? val.toLocaleString() : 'N/A');
-    tableBodyHTML += makeRow('On-The-Ground Capacity', s => s.capacity ? s.capacity.otg_capacity : null, (val) => val ? val.toLocaleString() : 'N/A');
-    tableBodyHTML += makeRow('Utilization Rate', s => s.capacity ? s.capacity.utilization_rate_pct : null, (val) => formatPercent(val));
+    let capacityRows = '';
+    capacityRows += makeRow('Total Enrolment', s => s.enrolment, (val) => val ? val.toLocaleString() : 'N/A');
+    capacityRows += makeRow('On-The-Ground Capacity', s => s.capacity ? s.capacity.otg_capacity : null, (val) => val ? val.toLocaleString() : 'N/A');
+    capacityRows += makeRow('Utilization Rate', s => s.capacity ? s.capacity.utilization_rate_pct : null, (val) => formatPercent(val));
+    addSection('Enrollment & Capacity', capacityRows);
     
     // 3. EQAO Breakdown
-    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">EQAO Achievements (3-Year Avg)</td></tr>`;
-    tableBodyHTML += makeRow('Grade 3 Reading', s => s.eqao ? s.eqao.gr3_reading : null, formatPercent);
-    tableBodyHTML += makeRow('Grade 3 Writing', s => s.eqao ? s.eqao.gr3_writing : null, formatPercent);
-    tableBodyHTML += makeRow('Grade 3 Math', s => s.eqao ? s.eqao.gr3_math : null, formatPercent);
-    tableBodyHTML += makeRow('Grade 6 Reading', s => s.eqao ? s.eqao.gr6_reading : null, formatPercent);
-    tableBodyHTML += makeRow('Grade 6 Writing', s => s.eqao ? s.eqao.gr6_writing : null, formatPercent);
-    tableBodyHTML += makeRow('Grade 6 Math', s => s.eqao ? s.eqao.gr6_math : null, formatPercent);
-    tableBodyHTML += makeRow('Grade 9 Math', s => s.eqao ? s.eqao.gr9_math : null, formatPercent);
-    tableBodyHTML += makeRow('Grade 10 OSSLT (Literacy)', s => s.eqao ? s.eqao.osslt : null, formatPercent);
-    tableBodyHTML += makeRow('Academic EQAO Trend (Overall)', s => s.eqao_trend ? s.eqao_trend.overall : null, (val) => {
+    let eqaoRows = '';
+    eqaoRows += makeRow('Grade 3 Reading', s => s.eqao ? s.eqao.gr3_reading : null, formatPercent);
+    eqaoRows += makeRow('Grade 3 Writing', s => s.eqao ? s.eqao.gr3_writing : null, formatPercent);
+    eqaoRows += makeRow('Grade 3 Math', s => s.eqao ? s.eqao.gr3_math : null, formatPercent);
+    eqaoRows += makeRow('Grade 6 Reading', s => s.eqao ? s.eqao.gr6_reading : null, formatPercent);
+    eqaoRows += makeRow('Grade 6 Writing', s => s.eqao ? s.eqao.gr6_writing : null, formatPercent);
+    eqaoRows += makeRow('Grade 6 Math', s => s.eqao ? s.eqao.gr6_math : null, formatPercent);
+    eqaoRows += makeRow('Grade 9 Math', s => s.eqao ? s.eqao.gr9_math : null, formatPercent);
+    eqaoRows += makeRow('Grade 10 OSSLT (Literacy)', s => s.eqao ? s.eqao.osslt : null, formatPercent);
+    eqaoRows += makeRow('Academic EQAO Trend (Overall)', s => s.eqao_trend ? s.eqao_trend.overall : null, (val) => {
         if (!val) return 'N/A';
         const label = val.charAt(0).toUpperCase() + val.slice(1);
         let arrow = '→';
@@ -1308,18 +1324,20 @@ function openCompareModal() {
         else if (val === 'declining') { arrow = '↓'; colorClass = 'trend-declining'; }
         return `<span class="trend-arrow ${colorClass}">${arrow}</span> ${label}`;
     });
+    addSection('EQAO Achievements (3-Year Avg)', eqaoRows);
     
     // 4. Demographics
-    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">Demographics & Community</td></tr>`;
-    tableBodyHTML += makeRow('Low-Income Households', s => s.demographics ? s.demographics.low_income_pct : null, formatPercent);
-    tableBodyHTML += makeRow('Parents with No Degree', s => s.demographics ? s.demographics.parents_no_degree_pct : null, formatPercent);
-    tableBodyHTML += makeRow('Special Education Services', s => s.demographics ? s.demographics.special_ed_pct : null, formatPercent);
-    tableBodyHTML += makeRow('Gifted Students', s => s.demographics ? s.demographics.gifted_pct : null, formatPercent);
-    tableBodyHTML += makeRow('English Language Learners', s => s.demographics ? s.demographics.ell_pct : null, formatPercent);
+    let demoRows = '';
+    demoRows += makeRow('Low-Income Households', s => s.demographics ? s.demographics.low_income_pct : null, formatPercent);
+    demoRows += makeRow('Parents with No Degree', s => s.demographics ? s.demographics.parents_no_degree_pct : null, formatPercent);
+    demoRows += makeRow('Special Education Services', s => s.demographics ? s.demographics.special_ed_pct : null, formatPercent);
+    demoRows += makeRow('Gifted Students', s => s.demographics ? s.demographics.gifted_pct : null, formatPercent);
+    demoRows += makeRow('English Language Learners', s => s.demographics ? s.demographics.ell_pct : null, formatPercent);
+    addSection('Demographics & Community', demoRows);
     
     // 5. University Admissions (Waterloo AF)
-    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">University Admissions</td></tr>`;
-    tableBodyHTML += makeRow('UW Engineering Adjustment Factor', s => s.waterloo_af, (val) => {
+    let waterlooRows = '';
+    waterlooRows += makeRow('UW Engineering Adjustment Factor', s => s.waterloo_af, (val) => {
         if (!val) return 'N/A (Elementary)';
         const factor = val.factor;
         const isDefault = val.is_default;
@@ -1335,12 +1353,14 @@ function openCompareModal() {
             </span>
         `;
     });
+    addSection('University Admissions', waterlooRows);
     
-    // 6. General Info
-    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">School Information</td></tr>`;
-    tableBodyHTML += makeRow('FSL Programs Offered', s => s.fsl_programs, (val) => val.length > 0 ? val.join('<br>') : 'Core French');
-    tableBodyHTML += makeRow('Address', s => `${s.address}, ${s.city}`, (val) => val);
-    tableBodyHTML += makeRow('Website Link', s => s.website, (val) => val ? `<a href="${val}" target="_blank" style="color:var(--accent); text-decoration:none;">Visit Website ↗</a>` : 'N/A');
+    // 6. School Info
+    let infoRows = '';
+    infoRows += makeRow('FSL Programs Offered', s => s.fsl_programs, (val) => val.length > 0 ? val.join('<br>') : 'Core French');
+    infoRows += makeRow('Address', s => `${s.address}, ${s.city}`, (val) => val);
+    infoRows += makeRow('Website Link', s => s.website, (val) => val ? `<a href="${val}" target="_blank" style="color:var(--accent); text-decoration:none;">Visit Website ↗</a>` : 'N/A');
+    addSection('School Information', infoRows);
     
     tableContainer.innerHTML = `
         <table class="compare-matrix-table">
