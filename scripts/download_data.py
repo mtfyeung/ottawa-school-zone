@@ -11,7 +11,8 @@ urls = {
     "demographics_24_25.xlsx": "https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/1e604bf9-49c5-49a1-a8b7-297147c771d0/download/new_sif_data_table_2024_25prelim_en_april2026.xlsx",
     "demographics_23_24.xlsx": "https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/f381e1de-3aa8-4ae9-826a-20009a6f4a01/download/new_sif_data_table_2023_24prelim_en_january2026.xlsx",
     "demographics_22_23.xlsx": "https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/f95fc955-b1f0-4a2e-9b7f-cfa6eda37e0b/download/sif_data_table_2022_2023_en.xlsx",
-    "enrollment_by_grade_2024_2025.xlsx": "https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/feb08655-93c2-42c8-a29e-cabd7cf449fd/download/enrolment_by_grade_2024-2025_en.xlsx"
+    "enrollment_by_grade_2024_2025.xlsx": "https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/feb08655-93c2-42c8-a29e-cabd7cf449fd/download/enrolment_by_grade_2024-2025_en.xlsx",
+    "AdjFactors2026.pdf": "https://github.com/jdabtieu/Waterloo-Adjustment-Factors/raw/main/AdjFactors2026.pdf"
 }
 
 def download_file(filename, url):

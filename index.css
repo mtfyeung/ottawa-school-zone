@@ -1077,3 +1077,53 @@ main {
 .map-popup-btn:hover {
     background-color: var(--accent-hover);
 }
+
+/* EQAO Academic Trend Arrow Styles */
+.trend-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.9rem;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+.trend-improving {
+    color: var(--success);
+}
+.trend-declining {
+    color: var(--danger);
+}
+.trend-stable {
+    color: var(--text-muted);
+}
+
+/* Waterloo Adjustment Factor UI Styles */
+.waterloo-factor-container {
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px solid var(--border-color);
+    padding: 1.25rem;
+    border-radius: var(--radius-md);
+    margin-top: 0.5rem;
+}
+.waterloo-factor-container.default-factor {
+    opacity: 0.85;
+    background-color: rgba(0, 0, 0, 0.015);
+    border-style: dashed;
+}
+.waterloo-factor-value {
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-family: var(--font-display);
+    display: inline-block;
+    vertical-align: middle;
+}
+.waterloo-factor-value.success {
+    color: var(--success);
+}
+.waterloo-factor-value.warning {
+    color: var(--warning);
+}
+.waterloo-factor-value.danger {
+    color: var(--danger);
+}

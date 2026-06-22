@@ -1,0 +1,40 @@
+{
+  "default_factor": 14.1,
+  "schools": [
+    {
+      "org_id": "20048757",
+      "school_name": "Bell High School",
+      "city": "Nepean",
+      "factor": 9.2,
+      "is_default": false
+    },
+    {
+      "org_id": "20048844",
+      "school_name": "Colonel By Secondary School",
+      "city": "Gloucester",
+      "factor": 11.1,
+      "is_default": false
+    },
+    {
+      "org_id": "20048879",
+      "school_name": "Earl of March Secondary School",
+      "city": "Kanata",
+      "factor": 11.1,
+      "is_default": false
+    },
+    {
+      "org_id": "20049100",
+      "school_name": "Merivale High School",
+      "city": "Nepean",
+      "factor": 9.0,
+      "is_default": false
+    },
+    {
+      "org_id": "20049123",
+      "school_name": "Nepean High School",
+      "city": "Ottawa",
+      "factor": 9.7,
+      "is_default": false
+    }
+  ]
+}

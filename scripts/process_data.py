@@ -13,6 +13,7 @@ DEMO_22_PATH = os.path.join(DATA_DIR, "demographics_22_23.xlsx")
 FSL_PATH = os.path.join(DATA_DIR, "fsl_programs.xlsx")
 CAP_PATH = os.path.join(DATA_DIR, "elementary_capacity.csv")
 OUTPUT_PATH = os.path.join(DATA_DIR, "schools_data.json")
+WATERLOO_AF_PATH = os.path.join(DATA_DIR, "waterloo_af.json")
 
 def normalize_name(name):
     if not isinstance(name, str):
@@ -62,6 +63,21 @@ def process():
     df_demo_22 = pd.read_excel(DEMO_22_PATH)
     df_fsl = pd.read_excel(FSL_PATH)
     df_cap = pd.read_csv(CAP_PATH)
+    
+    waterloo_af_data = {}
+    if os.path.exists(WATERLOO_AF_PATH):
+        print("Loading Waterloo Adjustment Factors...")
+        with open(WATERLOO_AF_PATH, "r", encoding="utf-8") as f:
+            waterloo_af_data = json.load(f)
+            
+    # Build Waterloo Adjustment Factor lookup
+    af_lookup = {}
+    default_af = 14.1
+    if waterloo_af_data:
+        default_af = waterloo_af_data.get("default_factor", 14.1)
+        for s_af in waterloo_af_data.get("schools", []):
+            norm_name_af = normalize_name(s_af["school_name"])
+            af_lookup[norm_name_af] = s_af
     
     # Filter for OCDSB (B66184)
     print("Filtering for Ottawa-Carleton District School Board...")
@@ -125,6 +141,12 @@ def process():
     # Process EQAO averages over 22-23, 23-24, 24-25
     print("Processing EQAO scores over 3 years...")
     eqao_data = {}
+    
+    # Store yearly scores to calculate trend
+    yearly_scores = {}
+    math_keys = {'gr3_math', 'gr6_math', 'gr9_math'}
+    lit_keys = {'gr3_reading', 'gr3_writing', 'gr6_reading', 'gr6_writing', 'osslt'}
+
     for col_key, original_col in eqao_columns:
         # Convert each year to numeric
         s_24 = clean_percentage_col(df_demo_24, original_col)
@@ -133,7 +155,7 @@ def process():
         
         # Create a dataframe to compute row averages
         temp_df = pd.DataFrame({
-            'School Number': df_demo_24['School Number'],
+            'School Number': df_demo_24['School Number'].astype(str).str.strip(),
             'val_24': s_24,
             'val_23': s_23,
             'val_22': s_22
@@ -149,6 +171,68 @@ def process():
                 eqao_data[sn] = {}
             val = r['mean_val']
             eqao_data[sn][col_key] = float(val) if not pd.isna(val) else None
+
+            # Collect yearly data for trend
+            if sn not in yearly_scores:
+                yearly_scores[sn] = {
+                    '22': {'math': [], 'lit': [], 'all': []},
+                    '23': {'math': [], 'lit': [], 'all': []},
+                    '24': {'math': [], 'lit': [], 'all': []}
+                }
+            
+            is_math = col_key in math_keys
+            is_lit = col_key in lit_keys
+            
+            for yr, col_val in [('22', r['val_22']), ('23', r['val_23']), ('24', r['val_24'])]:
+                if not pd.isna(col_val):
+                    fval = float(col_val)
+                    yearly_scores[sn][yr]['all'].append(fval)
+                    if is_math:
+                        yearly_scores[sn][yr]['math'].append(fval)
+                    elif is_lit:
+                        yearly_scores[sn][yr]['lit'].append(fval)
+
+    def calculate_trend_slope(points):
+        """points: list of (x, y) tuples. Returns slope or None."""
+        if len(points) < 2:
+            return None
+        xs = [p[0] for p in points]
+        ys = [p[1] for p in points]
+        n = len(xs)
+        mean_x = sum(xs) / n
+        mean_y = sum(ys) / n
+        num = sum((xs[i] - mean_x) * (ys[i] - mean_y) for i in range(n))
+        den = sum((xs[i] - mean_x) ** 2 for i in range(n))
+        if den == 0:
+            return 0.0
+        return num / den
+
+    def get_trend_label(slope):
+        if slope is None:
+            return "stable"
+        if slope > 0.015:
+            return "improving"
+        elif slope < -0.015:
+            return "declining"
+        return "stable"
+
+    eqao_trends = {}
+    for sn, yrs in yearly_scores.items():
+        trends = {}
+        for category in ['math', 'lit', 'all']:
+            points = []
+            for idx, yr in enumerate(['22', '23', '24']):
+                vals = yrs[yr][category]
+                if vals:
+                    points.append((idx, np.mean(vals)))
+            slope = calculate_trend_slope(points)
+            trends[category] = get_trend_label(slope)
+        
+        eqao_trends[sn] = {
+            'math': trends['math'],
+            'literacy': trends['lit'],
+            'overall': trends['all']
+        }
             
     # Process demographics for 24-25
     print("Processing demographics...")
@@ -285,6 +369,23 @@ def process():
         academic_average = float(np.mean(eqao_scores)) if eqao_scores else None
         school_eqao['academic_average'] = academic_average
         
+        school_trend = eqao_trends.get(sn, {"math": "stable", "literacy": "stable", "overall": "stable"})
+        
+        waterloo_af = None
+        if level == 'Secondary':
+            norm_name_sec = normalize_name(name)
+            if norm_name_sec in af_lookup:
+                match_af = af_lookup[norm_name_sec]
+                waterloo_af = {
+                    "factor": match_af["factor"],
+                    "is_default": False
+                }
+            else:
+                waterloo_af = {
+                    "factor": default_af,
+                    "is_default": True
+                }
+        
         school_obj = {
             'school_number': sn,
             'school_name': name,
@@ -303,7 +404,9 @@ def process():
             'fsl_programs': fsl,
             'demographics': school_demo,
             'capacity': cap_info,
-            'eqao': school_eqao
+            'eqao': school_eqao,
+            'eqao_trend': school_trend,
+            'waterloo_af': waterloo_af
         }
         schools.append(school_obj)
         

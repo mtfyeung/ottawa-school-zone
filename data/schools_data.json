@@ -42,20 +42,12 @@
       "osslt": null,
       "academic_average": 0.7983333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "A.Lorne Cassidy Elementary School - Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482253"
-      },
-      {
-        "title": "A.Lorne Cassidy Elementary School - JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482252"
-      },
-      {
-        "title": "A.Lorne Cassidy Elementary School - JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482254"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "890243",
@@ -97,12 +89,15 @@
       "osslt": 0.9,
       "academic_average": 0.785
     },
-    "boundary_maps": [
-      {
-        "title": "AY Jackson English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481007"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "320510",
@@ -147,16 +142,12 @@
       "osslt": null,
       "academic_average": 0.785
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482259"
-      },
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482258"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "947210",
@@ -197,7 +188,15 @@
       "osslt": null,
       "academic_average": 0.6728571428571428
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "stable",
+      "overall": "declining"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "004626",
@@ -242,12 +241,12 @@
       "osslt": 0.94,
       "academic_average": 0.81875
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482260"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "013986",
@@ -292,24 +291,12 @@
       "osslt": null,
       "academic_average": 0.7174999999999999
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482262"
-      },
-      {
-        "title": "Grades 7 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482261"
-      },
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482264"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482263"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "020354",
@@ -354,12 +341,12 @@
       "osslt": null,
       "academic_average": 0.4
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482265"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "stable",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "119207",
@@ -404,16 +391,12 @@
       "osslt": null,
       "academic_average": 0.73
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482266"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482267"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "032271",
@@ -458,16 +441,12 @@
       "osslt": null,
       "academic_average": 0.7208333333333332
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482268"
-      },
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482269"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "036340",
@@ -512,12 +491,12 @@
       "osslt": null,
       "academic_average": 0.5175000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482283"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "036862",
@@ -562,12 +541,12 @@
       "osslt": null,
       "academic_average": 0.6383333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 4 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482287"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "894362",
@@ -608,16 +587,15 @@
       "osslt": 0.74,
       "academic_average": 0.7100000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French, Early And Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482288"
-      },
-      {
-        "title": "Bell HS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481008"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": {
+      "factor": 9.2,
+      "is_default": false
+    }
   },
   {
     "school_number": "315877",
@@ -662,7 +640,12 @@
       "osslt": null,
       "academic_average": 0.4266666666666666
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "041670",
@@ -707,16 +690,12 @@
       "osslt": null,
       "academic_average": 0.5966666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482289"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482290"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "040665",
@@ -761,12 +740,12 @@
       "osslt": 0.82,
       "academic_average": 0.69875
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482291"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "055069",
@@ -811,16 +790,12 @@
       "osslt": null,
       "academic_average": 0.27666666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482292"
-      },
-      {
-        "title": "JK To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482293"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "061077",
@@ -865,12 +840,12 @@
       "osslt": null,
       "academic_average": 0.6166666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482294"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "034452",
@@ -915,16 +890,12 @@
       "osslt": null,
       "academic_average": 0.7324999999999999
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482296"
-      },
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482295"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "063908",
@@ -969,20 +940,12 @@
       "osslt": null,
       "academic_average": 0.5525
     },
-    "boundary_maps": [
-      {
-        "title": "Broadview Avenue Public School - Grades 7 To 8 English Program With French Core",
-        "url": "https://www.ocdsb.ca/download/482298"
-      },
-      {
-        "title": "Broadview Avenue Public School - JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482297"
-      },
-      {
-        "title": "Broadview Avenue Public School - JK To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482299"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "896705",
@@ -1023,12 +986,15 @@
       "osslt": 0.79,
       "academic_average": 0.625
     },
-    "boundary_maps": [
-      {
-        "title": "Brookfield HS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481009"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "improving",
+      "overall": "declining"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "906514",
@@ -1069,12 +1035,15 @@
       "osslt": 0.78,
       "academic_average": 0.6825000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "Cairine Wilson SS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481011"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "improving",
+      "overall": "declining"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "076511",
@@ -1119,12 +1088,12 @@
       "osslt": null,
       "academic_average": 0.7758333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482301"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "898317",
@@ -1166,12 +1135,15 @@
       "osslt": 0.835,
       "academic_average": 0.675
     },
-    "boundary_maps": [
-      {
-        "title": "Canterbury HSl English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481014"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "084832",
@@ -1216,16 +1188,12 @@
       "osslt": 0.85,
       "academic_average": 0.44875
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482302"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482303"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "086240",
@@ -1270,12 +1238,12 @@
       "osslt": null,
       "academic_average": 0.37333333333333335
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 5 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482304"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "086487",
@@ -1320,12 +1288,12 @@
       "osslt": 0.94,
       "academic_average": 0.788
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 3 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482305"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "086452",
@@ -1369,16 +1337,12 @@
       "osslt": null,
       "academic_average": 0.5491666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482307"
-      },
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482306"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "383252",
@@ -1423,12 +1387,12 @@
       "osslt": null,
       "academic_average": 0.18666666666666668
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French, Early French Immersion And Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482308"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "090182",
@@ -1473,16 +1437,12 @@
       "osslt": null,
       "academic_average": 0.5599999999999999
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482310"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482309"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "282953",
@@ -1527,12 +1487,12 @@
       "osslt": null,
       "academic_average": 0.8024999999999999
     },
-    "boundary_maps": [
-      {
-        "title": "Chapman Mills Public School - JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482311"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "stable",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "101869",
@@ -1577,12 +1537,12 @@
       "osslt": null,
       "academic_average": 0.43333333333333335
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482312"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "107778",
@@ -1627,12 +1587,12 @@
       "osslt": null,
       "academic_average": 0.6583333333333332
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Alternative Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482313"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "671053",
@@ -1677,12 +1637,12 @@
       "osslt": null,
       "academic_average": 0.7583333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "Centre For Special Education",
-        "url": "https://www.ocdsb.ca/download/482314"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "902586",
@@ -1723,16 +1683,15 @@
       "osslt": 0.96,
       "academic_average": 0.51625
     },
-    "boundary_maps": [
-      {
-        "title": "Colonel By SS Grade 9 to 12 English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481015"
-      },
-      {
-        "title": "Colonel By SS Grade 9 to 12 International Baccalaureate Program",
-        "url": "https://www.ocdsb.ca/download/481016"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": {
+      "factor": 11.1,
+      "is_default": false
+    }
   },
   {
     "school_number": "121886",
@@ -1777,16 +1736,12 @@
       "osslt": null,
       "academic_average": 0.7583333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/482316"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482315"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "121940",
@@ -1831,16 +1786,12 @@
       "osslt": null,
       "academic_average": 0.56
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 5 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/482317"
-      },
-      {
-        "title": "JK To 5 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/482318"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "671207",
@@ -1885,12 +1836,12 @@
       "osslt": 0.97,
       "academic_average": 0.865
     },
-    "boundary_maps": [
-      {
-        "title": "Education - Centre For Special Education",
-        "url": "https://www.ocdsb.ca/download/482319"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "131504",
@@ -1935,16 +1886,12 @@
       "osslt": null,
       "academic_average": 0.6916666666666668
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/484960"
-      },
-      {
-        "title": "JK To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/484961"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "139432",
@@ -1989,12 +1936,12 @@
       "osslt": null,
       "academic_average": 0.7191666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/484964"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "153508",
@@ -2039,12 +1986,12 @@
       "osslt": null,
       "academic_average": 0.5783333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/484966"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "151416",
@@ -2089,12 +2036,12 @@
       "osslt": null,
       "academic_average": 0.6141666666666666
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/484965"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "634184",
@@ -2139,7 +2086,12 @@
       "osslt": null,
       "academic_average": 0.7633333333333333
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "906484",
@@ -2181,20 +2133,15 @@
       "osslt": 0.95,
       "academic_average": 0.585
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485443"
-      },
-      {
-        "title": "Grades 7 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/485442"
-      },
-      {
-        "title": "Earl Of March SS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481013"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": {
+      "factor": 11.1,
+      "is_default": false
+    }
   },
   {
     "school_number": "294012",
@@ -2236,7 +2183,12 @@
       "osslt": null,
       "academic_average": 0.5483333333333332
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "170763",
@@ -2281,12 +2233,12 @@
       "osslt": null,
       "academic_average": 0.8733333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485444"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "907898",
@@ -2327,7 +2279,15 @@
       "osslt": 0.92,
       "academic_average": 0.8500000000000001
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "177008",
@@ -2372,12 +2332,12 @@
       "osslt": null,
       "academic_average": 0.9416666666666665
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485445"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "050261",
@@ -2422,16 +2382,12 @@
       "osslt": null,
       "academic_average": 0.715
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 6 To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485446"
-      },
-      {
-        "title": "Grades 6 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485447"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "stable",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "129674",
@@ -2476,12 +2432,12 @@
       "osslt": null,
       "academic_average": 0.8300000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485452"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "083456",
@@ -2526,12 +2482,12 @@
       "osslt": null,
       "academic_average": 0.7858333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485453"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "193640",
@@ -2576,20 +2532,12 @@
       "osslt": null,
       "academic_average": 0.4683333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/485455"
-      },
-      {
-        "title": "Grades 7 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485454"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485456"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "196266",
@@ -2634,16 +2582,12 @@
       "osslt": null,
       "academic_average": 0.6925
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485457"
-      },
-      {
-        "title": "Grades 5 To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485458"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "improving",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "196762",
@@ -2688,16 +2632,12 @@
       "osslt": null,
       "academic_average": 0.77
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/485460"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485459"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "197211",
@@ -2742,24 +2682,12 @@
       "osslt": null,
       "academic_average": 0.395
     },
-    "boundary_maps": [
-      {
-        "title": "Fisher Park Public School - Grades 7 To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485461"
-      },
-      {
-        "title": "Fisher Park Public School - Grades 7 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485462"
-      },
-      {
-        "title": "Fisher Park Public School - Grades 7 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/485463"
-      },
-      {
-        "title": "Summit Alternative School - Grades 7 To 8 Alternative Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486737"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "088560",
@@ -2804,16 +2732,12 @@
       "osslt": null,
       "academic_average": 0.7000000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 5 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485465"
-      },
-      {
-        "title": "JK To 5 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485464"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "911143",
@@ -2854,7 +2778,15 @@
       "osslt": null,
       "academic_average": 0.8883333333333333
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "211583",
@@ -2899,12 +2831,12 @@
       "osslt": null,
       "academic_average": 0.5733333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 3 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485466"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "216658",
@@ -2949,20 +2881,12 @@
       "osslt": null,
       "academic_average": 0.6699999999999999
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485468"
-      },
-      {
-        "title": "Grades 7 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485467"
-      },
-      {
-        "title": "Grades 7 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/485469"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "912697",
@@ -3004,24 +2928,15 @@
       "osslt": 0.93,
       "academic_average": 0.835
     },
-    "boundary_maps": [
-      {
-        "title": "Glebe C.I. English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481020"
-      },
-      {
-        "title": "Option Glebe C.I. or Hillcrest H.S.",
-        "url": "https://www.ocdsb.ca/download/481019"
-      },
-      {
-        "title": "Option Glebe C.I. or Lisgar C.I. or Nepean H.S.",
-        "url": "https://www.ocdsb.ca/download/481022"
-      },
-      {
-        "title": "Option Glebe C.I. or Nepean H.S.",
-        "url": "https://www.ocdsb.ca/download/481021"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "224197",
@@ -3066,16 +2981,12 @@
       "osslt": null,
       "academic_average": 0.5666666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485471"
-      },
-      {
-        "title": "Grades 7 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/485470"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "392197",
@@ -3120,16 +3031,12 @@
       "osslt": null,
       "academic_average": 0.73
     },
-    "boundary_maps": [
-      {
-        "title": "JK To Grade 5 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485472"
-      },
-      {
-        "title": "JK To Grade 5 English Program With Core",
-        "url": "https://www.ocdsb.ca/download/485473"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "913472",
@@ -3171,12 +3078,15 @@
       "osslt": 0.77,
       "academic_average": 0.6175
     },
-    "boundary_maps": [
-      {
-        "title": "Gloucester HS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481024"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "223930",
@@ -3221,16 +3131,12 @@
       "osslt": null,
       "academic_average": 0.6866666666666666
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 6 To 8 English Program With Core French And Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/485475"
-      },
-      {
-        "title": "Grades 7 To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485474"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "424919",
@@ -3275,12 +3181,12 @@
       "osslt": null,
       "academic_average": 0.6549999999999999
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485476"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "stable",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "062050",
@@ -3325,12 +3231,12 @@
       "osslt": 0.64,
       "academic_average": 0.61625
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485501"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "250848",
@@ -3375,16 +3281,12 @@
       "osslt": null,
       "academic_average": 0.29916666666666664
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485504"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485503"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "419222",
@@ -3429,20 +3331,12 @@
       "osslt": null,
       "academic_average": 0.6416666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 6 To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485505"
-      },
-      {
-        "title": "Grades 6 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/485506"
-      },
-      {
-        "title": "JK To 5 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485507"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "252875",
@@ -3487,12 +3381,12 @@
       "osslt": null,
       "academic_average": 0.6533333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 6 To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485508"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "356980",
@@ -3537,12 +3431,12 @@
       "osslt": null,
       "academic_average": 0.4858333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485509"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "916854",
@@ -3583,12 +3477,15 @@
       "osslt": 0.83,
       "academic_average": 0.6312500000000001
     },
-    "boundary_maps": [
-      {
-        "title": "Hillcrest HS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481025"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "improving",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "259810",
@@ -3633,16 +3530,12 @@
       "osslt": null,
       "academic_average": 0.7558333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/485511"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485510"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "264628",
@@ -3687,28 +3580,12 @@
       "osslt": null,
       "academic_average": 0.82
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/485514"
-      },
-      {
-        "title": "Grades 7 To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485513"
-      },
-      {
-        "title": "Grades 7 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485516"
-      },
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485515"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/485517"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "273333",
@@ -3753,12 +3630,12 @@
       "osslt": 0.76,
       "academic_average": 0.7475
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/485518"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "287202",
@@ -3803,20 +3680,12 @@
       "osslt": null,
       "academic_average": 0.7474999999999999
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486592"
-      },
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486594"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486593"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "286168",
@@ -3861,12 +3730,12 @@
       "osslt": null,
       "academic_average": 0.735
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486595"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "918954",
@@ -3907,12 +3776,15 @@
       "osslt": 0.83,
       "academic_average": 0.67875
     },
-    "boundary_maps": [
-      {
-        "title": "John McCrae SS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481027"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "285455",
@@ -3957,12 +3829,12 @@
       "osslt": null,
       "academic_average": 0.7200000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486596"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "579722",
@@ -4007,12 +3879,12 @@
       "osslt": null,
       "academic_average": 0.7366666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486597"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "287563",
@@ -4057,20 +3929,12 @@
       "osslt": 0.87,
       "academic_average": 0.65
     },
-    "boundary_maps": [
-      {
-        "title": "Grade 6 to 8 English Program with Core French and Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/510853"
-      },
-      {
-        "title": "Grades 4 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486599"
-      },
-      {
-        "title": "JK To 5 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486600"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "287156",
@@ -4115,12 +3979,12 @@
       "osslt": null,
       "academic_average": 0.6375000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486602"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "improving",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "302759",
@@ -4165,16 +4029,12 @@
       "osslt": null,
       "academic_average": 0.8650000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486603"
-      },
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486604"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "improving",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "452440",
@@ -4219,12 +4079,12 @@
       "osslt": null,
       "academic_average": 0.6708333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Alternative Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486605"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "305057",
@@ -4268,12 +4128,12 @@
       "osslt": null,
       "academic_average": 0.715
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486606"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "926195",
@@ -4313,7 +4173,15 @@
       "osslt": null,
       "academic_average": 0.875
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "037699",
@@ -4358,12 +4226,12 @@
       "osslt": null,
       "academic_average": 0.6941666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 5 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486607"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "922960",
@@ -4405,16 +4273,15 @@
       "osslt": 0.91,
       "academic_average": 0.8275
     },
-    "boundary_maps": [
-      {
-        "title": "Lisgar CI English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481035"
-      },
-      {
-        "title": "Option Glebe C.I. or Lisgar C.I. or Nepean H.S.",
-        "url": "https://www.ocdsb.ca/download/481034"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "027235",
@@ -4459,7 +4326,12 @@
       "osslt": null,
       "academic_average": null
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "900494",
@@ -4501,16 +4373,15 @@
       "osslt": 0.87,
       "academic_average": 0.682
     },
-    "boundary_maps": [
-      {
-        "title": "Longfields-Davidson Heights Secondary School - Grades 7 To 8 English Program With Core French, Early French Immersion And Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486608"
-      },
-      {
-        "title": "Longfields-Davidson Heights SS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481030"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "332356",
@@ -4555,16 +4426,12 @@
       "osslt": 0.93,
       "academic_average": 0.64375
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486610"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486609"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "332488",
@@ -4609,16 +4476,12 @@
       "osslt": null,
       "academic_average": 0.5
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486612"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486611"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "332615",
@@ -4663,12 +4526,12 @@
       "osslt": 0.87,
       "academic_average": 0.766
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 5 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486613"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "129690",
@@ -4713,12 +4576,12 @@
       "osslt": null,
       "academic_average": 0.6858333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486614"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "580720",
@@ -4763,7 +4626,12 @@
       "osslt": null,
       "academic_average": 0.4716666666666667
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "906059",
@@ -4804,16 +4672,15 @@
       "osslt": null,
       "academic_average": 0.7625
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French, Early French Immersion, And Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486615"
-      },
-      {
-        "title": "Maplewood SS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481031"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "stable",
+      "overall": "declining"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "345903",
@@ -4858,12 +4725,12 @@
       "osslt": null,
       "academic_average": 0.7733333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486616"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "356409",
@@ -4908,12 +4775,12 @@
       "osslt": null,
       "academic_average": 0.5800000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486617"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "925691",
@@ -4954,20 +4821,15 @@
       "osslt": 0.96,
       "academic_average": 0.855
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French, Early And Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486618"
-      },
-      {
-        "title": "Grade 9 to 12 English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481033"
-      },
-      {
-        "title": "Grade 9 to 12 International Baccalaureate Program",
-        "url": "https://www.ocdsb.ca/download/481032"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 9.0,
+      "is_default": false
+    }
   },
   {
     "school_number": "114334",
@@ -5012,7 +4874,12 @@
       "osslt": null,
       "academic_average": 0.7483333333333334
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "423874",
@@ -5057,24 +4924,12 @@
       "osslt": null,
       "academic_average": 0.44083333333333335
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486619"
-      },
-      {
-        "title": "Grades 7 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486620"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486621"
-      },
-      {
-        "title": "JK To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486622"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "improving",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "200369",
@@ -5119,12 +4974,12 @@
       "osslt": 0.92,
       "academic_average": 0.65875
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486623"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "382272",
@@ -5168,12 +5023,12 @@
       "osslt": null,
       "academic_average": 0.8433333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486624"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "928291",
@@ -5214,24 +5069,15 @@
       "osslt": 0.94,
       "academic_average": 0.4825
     },
-    "boundary_maps": [
-      {
-        "title": "Nepean HS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481036"
-      },
-      {
-        "title": "Option Glebe C.I. or Lisgar C.I. or Nepean H.S.",
-        "url": "https://www.ocdsb.ca/download/481038"
-      },
-      {
-        "title": "Option Glebe C.I. or Nepean H.S.",
-        "url": "https://www.ocdsb.ca/download/481039"
-      },
-      {
-        "title": "Option Nepean H.S. or Woodroffe H.S.",
-        "url": "https://www.ocdsb.ca/download/481037"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": {
+      "factor": 9.7,
+      "is_default": false
+    }
   },
   {
     "school_number": "929425",
@@ -5272,7 +5118,15 @@
       "osslt": null,
       "academic_average": null
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "407232",
@@ -5317,12 +5171,12 @@
       "osslt": null,
       "academic_average": 0.765
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 5 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486629"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "419389",
@@ -5367,12 +5221,12 @@
       "osslt": 0.94,
       "academic_average": 0.748
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 3 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486630"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "424650",
@@ -5417,12 +5271,12 @@
       "osslt": null,
       "academic_average": 0.695
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486631"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "932710",
@@ -5463,12 +5317,15 @@
       "osslt": 0.86,
       "academic_average": 0.744
     },
-    "boundary_maps": [
-      {
-        "title": "Grade 9 to 12 English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481042"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "improving",
+      "overall": "declining"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "925403",
@@ -5509,12 +5366,15 @@
       "osslt": 0.48,
       "academic_average": 0.64
     },
-    "boundary_maps": [
-      {
-        "title": "Ottawa Technical SS Adaptive Program",
-        "url": "https://www.ocdsb.ca/download/481043"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "444936",
@@ -5559,12 +5419,12 @@
       "osslt": null,
       "academic_average": 0.5008333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486632"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "448834",
@@ -5608,12 +5468,12 @@
       "osslt": 0.88,
       "academic_average": 0.72875
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486633"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "463523",
@@ -5658,24 +5518,12 @@
       "osslt": 0.26,
       "academic_average": 0.455
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486634"
-      },
-      {
-        "title": "Grades 7 To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486635"
-      },
-      {
-        "title": "Grades 7 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486637"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486636"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "465089",
@@ -5720,12 +5568,12 @@
       "osslt": null,
       "academic_average": 0.3775
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486638"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "stable",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "480428",
@@ -5770,16 +5618,12 @@
       "osslt": null,
       "academic_average": 0.6516666666666666
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Alternative Program With Core French Attendance Boundary Map 1 Of 2",
-        "url": "https://www.ocdsb.ca/download/486640"
-      },
-      {
-        "title": "JK To 6 Alternative Program With Core French Attendance Boundary Map 2 Of 2",
-        "url": "https://www.ocdsb.ca/download/486639"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "028475",
@@ -5817,7 +5661,12 @@
       "osslt": null,
       "academic_average": 0.48333333333333334
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "939420",
@@ -5858,7 +5707,15 @@
       "osslt": null,
       "academic_average": 0.29833333333333334
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "483150",
@@ -5903,16 +5760,12 @@
       "osslt": null,
       "academic_average": 0.44999999999999996
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 5 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486641"
-      },
-      {
-        "title": "JK To 5 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486642"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "938564",
@@ -5953,12 +5806,15 @@
       "osslt": 0.62,
       "academic_average": 0.435
     },
-    "boundary_maps": [
-      {
-        "title": "Grade 9 to 12 English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481044"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "235619",
@@ -6000,7 +5856,12 @@
       "osslt": null,
       "academic_average": null
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "897785",
@@ -6038,16 +5899,15 @@
       "osslt": null,
       "academic_average": 0.7166666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486647"
-      },
-      {
-        "title": "Grade 9 to 12 English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481040"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "487180",
@@ -6092,16 +5952,12 @@
       "osslt": 0.59,
       "academic_average": 0.4225
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Alternative Program With Core French Attendance Boundary \u2013 Map 1 Of 2",
-        "url": "https://www.ocdsb.ca/download/486649"
-      },
-      {
-        "title": "JK To 6 Alternative Program With Core French Attendance Boundary \u2013 Map 2 Of 2",
-        "url": "https://www.ocdsb.ca/download/486648"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "declining",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "121690",
@@ -6146,12 +6002,12 @@
       "osslt": null,
       "academic_average": 0.5483333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486650"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "487317",
@@ -6196,12 +6052,12 @@
       "osslt": null,
       "academic_average": 0.49833333333333335
     },
-    "boundary_maps": [
-      {
-        "title": "Robert E. Wilson Public School - JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486651"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "487384",
@@ -6246,16 +6102,12 @@
       "osslt": null,
       "academic_average": 0.5008333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 5 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486653"
-      },
-      {
-        "title": "JK To 5 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486652"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "319937",
@@ -6300,20 +6152,12 @@
       "osslt": null,
       "academic_average": 0.5233333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French And French Immersion",
-        "url": "https://www.ocdsb.ca/download/486654"
-      },
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486655"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486656"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "060925",
@@ -6358,12 +6202,12 @@
       "osslt": null,
       "academic_average": 0.5633333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486657"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "488356",
@@ -6408,16 +6252,12 @@
       "osslt": null,
       "academic_average": 0.7483333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486659"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486658"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "489360",
@@ -6462,12 +6302,12 @@
       "osslt": null,
       "academic_average": 0.7041666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486660"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "474444",
@@ -6512,16 +6352,12 @@
       "osslt": null,
       "academic_average": 0.6908333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486724"
-      },
-      {
-        "title": "JK To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486723"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "506168",
@@ -6566,12 +6402,12 @@
       "osslt": null,
       "academic_average": 0.7791666666666668
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486725"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "035887",
@@ -6616,12 +6452,12 @@
       "osslt": null,
       "academic_average": 0.7516666666666666
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486726"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "942952",
@@ -6662,12 +6498,15 @@
       "osslt": 0.42,
       "academic_average": 0.4725
     },
-    "boundary_maps": [
-      {
-        "title": "Sir Guy Carleton SS Adaptive Program",
-        "url": "https://www.ocdsb.ca/download/481045"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "942014",
@@ -6708,16 +6547,15 @@
       "osslt": 0.86,
       "academic_average": 0.685
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French, Early And Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486727"
-      },
-      {
-        "title": "Sir Robert Borden HS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481049"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "620213",
@@ -6762,7 +6600,12 @@
       "osslt": null,
       "academic_average": 0.5966666666666666
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "942332",
@@ -6803,12 +6646,15 @@
       "osslt": 0.7150000000000001,
       "academic_average": 0.54
     },
-    "boundary_maps": [
-      {
-        "title": "Sir Wilfrid Laurier SS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481047"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "516694",
@@ -6853,12 +6699,12 @@
       "osslt": 0.84,
       "academic_average": 0.7575000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486728"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "942855",
@@ -6899,12 +6745,15 @@
       "osslt": 0.86,
       "academic_average": 0.71
     },
-    "boundary_maps": [
-      {
-        "title": "Grade 9 to 12 English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481048"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "204901",
@@ -6949,12 +6798,12 @@
       "osslt": 0.88,
       "academic_average": 0.7324999999999999
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486729"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "310646",
@@ -6999,12 +6848,12 @@
       "osslt": null,
       "academic_average": 0.855
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486731"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "565750",
@@ -7046,12 +6895,12 @@
       "osslt": 0.87,
       "academic_average": 0.74
     },
-    "boundary_maps": [
-      {
-        "title": "JK to Grade 6 English Program with Core French and Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486732"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "537624",
@@ -7096,12 +6945,12 @@
       "osslt": null,
       "academic_average": 0.7275
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486733"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "595012",
@@ -7146,12 +6995,12 @@
       "osslt": null,
       "academic_average": 0.8008333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486734"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "330043",
@@ -7196,16 +7045,12 @@
       "osslt": null,
       "academic_average": 0.7716666666666666
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486735"
-      },
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486736"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "554910",
@@ -7250,12 +7095,12 @@
       "osslt": null,
       "academic_average": 0.6475000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486738"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "383260",
@@ -7300,16 +7145,12 @@
       "osslt": null,
       "academic_average": 0.6616666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 8 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486740"
-      },
-      {
-        "title": "JK To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486739"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "949159",
@@ -7350,7 +7191,15 @@
       "osslt": null,
       "academic_average": 0.6816666666666666
     },
-    "boundary_maps": []
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "396902",
@@ -7392,12 +7241,12 @@
       "osslt": null,
       "academic_average": 0.7483333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK to Grade 6 English Program with Core French and Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486761"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "declining",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "577405",
@@ -7442,24 +7291,12 @@
       "osslt": null,
       "academic_average": 0.6633333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486763"
-      },
-      {
-        "title": "Grades 7 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486762"
-      },
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486765"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486764"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "578576",
@@ -7504,16 +7341,12 @@
       "osslt": null,
       "academic_average": 0.6283333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486767"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486766"
-      }
-    ]
+    "eqao_trend": {
+      "math": "stable",
+      "literacy": "stable",
+      "overall": "stable"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "579297",
@@ -7558,16 +7391,12 @@
       "osslt": null,
       "academic_average": 0.7608333333333333
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 4 To 6 Middle French Immersion",
-        "url": "https://www.ocdsb.ca/download/486769"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486768"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "579351",
@@ -7612,12 +7441,12 @@
       "osslt": null,
       "academic_average": 0.6124999999999999
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486770"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "061972",
@@ -7662,12 +7491,12 @@
       "osslt": null,
       "academic_average": 0.73
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 8 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486771"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "473973",
@@ -7712,12 +7541,12 @@
       "osslt": null,
       "academic_average": 0.8066666666666666
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 English Program With Core French And Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486772"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "951366",
@@ -7759,12 +7588,15 @@
       "osslt": 0.94,
       "academic_average": 0.66
     },
-    "boundary_maps": [
-      {
-        "title": "West Carleton SS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481050"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "624500",
@@ -7809,16 +7641,12 @@
       "osslt": null,
       "academic_average": 0.8241666666666666
     },
-    "boundary_maps": [
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486773"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486774"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "stable",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "619523",
@@ -7863,16 +7691,12 @@
       "osslt": null,
       "academic_average": 0.8291666666666667
     },
-    "boundary_maps": [
-      {
-        "title": "Grade 7 To 8 Early Immersion",
-        "url": "https://www.ocdsb.ca/download/486776"
-      },
-      {
-        "title": "JK To 6 Early French Immersion",
-        "url": "https://www.ocdsb.ca/download/486775"
-      }
-    ]
+    "eqao_trend": {
+      "math": "improving",
+      "literacy": "improving",
+      "overall": "improving"
+    },
+    "waterloo_af": null
   },
   {
     "school_number": "954420",
@@ -7913,12 +7737,15 @@
       "osslt": 0.8700000000000001,
       "academic_average": 0.7150000000000001
     },
-    "boundary_maps": [
-      {
-        "title": "Woodroffe HS English and Immersion",
-        "url": "https://www.ocdsb.ca/download/481051"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": {
+      "factor": 14.1,
+      "is_default": true
+    }
   },
   {
     "school_number": "624330",
@@ -7963,15 +7790,11 @@
       "osslt": null,
       "academic_average": 0.5833333333333334
     },
-    "boundary_maps": [
-      {
-        "title": "Grades 7 To 8 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486742"
-      },
-      {
-        "title": "JK To 6 English Program With Core French",
-        "url": "https://www.ocdsb.ca/download/486741"
-      }
-    ]
+    "eqao_trend": {
+      "math": "declining",
+      "literacy": "declining",
+      "overall": "declining"
+    },
+    "waterloo_af": null
   }
 ]

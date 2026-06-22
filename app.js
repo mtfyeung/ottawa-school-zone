@@ -551,6 +551,17 @@ function renderSchoolsList() {
     }
 }
 
+function getTrendArrowHTML(trend) {
+    if (!trend) return '';
+    if (trend === 'improving') {
+        return `<span class="trend-arrow trend-improving" title="Improving EQAO Trend">↑</span>`;
+    } else if (trend === 'declining') {
+        return `<span class="trend-arrow trend-declining" title="Declining EQAO Trend">↓</span>`;
+    } else {
+        return `<span class="trend-arrow trend-stable" title="Stable EQAO Trend">→</span>`;
+    }
+}
+
 // HTML Component: School Card
 function createSchoolCard(school) {
     const div = document.createElement('div');
@@ -605,11 +616,11 @@ function createSchoolCard(school) {
         <div class="card-stats" style="grid-template-columns: repeat(3, 1fr); gap: 0.5rem;">
             <div class="stat-item">
                 <span class="stat-item-label">EQAO Math</span>
-                <span class="stat-item-value">${mathVal}</span>
+                <span class="stat-item-value">${mathVal}${getTrendArrowHTML(school.eqao_trend ? school.eqao_trend.math : null)}</span>
             </div>
             <div class="stat-item">
                 <span class="stat-item-label">EQAO Lit</span>
-                <span class="stat-item-value">${literacyVal}</span>
+                <span class="stat-item-value">${literacyVal}${getTrendArrowHTML(school.eqao_trend ? school.eqao_trend.literacy : null)}</span>
             </div>
             <div class="stat-item">
                 <span class="stat-item-label">Utilization</span>
@@ -655,10 +666,10 @@ function createSchoolTableHTML() {
     filteredSchools.forEach(school => {
         const inCompare = comparisonList.includes(school.school_number);
         const mathVal = school.scores.math !== null 
-            ? `${Math.round(school.scores.math)}%` 
+            ? `${Math.round(school.scores.math)}%${getTrendArrowHTML(school.eqao_trend ? school.eqao_trend.math : null)}` 
             : 'N/A';
         const literacyVal = school.scores.literacy !== null 
-            ? `${Math.round(school.scores.literacy)}%` 
+            ? `${Math.round(school.scores.literacy)}%${getTrendArrowHTML(school.eqao_trend ? school.eqao_trend.literacy : null)}` 
             : 'N/A';
             
         let capVal = 'N/A';
@@ -865,13 +876,16 @@ function openDetailsModal(school) {
     }
     
     // EQAO Chart renders
-    renderEqaoChart(school.eqao, school.level);
+    renderEqaoChart(school.eqao, school.level, school.eqao_trend);
     
     // Capacity section renders
     renderCapacityDetails(school.capacity, school.level);
     
     // Demographics section renders
     renderDemographicsDetails(school.demographics);
+
+    // Waterloo section renders
+    renderWaterlooDetails(school.waterloo_af, school.level);
 
     overlay.classList.add('active');
 }
@@ -880,7 +894,7 @@ function closeModal() {
     document.getElementById('modal-overlay').classList.remove('active');
 }
 
-function renderEqaoChart(eqao, level) {
+function renderEqaoChart(eqao, level, eqao_trend) {
     const chart = document.getElementById('modal-eqao-chart');
     chart.innerHTML = '';
     
@@ -908,7 +922,16 @@ function renderEqaoChart(eqao, level) {
     
     subjects.forEach(sub => {
         const val = eqao[sub.key];
-        const displayVal = val !== null ? `${Math.round(val * 100)}%` : 'No Data';
+        let trend = null;
+        if (eqao_trend) {
+            if (sub.key.includes('math')) {
+                trend = eqao_trend.math;
+            } else {
+                trend = eqao_trend.literacy;
+            }
+        }
+        const trendArrowHTML = getTrendArrowHTML(trend);
+        const displayVal = val !== null ? `${Math.round(val * 100)}% ${trendArrowHTML}` : 'No Data';
         const pctFill = val !== null ? val * 100 : 0;
         
         let colorClass = 'success';
@@ -936,6 +959,64 @@ function renderEqaoChart(eqao, level) {
             barItem.querySelector('.progress-bar-fill').style.width = `${pctFill}%`;
         }, 100);
     });
+}
+
+function renderWaterlooDetails(waterloo_af, level) {
+    const section = document.getElementById('modal-waterloo-section');
+    const content = document.getElementById('modal-waterloo-content');
+    
+    if (level !== 'Secondary' || !waterloo_af) {
+        section.style.display = 'none';
+        return;
+    }
+    
+    section.style.display = 'block';
+    content.innerHTML = '';
+    
+    const factor = waterloo_af.factor;
+    const isDefault = waterloo_af.is_default;
+    
+    let colorClass = 'success';
+    let descText = 'Excellent alignment between high school grades and university engineering performance.';
+    
+    if (factor > 13.5) {
+        colorClass = 'danger';
+        descText = 'Historical performance drop is higher than average, requiring stronger admission averages.';
+    } else if (factor > 11.5) {
+        colorClass = 'warning';
+        descText = 'Moderate alignment between high school grades and university engineering performance.';
+    }
+    
+    const pct = Math.max(0, Math.min(100, ((20 - factor) / 12.0) * 100));
+    
+    content.innerHTML = `
+        <div class="waterloo-factor-container ${isDefault ? 'default-factor' : 'specific-factor'}">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                <div>
+                    <span class="waterloo-factor-value ${colorClass}">${factor.toFixed(1)}%</span>
+                    <span class="badge-tag ${isDefault ? 'yellow' : 'green'}" style="margin-left: 0.5rem; font-size: 0.7rem;">
+                        ${isDefault ? 'Default Value' : 'Specific School Value'}
+                    </span>
+                </div>
+            </div>
+            <div class="progress-bar-wrapper" style="height: 8px;">
+                <div class="progress-bar-fill ${colorClass}" style="width: 0%"></div>
+            </div>
+            <p class="waterloo-desc" style="font-size:0.75rem; color:var(--text-secondary); margin-top:0.5rem; line-height:1.3;">
+                ${isDefault 
+                    ? 'This school uses the general Ontario default adjustment factor due to insufficient cohort size sending students to Waterloo Engineering. A default factor is typically less favorable than a specific school factor.' 
+                    : descText}
+            </p>
+            <p class="waterloo-note" style="font-size:0.7rem; color:var(--text-muted); margin-top:0.25rem; font-style:italic;">
+                *The UW Engineering Adjustment Factor measures the historical drop between Grade 12 admission averages and 1st year Engineering GPA. A lower number indicates more rigorous grading alignment.
+            </p>
+        </div>
+    `;
+    
+    setTimeout(() => {
+        const fill = content.querySelector('.progress-bar-fill');
+        if (fill) fill.style.width = `${pct}%`;
+    }, 100);
 }
 
 function renderCapacityDetails(capacity, level) {
@@ -1119,6 +1200,15 @@ function openCompareModal() {
     tableBodyHTML += makeRow('Grade 6 Math', s => s.eqao ? s.eqao.gr6_math : null, formatPercent);
     tableBodyHTML += makeRow('Grade 9 Math', s => s.eqao ? s.eqao.gr9_math : null, formatPercent);
     tableBodyHTML += makeRow('Grade 10 OSSLT (Literacy)', s => s.eqao ? s.eqao.osslt : null, formatPercent);
+    tableBodyHTML += makeRow('Academic EQAO Trend (Overall)', s => s.eqao_trend ? s.eqao_trend.overall : null, (val) => {
+        if (!val) return 'N/A';
+        const label = val.charAt(0).toUpperCase() + val.slice(1);
+        let arrow = '→';
+        let colorClass = 'trend-stable';
+        if (val === 'improving') { arrow = '↑'; colorClass = 'trend-improving'; }
+        else if (val === 'declining') { arrow = '↓'; colorClass = 'trend-declining'; }
+        return `<span class="trend-arrow ${colorClass}">${arrow}</span> ${label}`;
+    });
     
     // 4. Demographics
     tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">Demographics & Community</td></tr>`;
@@ -1128,7 +1218,26 @@ function openCompareModal() {
     tableBodyHTML += makeRow('Gifted Students', s => s.demographics ? s.demographics.gifted_pct : null, formatPercent);
     tableBodyHTML += makeRow('English Language Learners', s => s.demographics ? s.demographics.ell_pct : null, formatPercent);
     
-    // 5. General Info
+    // 5. University Admissions (Waterloo AF)
+    tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">University Admissions</td></tr>`;
+    tableBodyHTML += makeRow('UW Engineering Adjustment Factor', s => s.waterloo_af, (val) => {
+        if (!val) return 'N/A (Elementary)';
+        const factor = val.factor;
+        const isDefault = val.is_default;
+        
+        let colorClass = 'success';
+        if (factor > 13.5) colorClass = 'danger';
+        else if (factor > 11.5) colorClass = 'warning';
+        
+        return `
+            <span class="waterloo-factor-value ${colorClass}" style="font-size:1.1rem; display:block;">${factor.toFixed(1)}%</span>
+            <span class="badge-tag ${isDefault ? 'yellow' : 'green'}" style="font-size:0.6rem; padding: 0.05rem 0.2rem; margin-top:2px; display:inline-block;">
+                ${isDefault ? 'Default' : 'Specific'}
+            </span>
+        `;
+    });
+    
+    // 6. General Info
     tableBodyHTML += `<tr><td colspan="${schools.length + 1}" style="background-color:rgba(0,0,0,0.02); font-weight:700; font-size:0.8rem; text-transform:uppercase; color:var(--accent);">School Information</td></tr>`;
     tableBodyHTML += makeRow('FSL Programs Offered', s => s.fsl_programs, (val) => val.length > 0 ? val.join('<br>') : 'Core French');
     tableBodyHTML += makeRow('Address', s => `${s.address}, ${s.city}`, (val) => val);
@@ -1221,7 +1330,7 @@ function renderMapMarkers() {
         
         // Create popup card content
         const eqaoVal = school.eqao && school.eqao.academic_average !== null 
-            ? `${Math.round(school.eqao.academic_average * 100)}%` 
+            ? `${Math.round(school.eqao.academic_average * 100)}%${getTrendArrowHTML(school.eqao_trend ? school.eqao_trend.overall : null)}` 
             : 'N/A';
         const utilizationVal = school.capacity && school.capacity.utilization_rate_pct !== null
             ? `${Math.round(school.capacity.utilization_rate_pct * 100)}%`
