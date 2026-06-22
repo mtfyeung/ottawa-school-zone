@@ -17,7 +17,8 @@ let currentFilters = {
         t1: false,
         t2: false,
         t3: false
-    }
+    },
+    waterlooSpecific: false
 };
 
 let currentWeights = {
@@ -122,6 +123,12 @@ function setupEventListeners() {
     });
     document.getElementById('tier-3-chk').addEventListener('change', (e) => {
         currentFilters.tiers.t3 = e.target.checked;
+        applyFilters();
+    });
+
+    // Waterloo specific check
+    document.getElementById('waterloo-specific-chk').addEventListener('change', (e) => {
+        currentFilters.waterlooSpecific = e.target.checked;
         applyFilters();
     });
 
@@ -241,6 +248,19 @@ function setLevelFilter(level) {
     levelAllBtn.classList.toggle('active', level === 'all');
     levelElemBtn.classList.toggle('active', level === 'elementary');
     levelSecBtn.classList.toggle('active', level === 'secondary');
+    
+    // Show Waterloo filter only when Secondary level is selected
+    const waterlooWrapper = document.getElementById('waterloo-filter-wrapper');
+    if (waterlooWrapper) {
+        waterlooWrapper.style.display = level === 'secondary' ? 'block' : 'none';
+        if (level !== 'secondary') {
+            const chk = document.getElementById('waterloo-specific-chk');
+            if (chk) {
+                chk.checked = false;
+                currentFilters.waterlooSpecific = false;
+            }
+        }
+    }
     
     applyFilters();
 }
@@ -422,6 +442,11 @@ function applyFilters() {
             if (school.tier === 2 && !currentFilters.tiers.t2) return false;
             if (school.tier === 3 && !currentFilters.tiers.t3) return false;
         }
+
+        // Waterloo specific filter (only show schools with a specific, non-default adjustment factor)
+        if (currentFilters.waterlooSpecific) {
+            if (!school.waterloo_af || school.waterloo_af.is_default) return false;
+        }
         
         return true;
     });
@@ -460,6 +485,9 @@ function sortFilteredData() {
         } else if (sortField === 'tier') {
             valA = a.tier;
             valB = b.tier;
+        } else if (sortField === 'waterloo_af') {
+            valA = a.waterloo_af ? a.waterloo_af.factor : 999;
+            valB = b.waterloo_af ? b.waterloo_af.factor : 999;
         }
         
         if (valA < valB) return sortAscending ? -1 : 1;
@@ -659,8 +687,8 @@ function createSchoolCard(school) {
     return div;
 }
 
-// HTML Component: Details Table
 function createSchoolTableHTML() {
+    const showWaterlooCol = currentFilters.level === 'secondary';
     let tbody = '';
     
     filteredSchools.forEach(school => {
@@ -679,6 +707,18 @@ function createSchoolTableHTML() {
         
         let tierClass = `tier-${school.tier}`;
         
+        let waterlooTd = '';
+        if (showWaterlooCol) {
+            if (school.waterloo_af) {
+                const isDef = school.waterloo_af.is_default;
+                const factor = school.waterloo_af.factor;
+                const colorClass = isDef ? 'trend-stable' : (factor <= 11.5 ? 'trend-improving' : 'trend-declining');
+                waterlooTd = `<td style="text-align: center;"><span class="${colorClass}" style="font-weight:700;">${factor.toFixed(1)}%</span>${isDef ? '<span style="font-size:0.65rem; color:var(--text-muted); display:block; line-height:1;">(Default)</span>' : ''}</td>`;
+            } else {
+                waterlooTd = `<td style="text-align: center; color: var(--text-muted);">N/A</td>`;
+            }
+        }
+        
         tbody += `
             <tr data-number="${school.school_number}">
                 <td style="width: 50px; text-align: center;">
@@ -691,12 +731,17 @@ function createSchoolTableHTML() {
                 <td style="text-align: center;">${mathVal}</td>
                 <td style="text-align: center;">${literacyVal}</td>
                 <td style="text-align: center;">${capVal}</td>
+                ${waterlooTd}
                 <td>${school.grade_range}</td>
                 <td>${school.city}</td>
             </tr>
         `;
     });
     
+    const waterlooTh = showWaterlooCol 
+        ? `<th data-sort="waterloo_af" style="text-align: center;">Waterloo AF</th>` 
+        : '';
+        
     return `
         <div class="table-container">
             <table class="school-table">
@@ -710,6 +755,7 @@ function createSchoolTableHTML() {
                         <th data-sort="eqao_math" style="text-align: center;">Math Avg</th>
                         <th data-sort="eqao_lit" style="text-align: center;">Lit Avg</th>
                         <th data-sort="utilization" style="text-align: center;">Utilization</th>
+                        ${waterlooTh}
                         <th>Grades</th>
                         <th data-sort="school_name">City</th>
                     </tr>
