@@ -75,7 +75,6 @@ async function loadData() {
         // Calculate initial scores
         calculateScores();
         applyFilters();
-        renderSummaryStats();
     } catch (error) {
         console.error("Could not load school data:", error);
         document.getElementById('schools-container').innerHTML = `
@@ -597,6 +596,7 @@ function applyFilters() {
     } else {
         renderSchoolsList();
     }
+    renderSummaryStats();
 }
 
 function sortFilteredData() {
@@ -909,32 +909,32 @@ function createSchoolTableHTML() {
 
 // Render summary stats on top cards
 function renderSummaryStats() {
-    document.getElementById('stat-total-count').textContent = schoolsData.length;
+    document.getElementById('stat-total-count').textContent = filteredSchools.length;
     
-    const elemCount = schoolsData.filter(s => s.level === 'Elementary').length;
-    const secCount = schoolsData.filter(s => s.level === 'Secondary').length;
+    const elemCount = filteredSchools.filter(s => s.level === 'Elementary').length;
+    const secCount = filteredSchools.filter(s => s.level === 'Secondary').length;
     document.getElementById('stat-total-desc').textContent = `${elemCount} Elementary, ${secCount} Secondary`;
     
     // Average EQAO Math
-    const mathScores = schoolsData
+    const mathScores = filteredSchools
         .map(s => s.scores.math)
         .filter(v => v !== null && v !== undefined);
     const avgMath = mathScores.length > 0 ? Math.round(mathScores.reduce((sum, v) => sum + v, 0) / mathScores.length) : 0;
-    document.getElementById('stat-avg-eqao-math').textContent = `${avgMath}%`;
+    document.getElementById('stat-avg-eqao-math').textContent = mathScores.length > 0 ? `${avgMath}%` : 'N/A';
     
     // Average EQAO Literacy
-    const literacyScores = schoolsData
+    const literacyScores = filteredSchools
         .map(s => s.scores.literacy)
         .filter(v => v !== null && v !== undefined);
     const avgLit = literacyScores.length > 0 ? Math.round(literacyScores.reduce((sum, v) => sum + v, 0) / literacyScores.length) : 0;
-    document.getElementById('stat-avg-eqao-lit').textContent = `${avgLit}%`;
+    document.getElementById('stat-avg-eqao-lit').textContent = literacyScores.length > 0 ? `${avgLit}%` : 'N/A';
     
     // Average utilization (elementary only)
-    const utilizations = schoolsData
+    const utilizations = filteredSchools
         .filter(s => s.capacity && s.capacity.utilization_rate_pct !== null)
         .map(s => s.capacity.utilization_rate_pct);
     const avgUtil = utilizations.length > 0 ? Math.round(utilizations.reduce((sum, v) => sum + v, 0) / utilizations.length * 100) : 0;
-    document.getElementById('stat-avg-capacity').textContent = `${avgUtil}%`;
+    document.getElementById('stat-avg-capacity').textContent = utilizations.length > 0 ? `${avgUtil}%` : 'N/A';
 }
 
 // Compare List Management
