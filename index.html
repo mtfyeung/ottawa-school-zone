@@ -81,6 +81,37 @@
                 </div>
             </div>
 
+            <!-- Threshold Filters -->
+            <div class="filter-section">
+                <h2 class="filter-title">Threshold Filters</h2>
+                
+                <div class="slider-group" style="gap: 0.75rem;">
+                    <div class="slider-item">
+                        <div class="slider-header" style="font-size: 0.8rem; margin-bottom: 0.25rem;">
+                            <span class="slider-name" style="font-weight: 500;">Min Math Average</span>
+                            <span id="filter-math-val" class="slider-val" style="font-weight: 700; color: var(--accent);">0%</span>
+                        </div>
+                        <input type="range" id="filter-math" class="slider-input" min="0" max="100" value="0">
+                    </div>
+                    
+                    <div class="slider-item">
+                        <div class="slider-header" style="font-size: 0.8rem; margin-bottom: 0.25rem;">
+                            <span class="slider-name" style="font-weight: 500;">Min Literacy Average</span>
+                            <span id="filter-literacy-val" class="slider-val" style="font-weight: 700; color: var(--accent);">0%</span>
+                        </div>
+                        <input type="range" id="filter-literacy" class="slider-input" min="0" max="100" value="0">
+                    </div>
+                    
+                    <div class="slider-item" id="filter-utilization-wrapper">
+                        <div class="slider-header" style="font-size: 0.8rem; margin-bottom: 0.25rem;">
+                            <span class="slider-name" style="font-weight: 500;">Max Utilization</span>
+                            <span id="filter-utilization-val" class="slider-val" style="font-weight: 700; color: var(--accent);">No Limit</span>
+                        </div>
+                        <input type="range" id="filter-utilization" class="slider-input" min="50" max="150" value="150">
+                    </div>
+                </div>
+            </div>
+
             <!-- Score Weights Adjuster -->
             <div class="filter-section">
                 <h2 class="filter-title">Custom Score Weights</h2>

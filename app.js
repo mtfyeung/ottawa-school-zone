@@ -18,7 +18,10 @@ let currentFilters = {
         t2: false,
         t3: false
     },
-    waterlooSpecific: false
+    waterlooSpecific: false,
+    minMath: 0,
+    minLiteracy: 0,
+    maxUtilization: 150
 };
 
 let currentWeights = {
@@ -129,6 +132,28 @@ function setupEventListeners() {
     // Waterloo specific check
     document.getElementById('waterloo-specific-chk').addEventListener('change', (e) => {
         currentFilters.waterlooSpecific = e.target.checked;
+        applyFilters();
+    });
+
+    // Threshold sliders
+    document.getElementById('filter-math').addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        currentFilters.minMath = val;
+        document.getElementById('filter-math-val').textContent = `${val}%`;
+        applyFilters();
+    });
+
+    document.getElementById('filter-literacy').addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        currentFilters.minLiteracy = val;
+        document.getElementById('filter-literacy-val').textContent = `${val}%`;
+        applyFilters();
+    });
+
+    document.getElementById('filter-utilization').addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        currentFilters.maxUtilization = val;
+        document.getElementById('filter-utilization-val').textContent = val === 150 ? 'No Limit' : `${val}%`;
         applyFilters();
     });
 
@@ -258,6 +283,20 @@ function setLevelFilter(level) {
             if (chk) {
                 chk.checked = false;
                 currentFilters.waterlooSpecific = false;
+            }
+        }
+    }
+    
+    // Show/hide utilization threshold slider depending on level
+    const utilizationWrapper = document.getElementById('filter-utilization-wrapper');
+    if (utilizationWrapper) {
+        utilizationWrapper.style.display = level === 'secondary' ? 'none' : 'block';
+        if (level === 'secondary') {
+            const slider = document.getElementById('filter-utilization');
+            if (slider) {
+                slider.value = 150;
+                currentFilters.maxUtilization = 150;
+                document.getElementById('filter-utilization-val').textContent = 'No Limit';
             }
         }
     }
@@ -446,6 +485,20 @@ function applyFilters() {
         // Waterloo specific filter (only show schools with a specific, non-default adjustment factor)
         if (currentFilters.waterlooSpecific) {
             if (!school.waterloo_af || school.waterloo_af.is_default) return false;
+        }
+
+        // Threshold filters
+        if (currentFilters.minMath > 0) {
+            if (school.scores.math === null || school.scores.math < currentFilters.minMath) return false;
+        }
+        if (currentFilters.minLiteracy > 0) {
+            if (school.scores.literacy === null || school.scores.literacy < currentFilters.minLiteracy) return false;
+        }
+        if (currentFilters.maxUtilization < 150) {
+            if (school.capacity && school.capacity.utilization_rate_pct !== null) {
+                const ratePct = school.capacity.utilization_rate_pct * 100;
+                if (ratePct > currentFilters.maxUtilization) return false;
+            }
         }
         
         return true;
