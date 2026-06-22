@@ -1127,3 +1127,20 @@ main {
 .waterloo-factor-value.danger {
     color: var(--danger);
 }
+
+/* Collapsible Demographics Filter Section styling */
+details.collapsible-filter-group summary::-webkit-details-marker {
+    display: none;
+}
+details.collapsible-filter-group summary {
+    list-style: none;
+    outline: none;
+}
+details.collapsible-filter-group[open] summary .chevron {
+    transform: rotate(180deg);
+}
+.chevron {
+    transition: transform 0.2s ease;
+    font-size: 0.6rem;
+    color: var(--text-muted);
+}

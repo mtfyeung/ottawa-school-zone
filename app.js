@@ -21,7 +21,13 @@ let currentFilters = {
     waterlooSpecific: false,
     minMath: 0,
     minLiteracy: 0,
-    maxUtilization: 150
+    maxUtilization: 150,
+    maxLowIncome: 100,
+    minGifted: 0,
+    maxSpecialEd: 100,
+    maxEll: 100,
+    maxNewcomer: 100,
+    maxParentsNoDegree: 100
 };
 
 let currentWeights = {
@@ -154,6 +160,49 @@ function setupEventListeners() {
         const val = parseInt(e.target.value);
         currentFilters.maxUtilization = val;
         document.getElementById('filter-utilization-val').textContent = val === 150 ? 'No Limit' : `${val}%`;
+        applyFilters();
+    });
+
+    // Demographics threshold sliders
+    document.getElementById('filter-low-income').addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        currentFilters.maxLowIncome = val;
+        document.getElementById('filter-low-income-val').textContent = val === 100 ? 'No Limit' : `${val}%`;
+        applyFilters();
+    });
+
+    document.getElementById('filter-gifted').addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        currentFilters.minGifted = val;
+        document.getElementById('filter-gifted-val').textContent = `${val}%`;
+        applyFilters();
+    });
+
+    document.getElementById('filter-special-ed').addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        currentFilters.maxSpecialEd = val;
+        document.getElementById('filter-special-ed-val').textContent = val === 100 ? 'No Limit' : `${val}%`;
+        applyFilters();
+    });
+
+    document.getElementById('filter-ell').addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        currentFilters.maxEll = val;
+        document.getElementById('filter-ell-val').textContent = val === 100 ? 'No Limit' : `${val}%`;
+        applyFilters();
+    });
+
+    document.getElementById('filter-newcomer').addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        currentFilters.maxNewcomer = val;
+        document.getElementById('filter-newcomer-val').textContent = val === 100 ? 'No Limit' : `${val}%`;
+        applyFilters();
+    });
+
+    document.getElementById('filter-parents-no-degree').addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        currentFilters.maxParentsNoDegree = val;
+        document.getElementById('filter-parents-no-degree-val').textContent = val === 100 ? 'No Limit' : `${val}%`;
         applyFilters();
     });
 
@@ -499,6 +548,43 @@ function applyFilters() {
                 const ratePct = school.capacity.utilization_rate_pct * 100;
                 if (ratePct > currentFilters.maxUtilization) return false;
             }
+        }
+
+        // Demographics threshold filters
+        if (school.demographics) {
+            if (currentFilters.maxLowIncome < 100) {
+                const val = school.demographics.low_income_pct !== null ? school.demographics.low_income_pct * 100 : 0;
+                if (val > currentFilters.maxLowIncome) return false;
+            }
+            if (currentFilters.minGifted > 0) {
+                const val = school.demographics.gifted_pct !== null ? school.demographics.gifted_pct * 100 : 0;
+                if (val < currentFilters.minGifted) return false;
+            }
+            if (currentFilters.maxSpecialEd < 100) {
+                const val = school.demographics.special_ed_pct !== null ? school.demographics.special_ed_pct * 100 : 0;
+                if (val > currentFilters.maxSpecialEd) return false;
+            }
+            if (currentFilters.maxEll < 100) {
+                const val = school.demographics.ell_pct !== null ? school.demographics.ell_pct * 100 : 0;
+                if (val > currentFilters.maxEll) return false;
+            }
+            if (currentFilters.maxNewcomer < 100) {
+                const val = school.demographics.newcomer_pct !== null ? school.demographics.newcomer_pct * 100 : 0;
+                if (val > currentFilters.maxNewcomer) return false;
+            }
+            if (currentFilters.maxParentsNoDegree < 100) {
+                const val = school.demographics.parents_no_degree_pct !== null ? school.demographics.parents_no_degree_pct * 100 : 0;
+                if (val > currentFilters.maxParentsNoDegree) return false;
+            }
+        } else if (
+            currentFilters.minGifted > 0 || 
+            currentFilters.maxLowIncome < 100 || 
+            currentFilters.maxSpecialEd < 100 || 
+            currentFilters.maxEll < 100 || 
+            currentFilters.maxNewcomer < 100 || 
+            currentFilters.maxParentsNoDegree < 100
+        ) {
+            return false;
         }
         
         return true;

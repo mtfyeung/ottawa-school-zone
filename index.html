@@ -109,6 +109,58 @@
                         </div>
                         <input type="range" id="filter-utilization" class="slider-input" min="50" max="150" value="150">
                     </div>
+
+                    <!-- Collapsible Demographics and Socio-economic Filters -->
+                    <details class="collapsible-filter-group" style="margin-top: 0.5rem; width: 100%;">
+                        <summary style="cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                            <span>Socio-Economic & Demographics</span>
+                            <span class="chevron" style="display: inline-block;">▼</span>
+                        </summary>
+                        <div class="slider-group" style="gap: 0.75rem; margin-top: 0.5rem; padding-left: 0.5rem; border-left: 2px solid var(--border-color); width: 100%;">
+                            <div class="slider-item">
+                                <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
+                                    <span class="slider-name">Max Low Income</span>
+                                    <span id="filter-low-income-val" class="slider-val" style="color: var(--accent); font-weight: 600;">No Limit</span>
+                                </div>
+                                <input type="range" id="filter-low-income" class="slider-input" min="0" max="100" value="100">
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
+                                    <span class="slider-name">Min Gifted Students</span>
+                                    <span id="filter-gifted-val" class="slider-val" style="color: var(--accent); font-weight: 600;">0%</span>
+                                </div>
+                                <input type="range" id="filter-gifted" class="slider-input" min="0" max="30" value="0">
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
+                                    <span class="slider-name">Max Special Education</span>
+                                    <span id="filter-special-ed-val" class="slider-val" style="color: var(--accent); font-weight: 600;">No Limit</span>
+                                </div>
+                                <input type="range" id="filter-special-ed" class="slider-input" min="0" max="100" value="100">
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
+                                    <span class="slider-name">Max English Learners</span>
+                                    <span id="filter-ell-val" class="slider-val" style="color: var(--accent); font-weight: 600;">No Limit</span>
+                                </div>
+                                <input type="range" id="filter-ell" class="slider-input" min="0" max="100" value="100">
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
+                                    <span class="slider-name">Max Newcomers</span>
+                                    <span id="filter-newcomer-val" class="slider-val" style="color: var(--accent); font-weight: 600;">No Limit</span>
+                                </div>
+                                <input type="range" id="filter-newcomer" class="slider-input" min="0" max="100" value="100">
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
+                                    <span class="slider-name">Max Parents w/o Degree</span>
+                                    <span id="filter-parents-no-degree-val" class="slider-val" style="color: var(--accent); font-weight: 600;">No Limit</span>
+                                </div>
+                                <input type="range" id="filter-parents-no-degree" class="slider-input" min="0" max="100" value="100">
+                            </div>
+                        </div>
+                    </details>
                 </div>
             </div>
 
