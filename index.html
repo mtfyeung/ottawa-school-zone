@@ -88,26 +88,41 @@
                 <div class="slider-group" style="gap: 0.75rem;">
                     <div class="slider-item">
                         <div class="slider-header" style="font-size: 0.8rem; margin-bottom: 0.25rem;">
-                            <span class="slider-name" style="font-weight: 500;">Min Math Average</span>
-                            <span id="filter-math-val" class="slider-val" style="font-weight: 700; color: var(--accent);">0%</span>
+                            <span class="slider-name" style="font-weight: 500;">Math Average</span>
+                            <span id="filter-math-val" class="slider-val" style="font-weight: 700; color: var(--accent);">0% - 100%</span>
                         </div>
-                        <input type="range" id="filter-math" class="slider-input" min="0" max="100" value="0">
+                        <div class="dual-slider-container">
+                            <div class="dual-slider-track"></div>
+                            <div class="dual-slider-range" id="math-range-highlight"></div>
+                            <input type="range" id="filter-math-min" class="dual-slider-input min-input" min="0" max="100" value="0">
+                            <input type="range" id="filter-math-max" class="dual-slider-input max-input" min="0" max="100" value="100">
+                        </div>
                     </div>
                     
                     <div class="slider-item">
                         <div class="slider-header" style="font-size: 0.8rem; margin-bottom: 0.25rem;">
-                            <span class="slider-name" style="font-weight: 500;">Min Literacy Average</span>
-                            <span id="filter-literacy-val" class="slider-val" style="font-weight: 700; color: var(--accent);">0%</span>
+                            <span class="slider-name" style="font-weight: 500;">Literacy Average</span>
+                            <span id="filter-literacy-val" class="slider-val" style="font-weight: 700; color: var(--accent);">0% - 100%</span>
                         </div>
-                        <input type="range" id="filter-literacy" class="slider-input" min="0" max="100" value="0">
+                        <div class="dual-slider-container">
+                            <div class="dual-slider-track"></div>
+                            <div class="dual-slider-range" id="literacy-range-highlight"></div>
+                            <input type="range" id="filter-literacy-min" class="dual-slider-input min-input" min="0" max="100" value="0">
+                            <input type="range" id="filter-literacy-max" class="dual-slider-input max-input" min="0" max="100" value="100">
+                        </div>
                     </div>
                     
                     <div class="slider-item" id="filter-utilization-wrapper">
                         <div class="slider-header" style="font-size: 0.8rem; margin-bottom: 0.25rem;">
-                            <span class="slider-name" style="font-weight: 500;">Max Utilization</span>
-                            <span id="filter-utilization-val" class="slider-val" style="font-weight: 700; color: var(--accent);">No Limit</span>
+                            <span class="slider-name" style="font-weight: 500;">Utilization Rate</span>
+                            <span id="filter-utilization-val" class="slider-val" style="font-weight: 700; color: var(--accent);">50% - No Limit</span>
                         </div>
-                        <input type="range" id="filter-utilization" class="slider-input" min="50" max="150" value="150">
+                        <div class="dual-slider-container">
+                            <div class="dual-slider-track"></div>
+                            <div class="dual-slider-range" id="utilization-range-highlight"></div>
+                            <input type="range" id="filter-utilization-min" class="dual-slider-input min-input" min="50" max="150" value="50">
+                            <input type="range" id="filter-utilization-max" class="dual-slider-input max-input" min="50" max="150" value="150">
+                        </div>
                     </div>
 
                     <!-- Collapsible Demographics and Socio-economic Filters -->
@@ -119,45 +134,75 @@
                         <div class="slider-group" style="gap: 0.75rem; margin-top: 0.5rem; padding-left: 0.5rem; border-left: 2px solid var(--border-color); width: 100%;">
                             <div class="slider-item">
                                 <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
-                                    <span class="slider-name">Max Low Income</span>
-                                    <span id="filter-low-income-val" class="slider-val" style="color: var(--accent); font-weight: 600;">No Limit</span>
+                                    <span class="slider-name">Low Income Rate</span>
+                                    <span id="filter-low-income-val" class="slider-val" style="color: var(--accent); font-weight: 600;">0% - No Limit</span>
                                 </div>
-                                <input type="range" id="filter-low-income" class="slider-input" min="0" max="100" value="100">
+                                <div class="dual-slider-container">
+                                    <div class="dual-slider-track"></div>
+                                    <div class="dual-slider-range" id="low-income-range-highlight"></div>
+                                    <input type="range" id="filter-low-income-min" class="dual-slider-input min-input" min="0" max="100" value="0">
+                                    <input type="range" id="filter-low-income-max" class="dual-slider-input max-input" min="0" max="100" value="100">
+                                </div>
                             </div>
                             <div class="slider-item">
                                 <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
-                                    <span class="slider-name">Min Gifted Students</span>
-                                    <span id="filter-gifted-val" class="slider-val" style="color: var(--accent); font-weight: 600;">0%</span>
+                                    <span class="slider-name">Gifted Student Rate</span>
+                                    <span id="filter-gifted-val" class="slider-val" style="color: var(--accent); font-weight: 600;">0% - 30%</span>
                                 </div>
-                                <input type="range" id="filter-gifted" class="slider-input" min="0" max="30" value="0">
+                                <div class="dual-slider-container">
+                                    <div class="dual-slider-track"></div>
+                                    <div class="dual-slider-range" id="gifted-range-highlight"></div>
+                                    <input type="range" id="filter-gifted-min" class="dual-slider-input min-input" min="0" max="30" value="0">
+                                    <input type="range" id="filter-gifted-max" class="dual-slider-input max-input" min="0" max="30" value="30">
+                                </div>
                             </div>
                             <div class="slider-item">
                                 <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
-                                    <span class="slider-name">Max Special Education</span>
-                                    <span id="filter-special-ed-val" class="slider-val" style="color: var(--accent); font-weight: 600;">No Limit</span>
+                                    <span class="slider-name">Special Education Rate</span>
+                                    <span id="filter-special-ed-val" class="slider-val" style="color: var(--accent); font-weight: 600;">0% - No Limit</span>
                                 </div>
-                                <input type="range" id="filter-special-ed" class="slider-input" min="0" max="100" value="100">
+                                <div class="dual-slider-container">
+                                    <div class="dual-slider-track"></div>
+                                    <div class="dual-slider-range" id="special-ed-range-highlight"></div>
+                                    <input type="range" id="filter-special-ed-min" class="dual-slider-input min-input" min="0" max="100" value="0">
+                                    <input type="range" id="filter-special-ed-max" class="dual-slider-input max-input" min="0" max="100" value="100">
+                                </div>
                             </div>
                             <div class="slider-item">
                                 <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
-                                    <span class="slider-name">Max English Learners</span>
-                                    <span id="filter-ell-val" class="slider-val" style="color: var(--accent); font-weight: 600;">No Limit</span>
+                                    <span class="slider-name">English Language Learners</span>
+                                    <span id="filter-ell-val" class="slider-val" style="color: var(--accent); font-weight: 600;">0% - No Limit</span>
                                 </div>
-                                <input type="range" id="filter-ell" class="slider-input" min="0" max="100" value="100">
+                                <div class="dual-slider-container">
+                                    <div class="dual-slider-track"></div>
+                                    <div class="dual-slider-range" id="ell-range-highlight"></div>
+                                    <input type="range" id="filter-ell-min" class="dual-slider-input min-input" min="0" max="100" value="0">
+                                    <input type="range" id="filter-ell-max" class="dual-slider-input max-input" min="0" max="100" value="100">
+                                </div>
                             </div>
                             <div class="slider-item">
                                 <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
-                                    <span class="slider-name">Max Newcomers</span>
-                                    <span id="filter-newcomer-val" class="slider-val" style="color: var(--accent); font-weight: 600;">No Limit</span>
+                                    <span class="slider-name">Newcomer Rate</span>
+                                    <span id="filter-newcomer-val" class="slider-val" style="color: var(--accent); font-weight: 600;">0% - No Limit</span>
                                 </div>
-                                <input type="range" id="filter-newcomer" class="slider-input" min="0" max="100" value="100">
+                                <div class="dual-slider-container">
+                                    <div class="dual-slider-track"></div>
+                                    <div class="dual-slider-range" id="newcomer-range-highlight"></div>
+                                    <input type="range" id="filter-newcomer-min" class="dual-slider-input min-input" min="0" max="100" value="0">
+                                    <input type="range" id="filter-newcomer-max" class="dual-slider-input max-input" min="0" max="100" value="100">
+                                </div>
                             </div>
                             <div class="slider-item">
                                 <div class="slider-header" style="font-size: 0.75rem; margin-bottom: 0.2rem;">
-                                    <span class="slider-name">Max Parents w/o Degree</span>
-                                    <span id="filter-parents-no-degree-val" class="slider-val" style="color: var(--accent); font-weight: 600;">No Limit</span>
+                                    <span class="slider-name">Parents w/o Degree Rate</span>
+                                    <span id="filter-parents-no-degree-val" class="slider-val" style="color: var(--accent); font-weight: 600;">0% - No Limit</span>
                                 </div>
-                                <input type="range" id="filter-parents-no-degree" class="slider-input" min="0" max="100" value="100">
+                                <div class="dual-slider-container">
+                                    <div class="dual-slider-track"></div>
+                                    <div class="dual-slider-range" id="parents-no-degree-range-highlight"></div>
+                                    <input type="range" id="filter-parents-no-degree-min" class="dual-slider-input min-input" min="0" max="100" value="0">
+                                    <input type="range" id="filter-parents-no-degree-max" class="dual-slider-input max-input" min="0" max="100" value="100">
+                                </div>
                             </div>
                         </div>
                     </details>

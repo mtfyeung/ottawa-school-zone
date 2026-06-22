@@ -268,6 +268,86 @@ aside {
     cursor: pointer;
 }
 
+/* Dual Range Slider Styles */
+.dual-slider-container {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.dual-slider-track {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(148, 163, 184, 0.2);
+    border-radius: var(--radius-full);
+    z-index: 1;
+}
+
+.dual-slider-range {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: var(--accent);
+    border-radius: var(--radius-full);
+    z-index: 2;
+}
+
+.dual-slider-input {
+    position: absolute;
+    top: -5px;
+    width: 100%;
+    height: 16px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    z-index: 3;
+}
+
+.dual-slider-input::-webkit-slider-thumb {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid var(--accent);
+    cursor: pointer;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s;
+}
+
+.dual-slider-input::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+}
+
+.dual-slider-input::-moz-range-thumb {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid var(--accent);
+    cursor: pointer;
+    pointer-events: auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s;
+}
+
+.dual-slider-input::-moz-range-thumb:hover {
+    transform: scale(1.15);
+}
+
+.dual-slider-input.max-input {
+    z-index: 4;
+}
+
+
 .presets-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
